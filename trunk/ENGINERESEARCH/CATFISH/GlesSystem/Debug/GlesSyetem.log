@@ -1,0 +1,148 @@
+﻿生成启动时间为 2014/9/11 23:09:03。
+     1>项目“G:\DONOTOPEN\FUCKYOU\CATFISH\GlesSystem\GlesSyetem.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\GlesSystem.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\glew-1.9.0-win32\include" /I..\..\GLESEmulator\include /I..\Math /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D __GL__ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GlesDevice.cpp GpuProgram.cpp PrimitiveGroup.cpp Shader.cpp VertexBufferObj.cpp
+         Shader.cpp
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(97): warning C4251: “GraphicCore::GlesDevice::m_ExtensionArr”: class“std::vector<_Ty>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(110): warning C4251: “GraphicCore::GlesDevice::m_ScreenSize”: class“cml::vector<E,AT>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     E=int,
+                     AT=cml::fixed<2>
+                 ]
+         GpuProgram.cpp
+     1>g:\donotopen\fuckyou\catfish\glessystem\gpuprogram.h(75): warning C4251: “GraphicCore::GpuProgram::m_AttMap”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::GpuProgram”的客户端使用
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=GraphicCore::GpuProgram::AttributeParam
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\gpuprogram.h(76): warning C4251: “GraphicCore::GpuProgram::m_UniformMap”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::GpuProgram”的客户端使用
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=GraphicCore::GpuProgram::UniformParam
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\gpuprogram.h(77): warning C4251: “GraphicCore::GpuProgram::m_TextureUnitMap”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::GpuProgram”的客户端使用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=GraphicCore::TextureUnit
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(97): warning C4251: “GraphicCore::GlesDevice::m_ExtensionArr”: class“std::vector<_Ty>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(110): warning C4251: “GraphicCore::GlesDevice::m_ScreenSize”: class“cml::vector<E,AT>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     E=int,
+                     AT=cml::fixed<2>
+                 ]
+         正在生成代码...
+         正在编译...
+         GlesDevice.cpp
+     1>g:\donotopen\fuckyou\catfish\glessystem\vertexlayout.h(45): warning C4251: “GraphicCore::VertexLayout::m_Layout”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::VertexLayout”的客户端使用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=GraphicCore::VertexLayout::Ele
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\gpuprogram.h(75): warning C4251: “GraphicCore::GpuProgram::m_AttMap”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::GpuProgram”的客户端使用
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=GraphicCore::GpuProgram::AttributeParam
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\gpuprogram.h(76): warning C4251: “GraphicCore::GpuProgram::m_UniformMap”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::GpuProgram”的客户端使用
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=GraphicCore::GpuProgram::UniformParam
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\gpuprogram.h(77): warning C4251: “GraphicCore::GpuProgram::m_TextureUnitMap”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::GpuProgram”的客户端使用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=GraphicCore::TextureUnit
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(97): warning C4251: “GraphicCore::GlesDevice::m_ExtensionArr”: class“std::vector<_Ty>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(110): warning C4251: “GraphicCore::GlesDevice::m_ScreenSize”: class“cml::vector<E,AT>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     E=int,
+                     AT=cml::fixed<2>
+                 ]
+         正在生成代码...
+         正在编译...
+         VertexBufferObj.cpp
+     1>g:\donotopen\fuckyou\catfish\glessystem\vertexlayout.h(45): warning C4251: “GraphicCore::VertexLayout::m_Layout”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::VertexLayout”的客户端使用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=GraphicCore::VertexLayout::Ele
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(97): warning C4251: “GraphicCore::GlesDevice::m_ExtensionArr”: class“std::vector<_Ty>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\glesdevice.h(110): warning C4251: “GraphicCore::GlesDevice::m_ScreenSize”: class“cml::vector<E,AT>”需要有 dll 接口由 class“GraphicCore::GlesDevice”的客户端使用
+                 with
+                 [
+                     E=int,
+                     AT=cml::fixed<2>
+                 ]
+         PrimitiveGroup.cpp
+     1>g:\donotopen\fuckyou\catfish\glessystem\primitivegroup.h(33): warning C4251: “GraphicCore::PrimitiveGroup::m_pVecVBO”: class“std::vector<_Ty>”需要有 dll 接口由 class“GraphicCore::PrimitiveGroup”的客户端使用
+                 with
+                 [
+                     _Ty=GraphicCore::GLVertexBufferObj *
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\primitivegroup.h(34): warning C4251: “GraphicCore::PrimitiveGroup::m_pVecIBO”: class“std::vector<_Ty>”需要有 dll 接口由 class“GraphicCore::PrimitiveGroup”的客户端使用
+                 with
+                 [
+                     _Ty=GraphicCore::GLIndexBufferObj *
+                 ]
+     1>g:\donotopen\fuckyou\catfish\glessystem\vertexlayout.h(45): warning C4251: “GraphicCore::VertexLayout::m_Layout”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GraphicCore::VertexLayout”的客户端使用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=GraphicCore::VertexLayout::Ele
+                 ]
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\GlesSystem.dll" /NOLOGO /LIBPATH:..\..\GLESEmulator\lib /LIBPATH:"..\..\glew-1.9.0-win32\lib" glew32.lib Opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\GlesSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\GlesSystem.lib" /MACHINE:X86 /DLL Debug\DrawEnums.obj
+         Debug\FrameBufferObj.obj
+         Debug\GDebug.obj
+         Debug\GlesDevice.obj
+         Debug\GpuProgram.obj
+         Debug\IndexBufferObj.obj
+         Debug\PlatformDiff.obj
+         Debug\PrimitiveGroup.obj
+         Debug\Shader.obj
+         Debug\Texture.obj
+         Debug\VertexBufferObj.obj
+         Debug\VertexComponent.obj
+         Debug\VertexLayout.obj
+            正在创建库 G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\GlesSystem.lib 和对象 G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\GlesSystem.exp
+         GlesSyetem.vcxproj -> G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\GlesSystem.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\GlesSystem.unsuccessfulbuild”。
+         正在对“Debug\GlesSystem.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\DONOTOPEN\FUCKYOU\CATFISH\GlesSystem\GlesSyetem.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.15

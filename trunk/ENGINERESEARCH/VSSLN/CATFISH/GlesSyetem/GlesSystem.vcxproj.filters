@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDllCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{661B98B1-EBB7-4FE5-8C3E-B1959B39242C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F91BE4A8-95A1-44B1-8816-A532B6D02284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

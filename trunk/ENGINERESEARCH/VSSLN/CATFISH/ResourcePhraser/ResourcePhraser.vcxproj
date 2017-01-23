@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8A00389C-A6CD-470E-AC57-7049BED6E6AB}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ResourcePhraser</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ResourcePhraser.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ResourcePhraser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ResourcePhraser.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ResourcePhraser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/CATFISH/GlesSyetem;E:/DONOTOPEN/FUCKYOU/CATFISH/IO;E:/DONOTOPEN/FUCKYOU/FreeImage/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;CMAKE_INTDIR="Debug";ResourcePhraser_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ResourcePhraser.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;CMAKE_INTDIR=\"Debug\";ResourcePhraser_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/CATFISH/GlesSyetem;E:/DONOTOPEN/FUCKYOU/CATFISH/IO;E:/DONOTOPEN/FUCKYOU/FreeImage/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/CATFISH/GlesSyetem;E:/DONOTOPEN/FUCKYOU/CATFISH/IO;E:/DONOTOPEN/FUCKYOU/FreeImage/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GlesSystem.lib;IO.lib;FreeImaged.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/DONOTOPEN/FUCKYOU/Bin/Win;E:/DONOTOPEN/FUCKYOU/Bin/Win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ResourcePhraser.lib</ImportLibrary>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFile>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ResourcePhraser.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/CATFISH/GlesSyetem;E:/DONOTOPEN/FUCKYOU/CATFISH/IO;E:/DONOTOPEN/FUCKYOU/FreeImage/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;CMAKE_INTDIR="Release";ResourcePhraser_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/ResourcePhraser.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;CMAKE_INTDIR=\"Release\";ResourcePhraser_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/CATFISH/GlesSyetem;E:/DONOTOPEN/FUCKYOU/CATFISH/IO;E:/DONOTOPEN/FUCKYOU/FreeImage/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/CATFISH/GlesSyetem;E:/DONOTOPEN/FUCKYOU/CATFISH/IO;E:/DONOTOPEN/FUCKYOU/FreeImage/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GlesSystem.lib;IO.lib;FreeImaged.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/DONOTOPEN/FUCKYOU/Bin/Win;E:/DONOTOPEN/FUCKYOU/Bin/Win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/ResourcePhraser.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/ResourcePhraser.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CATFISH\ResourcePhraser\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/DONOTOPEN/FUCKYOU/CATFISH/ResourcePhraser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/DONOTOPEN/FUCKYOU/CATFISH/ResourcePhraser/CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/DONOTOPEN/FUCKYOU/CATFISH/ResourcePhraser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/DONOTOPEN/FUCKYOU/CATFISH/ResourcePhraser/CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\MeshRes.h" />
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\ObjMeshPhraser.h" />
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\ShaderPhraser.h" />
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\ShaderRes.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImagePhaser.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImageRes.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\RDllCommon.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\Res.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ResMgr.h" />
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\MeshRes.cpp" />
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\ObjMeshPhraser.cpp" />
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\ShaderPhraser.cpp" />
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\ShaderRes.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImagePhaser.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImageRes.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\Res.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ResMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj">
+      <Project>2BF05FEB-B696-4F74-B7AD-BF833B62697C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj">
+      <Project>AE43C27F-D166-4CE7-B6B4-785FA4CC62A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj">
+      <Project>13510BFE-B940-4F61-B1C2-084A09E65C24</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

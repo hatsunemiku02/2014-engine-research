@@ -1,0 +1,868 @@
+﻿Build started 2014/8/8 10:16:34.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\zhaohang\AppData\Roaming
+CG_BIN_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\bin
+CG_INC_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\include
+CG_LIB_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\lib
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = CY4612
+ComSpec = C:\windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\zhaohang
+LOCALAPPDATA = C:\Users\zhaohang\AppData\Local
+LOGONSERVER = \\CYBJDC02
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\windows
+TEMP = C:\Users\zhaohang\AppData\Local\Temp
+TMP = C:\Users\zhaohang\AppData\Local\Temp
+UATDATA = C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = CYOU-INC.COM
+USERDOMAIN = CYOU-INC
+USERNAME = zhaohang
+USERPROFILE = C:\Users\zhaohang
+VisualStudioDir = C:\Users\zhaohang\Documents\Visual Studio 2010
+VS100COMNTOOLS = D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+10:16:34.342     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" on node 2 (build target(s)).
+10:16:34.342     1>Building with tools version "4.0".
+10:16:34.342     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:28)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:17)
+                     Configuration=Debug (TaskId:17)
+                   Done executing task "Message". (TaskId:17)
+                   Task "Message" (TaskId:18)
+                     Platform=Win32 (TaskId:18)
+                   Done executing task "Message". (TaskId:18)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\' != '' and !HasTrailingSlash('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('LibPNG.dir\Debug\' != '' and !HasTrailingSlash('LibPNG.dir\Debug\')).
+10:16:34.342     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "LibPNG.vcxproj".: (TargetId:28)
+10:16:34.342     1>Target "_DetermineManagedStateFromCL: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:34.342     1>Done building target "_DetermineManagedStateFromCL" in project "LibPNG.vcxproj".: (TargetId:29)
+10:16:34.342     1>Target "_PrepareForBuild: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:34.342     1>Done building target "_PrepareForBuild" in project "LibPNG.vcxproj".: (TargetId:30)
+10:16:34.342     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:19)
+                     PATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\windows\Microsoft.NET\Framework\v4.0.30319\;D:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\windows\SysWow64;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64; (TaskId:19)
+                   Done executing task "SetEnv". (TaskId:19)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:20)
+                     LIB=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:20)
+                   Done executing task "SetEnv". (TaskId:20)
+                   Task "SetEnv" (TaskId:21)
+                     LIBPATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:21)
+                   Done executing task "SetEnv". (TaskId:21)
+                   Task "SetEnv" (TaskId:22)
+                     INCLUDE=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:22)
+                   Done executing task "SetEnv". (TaskId:22)
+10:16:34.342     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "LibPNG.vcxproj".: (TargetId:31)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:16:34.342     1>Target "BeforeResolveReferences: (TargetId:32)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveReferences" depends on it):
+10:16:34.342     1>Done building target "BeforeResolveReferences" in project "LibPNG.vcxproj".: (TargetId:32)
+10:16:34.342     1>Target "AssignProjectConfiguration: (TargetId:33)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:23)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:23)
+                   Done executing task "AssignProjectConfiguration". (TaskId:23)
+10:16:34.342     1>Done building target "AssignProjectConfiguration" in project "LibPNG.vcxproj".: (TargetId:33)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+10:16:34.342     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:34)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Using "ResolveNonMSBuildProjectOutput" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveNonMSBuildProjectOutput" (TaskId:24)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj". (TaskId:24)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has not been resolved. (TaskId:24)
+                   Done executing task "ResolveNonMSBuildProjectOutput". (TaskId:24)
+10:16:34.342     1>Done building target "_SplitProjectReferencesByFileExistence" in project "LibPNG.vcxproj".: (TargetId:34)
+10:16:34.342     1>Target "_RemoveNameMetadataFromProjectReferenceItems: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveProjectReferences" depends on it):
+10:16:34.342     1>Done building target "_RemoveNameMetadataFromProjectReferenceItems" in project "LibPNG.vcxproj".: (TargetId:35)
+10:16:34.342     1>Target "ResolveProjectReferences: (TargetId:36)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Using "MSBuild" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MSBuild" (TaskId:25)
+                     Global Properties: (TaskId:25)
+                       Configuration=Debug (TaskId:25)
+                       Platform=Win32 (TaskId:25)
+10:16:34.342     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+10:16:34.342     2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+10:16:34.342     2>Target "GetTargetPath: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (entry point):
+10:16:34.342     2>Done building target "GetTargetPath" in project "ZERO_CHECK.vcxproj".: (TargetId:37)
+10:16:34.342     2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetTargetPath target(s)) -- FAILED.
+10:16:34.342     1>Done executing task "MSBuild". (TaskId:25)
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' != 'true' and 'true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:26)
+                     Global Properties: (TaskId:26)
+                       Configuration=Debug (TaskId:26)
+                       Platform=Win32 (TaskId:26)
+10:16:34.342     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+10:16:34.342   2:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+10:16:34.342   2:2>Target "GetNativeManifest: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (entry point):
+10:16:34.342   2:2>Done building target "GetNativeManifest" in project "ZERO_CHECK.vcxproj".: (TargetId:38)
+10:16:34.342   2:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetNativeManifest target(s)) -- FAILED.
+10:16:34.342     1>Done executing task "MSBuild". (TaskId:26)
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' != '').
+10:16:34.342     1>Done building target "ResolveProjectReferences" in project "LibPNG.vcxproj".: (TargetId:36)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+10:16:34.342     1>Target "GetFrameworkPaths: (TargetId:39)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+10:16:34.342     1>Done building target "GetFrameworkPaths" in project "LibPNG.vcxproj".: (TargetId:39)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:16:34.342     1>Target "GetReferenceAssemblyPaths: (TargetId:40)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:16:34.342     1>Done building target "GetReferenceAssemblyPaths" in project "LibPNG.vcxproj".: (TargetId:40)
+10:16:34.342     1>Target "PlatformPrepareForBuild: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:16:34.342     1>Done building target "PlatformPrepareForBuild" in project "LibPNG.vcxproj".: (TargetId:41)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:16:34.342     1>Target "PrepareForBuild: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:27)
+                   Done executing task "MakeDir". (TaskId:27)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:28)
+                   Done executing task "MakeDir". (TaskId:28)
+10:16:34.342     1>Done building target "PrepareForBuild" in project "LibPNG.vcxproj".: (TargetId:42)
+10:16:34.342     1>Target "GetInstalledSDKLocations: (TargetId:43)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+10:16:34.342     1>Done building target "GetInstalledSDKLocations" in project "LibPNG.vcxproj".: (TargetId:43)
+10:16:34.342     1>Target "ResolveSDKReferences: (TargetId:44)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+10:16:34.342     1>Done building target "ResolveSDKReferences" in project "LibPNG.vcxproj".: (TargetId:44)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+10:16:34.342     1>Target "ExpandSDKReferences: (TargetId:45)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+10:16:34.342     1>Done building target "ExpandSDKReferences" in project "LibPNG.vcxproj".: (TargetId:45)
+10:16:34.342     1>Target "ResolveAssemblyReferences: (TargetId:46)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" (TaskId:29)
+                     TargetFrameworkMoniker: (TaskId:29)
+                         .NETFramework,Version=v4.0 (TaskId:29)
+                     TargetFrameworkMonikerDisplayName: (TaskId:29)
+                         .NET Framework 4 (TaskId:29)
+                     TargetedRuntimeVersion: (TaskId:29)
+                         v4.0.30319 (TaskId:29)
+                     Assemblies: (TaskId:29)
+                         System.Core (TaskId:29)
+                     AssemblyFiles: (TaskId:29)
+                     CandidateAssemblyFiles: (TaskId:29)
+                     TargetFrameworkDirectories: (TaskId:29)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:29)
+                     InstalledAssemblyTables: (TaskId:29)
+                     IgnoreInstalledAssemblyTable: (TaskId:29)
+                         False (TaskId:29)
+                     SearchPaths: (TaskId:29)
+                         {CandidateAssemblyFiles} (TaskId:29)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:29)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:29)
+                         {HintPathFromItem} (TaskId:29)
+                         {TargetFrameworkDirectory} (TaskId:29)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:29)
+                         {AssemblyFolders} (TaskId:29)
+                         {GAC} (TaskId:29)
+                         {RawFileName} (TaskId:29)
+                         E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ (TaskId:29)
+                     AllowedAssemblyExtensions: (TaskId:29)
+                         .winmd (TaskId:29)
+                         .dll (TaskId:29)
+                         .exe (TaskId:29)
+                     AllowedRelatedFileExtensions: (TaskId:29)
+                         .pdb (TaskId:29)
+                         .xml (TaskId:29)
+                         .pri (TaskId:29)
+                     AppConfigFile: (TaskId:29)
+                          (TaskId:29)
+                     AutoUnify: (TaskId:29)
+                         True (TaskId:29)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:29)
+                         True (TaskId:29)
+                     FindDependencies: (TaskId:29)
+                         True (TaskId:29)
+                     TargetProcessorArchitecture: (TaskId:29)
+                         x86 (TaskId:29)
+                     StateFile: (TaskId:29)
+                         LibPNG.dir\Debug\LibPNG.vcxprojResolveAssemblyReference.cache (TaskId:29)
+                     InstalledAssemblySubsetTables: (TaskId:29)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:29)
+                         False (TaskId:29)
+                     TargetFrameworkSubsets: (TaskId:29)
+                     FullTargetFrameworkSubsetNames: (TaskId:29)
+                         Full (TaskId:29)
+                     ProfileName: (TaskId:29)
+                          (TaskId:29)
+                     FullFrameworkFolders: (TaskId:29)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:29)
+                     LatestTargetFrameworkDirectories: (TaskId:29)
+                     ProfileTablesLocation: (TaskId:29)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:29)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:29)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:29)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:29)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:29)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:29)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:29)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:29)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:29)
+                   Done executing task "ResolveAssemblyReference". (TaskId:29)
+10:16:34.342     1>Done building target "ResolveAssemblyReferences" in project "LibPNG.vcxproj".: (TargetId:46)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:16:34.342     1>Target "AfterResolveReferences: (TargetId:47)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ResolveReferences" depends on it):
+10:16:34.342     1>Done building target "AfterResolveReferences" in project "LibPNG.vcxproj".: (TargetId:47)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+10:16:34.342     1>Target "ResolveReferences: (TargetId:48)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:34.342     1>Done building target "ResolveReferences" in project "LibPNG.vcxproj".: (TargetId:48)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:16:34.342     1>Target "InitializeBuildStatus: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:30)
+                   Done executing task "ReadLinesFromFile". (TaskId:30)
+                   Task "WriteLinesToFile" (TaskId:31)
+                   Done executing task "WriteLinesToFile". (TaskId:31)
+                   Task "Touch" (TaskId:32)
+                     Creating "LibPNG.dir\Debug\LibPNG.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:32)
+                   Done executing task "Touch". (TaskId:32)
+10:16:34.342     1>Done building target "InitializeBuildStatus" in project "LibPNG.vcxproj".: (TargetId:49)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:34.342     1>Target "BuildGenerateSourcesTraverse: (TargetId:50)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' == 'true').
+10:16:34.342     1>Done building target "BuildGenerateSourcesTraverse" in project "LibPNG.vcxproj".: (TargetId:50)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:34.342     1>Target "BeforeBuildGenerateSources: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.342     1>Done building target "BeforeBuildGenerateSources" in project "LibPNG.vcxproj".: (TargetId:51)
+10:16:34.342     1>Target "PreBuildEvent: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:16:34.342     1>Done building target "PreBuildEvent" in project "LibPNG.vcxproj".: (TargetId:52)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:16:34.342     1>Target "_SelectedFiles: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "SelectCustomBuild" depends on it):
+10:16:34.342     1>Done building target "_SelectedFiles" in project "LibPNG.vcxproj".: (TargetId:53)
+10:16:34.342     1>Target "SelectCustomBuild: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "CustomBuild" depends on it):
+10:16:34.342     1>Done building target "SelectCustomBuild" in project "LibPNG.vcxproj".: (TargetId:54)
+10:16:34.342     1>Target "ComputeCustomBuildOutput: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "CustomBuild" depends on it):
+                   Task "MakeDir" (TaskId:33)
+                   Done executing task "MakeDir". (TaskId:33)
+10:16:34.342     1>Done building target "ComputeCustomBuildOutput" in project "LibPNG.vcxproj".: (TargetId:55)
+10:16:34.342     1>Target "CustomBuild: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Using "CustomBuild" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CustomBuild" (TaskId:34)
+                     Write Tracking Logs: (TaskId:34)
+                     	LibPNG.dir\Debug\custombuild.write.1.tlog (TaskId:34)
+                     Read Tracking Logs: (TaskId:34)
+                     	LibPNG.dir\Debug\custombuild.read.1.tlog (TaskId:34)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\CMAKELISTS.TXT: (TaskId:34)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\CMAKEFILES\GENERATE.STAMP (TaskId:34)
+                     All outputs are up-to-date. (TaskId:34)
+                   Done executing task "CustomBuild". (TaskId:34)
+10:16:34.373     1>Done building target "CustomBuild" in project "LibPNG.vcxproj".: (TargetId:56)
+10:16:34.373     1>Target "_GenerateXMLData: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.373     1>Done building target "_GenerateXMLData" in project "LibPNG.vcxproj".: (TargetId:57)
+10:16:34.373     1>Target "_GenerateWebServiceProxy: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.373     1>Done building target "_GenerateWebServiceProxy" in project "LibPNG.vcxproj".: (TargetId:58)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+10:16:34.373     1>Target "_Xsd: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.373     1>Done building target "_Xsd" in project "LibPNG.vcxproj".: (TargetId:59)
+10:16:34.373     1>Target "MakeDirsForMidl: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:35)
+                   Done executing task "Makedir". (TaskId:35)
+10:16:34.373     1>Done building target "MakeDirsForMidl" in project "LibPNG.vcxproj".: (TargetId:60)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+10:16:34.373     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Midl" depends on it):
+10:16:34.373     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "LibPNG.vcxproj".: (TargetId:61)
+10:16:34.373     1>Target "AfterMidl: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Midl" depends on it):
+10:16:34.373     1>Done building target "AfterMidl" in project "LibPNG.vcxproj".: (TargetId:62)
+10:16:34.373     1>Target "_Midl: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.373     1>Done building target "_Midl" in project "LibPNG.vcxproj".: (TargetId:63)
+10:16:34.373     1>Target "AfterBuildGenerateSources: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.373     1>Done building target "AfterBuildGenerateSources" in project "LibPNG.vcxproj".: (TargetId:64)
+10:16:34.373     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:34.373     1>Done building target "AfterBuildGenerateSourcesEvent" in project "LibPNG.vcxproj".: (TargetId:65)
+10:16:34.373     1>Target "BuildGenerateSources: (TargetId:66)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:34.373     1>Done building target "BuildGenerateSources" in project "LibPNG.vcxproj".: (TargetId:66)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:34.373     1>Target "BuildCompileTraverse: (TargetId:67)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:16:34.373     1>Done building target "BuildCompileTraverse" in project "LibPNG.vcxproj".: (TargetId:67)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:34.373     1>Target "BeforeClCompile: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ClCompile" depends on it):
+10:16:34.373     1>Done building target "BeforeClCompile" in project "LibPNG.vcxproj".: (TargetId:68)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+10:16:34.373     1>Target "ComputeCLInputPDBName: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ClCompile" depends on it):
+10:16:34.373     1>Done building target "ComputeCLInputPDBName" in project "LibPNG.vcxproj".: (TargetId:69)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:34.373     1>Target "ComputeReferenceCLInput: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:36)
+                   Done executing task "WriteLinesToFile". (TaskId:36)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+10:16:34.373     1>Done building target "ComputeReferenceCLInput" in project "LibPNG.vcxproj".: (TargetId:70)
+10:16:34.373     1>Target "MakeDirsForCl: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:37)
+                   Done executing task "MakeDir". (TaskId:37)
+10:16:34.373     1>Done building target "MakeDirsForCl" in project "LibPNG.vcxproj".: (TargetId:71)
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "SelectCustomBuild" skipped. Previously built successfully.
+10:16:34.373     1>Target "SelectClCompile: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ClCompile" depends on it):
+10:16:34.373     1>Done building target "SelectClCompile" in project "LibPNG.vcxproj".: (TargetId:72)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\png.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngerror.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pnggccrd.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngget.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngmem.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngpread.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrtran.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngset.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtrans.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngvcrd.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwtran.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c' != '' and 'false' == 'True').
+10:16:34.373     1>Target "ClCompile: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ClCompile" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:38)
+                   Done executing task "Delete". (TaskId:38)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:39)
+                     Forcing recompile of all source files due to missing PDB "E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibPNG.pdb". (TaskId:39)
+                     Environment Variables passed to tool: (TaskId:39)
+                       VS_UNICODE_OUTPUT=1044 (TaskId:39)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibPNG/../ZLib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"LibPNG.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibPNG.pdb" /Gd /TC /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\png.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngerror.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pnggccrd.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngget.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngmem.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngpread.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrtran.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngset.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtrans.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngvcrd.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwtran.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c  /Zm1000  (TaskId:39)
+                     Tracking command: (TaskId:39)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNG.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGERROR.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGGCCRD.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGGET.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGMEM.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGPREAD.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGREAD.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGRIO.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGRTRAN.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGRUTIL.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGSET.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGTEST.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGTRANS.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGVCRD.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGWIO.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGWRITE.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGWTRAN.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBPNG\PNGWUTIL.C" /b MSBuildConsole_CancelEventbc90406ec84e402bae734bf51775ae6b  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibPNG/../ZLib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"LibPNG.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibPNG.pdb" /Gd /TC /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\png.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngerror.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pnggccrd.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngget.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngmem.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngpread.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrtran.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngset.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtrans.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngvcrd.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwtran.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c  /Zm1000  (TaskId:39)
+                     png.c (TaskId:39)
+10:16:35.434     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\png.c(683): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+                     pngerror.c (TaskId:39)
+                     pnggccrd.c (TaskId:39)
+                     pngget.c (TaskId:39)
+                     pngmem.c (TaskId:39)
+                     pngpread.c (TaskId:39)
+                     pngread.c (TaskId:39)
+10:16:35.621     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:35.621     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c(121): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:35.621     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c(198): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:35.621     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c(203): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+                     pngrio.c (TaskId:39)
+                     pngrtran.c (TaskId:39)
+10:16:35.699     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrtran.c(1269): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+                     pngrutil.c (TaskId:39)
+10:16:35.761     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c(291): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:35.761     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c(295): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:35.761     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c(299): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:35.761     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c(332): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+                     pngset.c (TaskId:39)
+                     pngtest.c (TaskId:39)
+10:16:35.902     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c(633): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen' (TaskId:39)
+10:16:35.902     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c(644): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen' (TaskId:39)
+10:16:35.902     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c(1220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen' (TaskId:39)
+10:16:35.902     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c(1231): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen' (TaskId:39)
+                     pngtrans.c (TaskId:39)
+                     pngvcrd.c (TaskId:39)
+                     pngwio.c (TaskId:39)
+                     pngwrite.c (TaskId:39)
+10:16:36.026     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c(417): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : see declaration of 'gmtime' (TaskId:39)
+10:16:36.026     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c(509): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:36.026     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c(514): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:36.026     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c(581): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:36.026     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c(586): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+                     pngwtran.c (TaskId:39)
+                     pngwutil.c (TaskId:39)
+10:16:36.089     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c(185): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:36.120     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c(1241): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:36.120     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c(1626): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+10:16:36.120     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c(1628): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf' (TaskId:39)
+                     Generating Code... (TaskId:39)
+                   Done executing task "CL". (TaskId:39)
+10:16:38.616     1>Done building target "ClCompile" in project "LibPNG.vcxproj".: (TargetId:73)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\png.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngerror.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pnggccrd.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngget.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngmem.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngpread.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngread.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrtran.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngrutil.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngset.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtest.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngtrans.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngvcrd.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwrite.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwtran.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\pngwutil.c' != '' and 'false' == 'True').
+10:16:38.616     1>Target "AfterClCompile: (TargetId:206)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ClCompile" depends on it):
+10:16:38.616     1>Done building target "AfterClCompile" in project "LibPNG.vcxproj".: (TargetId:206)
+10:16:38.616     1>Target "_ClCompile: (TargetId:207)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildCompile" depends on it):
+10:16:38.616     1>Done building target "_ClCompile" in project "LibPNG.vcxproj".: (TargetId:207)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+10:16:38.616     1>Target "BeforeResourceCompile: (TargetId:208)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ResourceCompile" depends on it):
+10:16:38.616     1>Done building target "BeforeResourceCompile" in project "LibPNG.vcxproj".: (TargetId:208)
+10:16:38.616     1>Target "MakeDirsForResourceCompile: (TargetId:209)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:109)
+                   Done executing task "MakeDir". (TaskId:109)
+10:16:38.616     1>Done building target "MakeDirsForResourceCompile" in project "LibPNG.vcxproj".: (TargetId:209)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+10:16:38.616     1>Target "AfterResourceCompile: (TargetId:210)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_ResourceCompile" depends on it):
+10:16:38.616     1>Done building target "AfterResourceCompile" in project "LibPNG.vcxproj".: (TargetId:210)
+10:16:38.616     1>Target "_ResourceCompile: (TargetId:211)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildCompile" depends on it):
+10:16:38.616     1>Done building target "_ResourceCompile" in project "LibPNG.vcxproj".: (TargetId:211)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+10:16:38.616     1>Target "BeforeLib: (TargetId:212)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+10:16:38.616     1>Done building target "BeforeLib" in project "LibPNG.vcxproj".: (TargetId:212)
+10:16:38.616     1>Target "ComputeLibAdditionalOptions: (TargetId:213)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+10:16:38.616     1>Done building target "ComputeLibAdditionalOptions" in project "LibPNG.vcxproj".: (TargetId:213)
+10:16:38.616     1>Target "ComputeRCOutputs: (TargetId:214)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+10:16:38.616     1>Done building target "ComputeRCOutputs" in project "LibPNG.vcxproj".: (TargetId:214)
+10:16:38.616     1>Target "ComputeRCGeneratedLibInputs: (TargetId:215)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+10:16:38.616     1>Done building target "ComputeRCGeneratedLibInputs" in project "LibPNG.vcxproj".: (TargetId:215)
+                   Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+10:16:38.616     1>Target "ComputeCLOutputs: (TargetId:216)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ComputeCLGeneratedLibInputs" depends on it):
+10:16:38.616     1>Done building target "ComputeCLOutputs" in project "LibPNG.vcxproj".: (TargetId:216)
+10:16:38.616     1>Target "ComputeCLGeneratedLibInputs: (TargetId:217)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+10:16:38.616     1>Done building target "ComputeCLGeneratedLibInputs" in project "LibPNG.vcxproj".: (TargetId:217)
+10:16:38.616     1>Target "ComputeLibInputsFromProject: (TargetId:218)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+10:16:38.616     1>Done building target "ComputeLibInputsFromProject" in project "LibPNG.vcxproj".: (TargetId:218)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:38.616     1>Target "ResolvedLinkLib: (TargetId:219)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "ComputeReferenceLibInputs" depends on it):
+                   Task "MSBuild" (TaskId:110)
+                     Global Properties: (TaskId:110)
+                       Configuration=Debug (TaskId:110)
+                       Platform=Win32 (TaskId:110)
+10:16:34.342     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+10:16:38.990   2:3>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetResolvedLinkLibs" skipped. Previously built successfully.
+10:16:38.990   2:3>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetResolvedLinkLibs target(s)).
+10:16:39.677     1>Done executing task "MSBuild". (TaskId:110)
+10:16:39.677     1>Done building target "ResolvedLinkLib" in project "LibPNG.vcxproj".: (TargetId:219)
+10:16:39.677     1>Target "ComputeReferenceLibInputs: (TargetId:344)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+10:16:39.677     1>Done building target "ComputeReferenceLibInputs" in project "LibPNG.vcxproj".: (TargetId:344)
+10:16:39.677     1>Target "MakeDirsForLib: (TargetId:345)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:150)
+                   Done executing task "MakeDir". (TaskId:150)
+10:16:39.677     1>Done building target "MakeDirsForLib" in project "LibPNG.vcxproj".: (TargetId:345)
+10:16:39.677     1>Target "DoLibOutputFilesMatch: (TargetId:346)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibPNG.lib' != 'E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibPNG.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('LibPNG' != 'LibPNG').
+10:16:39.677     1>Done building target "DoLibOutputFilesMatch" in project "LibPNG.vcxproj".: (TargetId:346)
+10:16:39.677     1>Target "PreLinkEvent: (TargetId:347)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+10:16:39.677     1>Done building target "PreLinkEvent" in project "LibPNG.vcxproj".: (TargetId:347)
+10:16:39.677     1>Target "Lib: (TargetId:348)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:151)
+                     Write Tracking Logs: (TaskId:151)
+                     	LibPNG.dir\Debug\Lib-link.write.1.tlog (TaskId:151)
+                     Read Tracking Logs: (TaskId:151)
+                     	LibPNG.dir\Debug\Lib.read.1.tlog (TaskId:151)
+                     	LibPNG.dir\Debug\Lib-link.read.1.tlog (TaskId:151)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNG.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGERROR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGCCRD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGET.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGMEM.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGPREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRTRAN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRUTIL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGSET.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTEST.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTRANS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGVCRD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWRITE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWTRAN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWUTIL.OBJ: (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\BIN\WIN\DEBUG\LIBPNG.LIB (TaskId:151)
+                     E:\DONOTOPEN\FUCKYOU\BIN\WIN\DEBUG\LIBPNG.LIB does not exist; source compilation required. (TaskId:151)
+                     Inputs for E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNG.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGERROR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGCCRD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGET.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGMEM.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGPREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRTRAN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRUTIL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGSET.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTEST.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTRANS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGVCRD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWRITE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWTRAN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWUTIL.OBJ: (TaskId:151)
+                     	C:\WINDOWS\SYSTEM32\RSAENH.DLL (TaskId:151)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:151)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNG.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGERROR.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGCCRD.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGET.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGMEM.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGPREAD.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGREAD.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRIO.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRTRAN.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRUTIL.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGSET.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTEST.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTRANS.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGVCRD.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWIO.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWRITE.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWTRAN.OBJ (TaskId:151)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWUTIL.OBJ (TaskId:151)
+                     Source compilation required: input E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNG.OBJ is newer than output . (TaskId:151)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibPNG.lib" /NOLOGO LibPNG.dir\Debug\png.obj
+                     LibPNG.dir\Debug\pngerror.obj
+                     LibPNG.dir\Debug\pnggccrd.obj
+                     LibPNG.dir\Debug\pngget.obj
+                     LibPNG.dir\Debug\pngmem.obj
+                     LibPNG.dir\Debug\pngpread.obj
+                     LibPNG.dir\Debug\pngread.obj
+                     LibPNG.dir\Debug\pngrio.obj
+                     LibPNG.dir\Debug\pngrtran.obj
+                     LibPNG.dir\Debug\pngrutil.obj
+                     LibPNG.dir\Debug\pngset.obj
+                     LibPNG.dir\Debug\pngtest.obj
+                     LibPNG.dir\Debug\pngtrans.obj
+                     LibPNG.dir\Debug\pngvcrd.obj
+                     LibPNG.dir\Debug\pngwio.obj
+                     LibPNG.dir\Debug\pngwrite.obj
+                     LibPNG.dir\Debug\pngwtran.obj
+                     LibPNG.dir\Debug\pngwutil.obj (TaskId:151)
+                     Tracking command: (TaskId:151)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNG.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGERROR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGCCRD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGGET.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGMEM.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGPREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRTRAN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGRUTIL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGSET.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTEST.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGTRANS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGVCRD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWRITE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWTRAN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBPNG\LIBPNG.DIR\DEBUG\PNGWUTIL.OBJ" /b MSBuildConsole_CancelEvent3834ee52bdc946c3aec3ec52cc9640af  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibPNG.lib" /NOLOGO LibPNG.dir\Debug\png.obj
+                     LibPNG.dir\Debug\pngerror.obj
+                     LibPNG.dir\Debug\pnggccrd.obj
+                     LibPNG.dir\Debug\pngget.obj
+                     LibPNG.dir\Debug\pngmem.obj
+                     LibPNG.dir\Debug\pngpread.obj
+                     LibPNG.dir\Debug\pngread.obj
+                     LibPNG.dir\Debug\pngrio.obj
+                     LibPNG.dir\Debug\pngrtran.obj
+                     LibPNG.dir\Debug\pngrutil.obj
+                     LibPNG.dir\Debug\pngset.obj
+                     LibPNG.dir\Debug\pngtest.obj
+                     LibPNG.dir\Debug\pngtrans.obj
+                     LibPNG.dir\Debug\pngvcrd.obj
+                     LibPNG.dir\Debug\pngwio.obj
+                     LibPNG.dir\Debug\pngwrite.obj
+                     LibPNG.dir\Debug\pngwtran.obj
+                     LibPNG.dir\Debug\pngwutil.obj (TaskId:151)
+                   Done executing task "LIB". (TaskId:151)
+                   Task "Message" (TaskId:152)
+                     LibPNG.vcxproj -> E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibPNG.lib (TaskId:152)
+                   Done executing task "Message". (TaskId:152)
+10:16:39.770     1>Done building target "Lib" in project "LibPNG.vcxproj".: (TargetId:348)
+10:16:39.770     1>Target "AfterLib: (TargetId:349)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_Lib" depends on it):
+10:16:39.770     1>Done building target "AfterLib" in project "LibPNG.vcxproj".: (TargetId:349)
+10:16:39.770     1>Target "_Lib: (TargetId:350)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildCompile" depends on it):
+10:16:39.770     1>Done building target "_Lib" in project "LibPNG.vcxproj".: (TargetId:350)
+10:16:39.770     1>Target "AfterBuildCompileEvent: (TargetId:351)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildCompile" depends on it):
+10:16:39.770     1>Done building target "AfterBuildCompileEvent" in project "LibPNG.vcxproj".: (TargetId:351)
+10:16:39.770     1>Target "BuildCompile: (TargetId:352)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:39.770     1>Done building target "BuildCompile" in project "LibPNG.vcxproj".: (TargetId:352)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:39.770     1>Target "BuildLinkTraverse: (TargetId:353)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:16:39.770     1>Done building target "BuildLinkTraverse" in project "LibPNG.vcxproj".: (TargetId:353)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+10:16:39.770     1>Target "_ALink: (TargetId:354)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "_ALink" in project "LibPNG.vcxproj".: (TargetId:354)
+10:16:39.770     1>Target "_Manifest: (TargetId:355)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "_Manifest" in project "LibPNG.vcxproj".: (TargetId:355)
+10:16:39.770     1>Target "RegisterOutput: (TargetId:356)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+10:16:39.770     1>Done building target "RegisterOutput" in project "LibPNG.vcxproj".: (TargetId:356)
+10:16:39.770     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:357)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_XdcMake" depends on it):
+10:16:39.770     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "LibPNG.vcxproj".: (TargetId:357)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:39.770     1>Target "ResolvedXDCMake: (TargetId:358)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('.vcxproj' == '.vcxproj' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' == 'true').
+10:16:39.770     1>Done building target "ResolvedXDCMake" in project "LibPNG.vcxproj".: (TargetId:358)
+10:16:39.770     1>Target "MakeDirsForXdcMake: (TargetId:359)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:153)
+                   Done executing task "MakeDir". (TaskId:153)
+10:16:39.770     1>Done building target "MakeDirsForXdcMake" in project "LibPNG.vcxproj".: (TargetId:359)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+10:16:39.770     1>Target "_XdcMake: (TargetId:360)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "_XdcMake" in project "LibPNG.vcxproj".: (TargetId:360)
+10:16:39.770     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:361)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_BscMake" depends on it):
+10:16:39.770     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "LibPNG.vcxproj".: (TargetId:361)
+10:16:39.770     1>Target "MakeDirsForBscMake: (TargetId:362)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:154)
+                   Done executing task "MakeDir". (TaskId:154)
+10:16:39.770     1>Done building target "MakeDirsForBscMake" in project "LibPNG.vcxproj".: (TargetId:362)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:16:39.770     1>Target "_BscMake: (TargetId:363)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "_BscMake" in project "LibPNG.vcxproj".: (TargetId:363)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+10:16:39.770     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:364)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+10:16:39.770     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "LibPNG.vcxproj".: (TargetId:364)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+10:16:39.770     1>Target "CreateSatelliteAssemblies: (TargetId:365)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "CreateSatelliteAssemblies" in project "LibPNG.vcxproj".: (TargetId:365)
+10:16:39.770     1>Target "_Appverifier: (TargetId:366)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "_Appverifier" in project "LibPNG.vcxproj".: (TargetId:366)
+10:16:39.770     1>Target "_Deploy: (TargetId:367)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.770     1>Done building target "_Deploy" in project "LibPNG.vcxproj".: (TargetId:367)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+10:16:39.770     1>Target "AssignTargetPaths: (TargetId:368)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:155)
+                   Done executing task "AssignTargetPath". (TaskId:155)
+                   Task "AssignTargetPath" (TaskId:156)
+                   Done executing task "AssignTargetPath". (TaskId:156)
+                   Task "AssignTargetPath" (TaskId:157)
+                   Done executing task "AssignTargetPath". (TaskId:157)
+                   Task "AssignTargetPath" (TaskId:158)
+                   Done executing task "AssignTargetPath". (TaskId:158)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+10:16:39.770     1>Done building target "AssignTargetPaths" in project "LibPNG.vcxproj".: (TargetId:368)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:39.770     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:369)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:159)
+                   Done executing task "AssignTargetPath". (TaskId:159)
+10:16:39.770     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "LibPNG.vcxproj".: (TargetId:369)
+10:16:39.770     1>Target "GetCopyToOutputDirectoryItems: (TargetId:370)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" (TaskId:160)
+                     Global Properties: (TaskId:160)
+                       Configuration=Debug (TaskId:160)
+                       Platform=Win32 (TaskId:160)
+10:16:34.342     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:4) on node 2 (GetCopyToOutputDirectoryItems target(s)).
+10:16:39.770   2:4>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+10:16:39.770   2:4>Target "AssignTargetPaths: (TargetId:371)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:161)
+                   Done executing task "AssignTargetPath". (TaskId:161)
+                   Task "AssignTargetPath" (TaskId:162)
+                   Done executing task "AssignTargetPath". (TaskId:162)
+                   Task "AssignTargetPath" (TaskId:163)
+                   Done executing task "AssignTargetPath". (TaskId:163)
+                   Task "AssignTargetPath" (TaskId:164)
+                   Done executing task "AssignTargetPath". (TaskId:164)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+10:16:39.770   2:4>Done building target "AssignTargetPaths" in project "ZERO_CHECK.vcxproj".: (TargetId:371)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:39.770   2:4>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:372)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:165)
+                   Done executing task "AssignTargetPath". (TaskId:165)
+10:16:39.770   2:4>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "ZERO_CHECK.vcxproj".: (TargetId:372)
+10:16:39.770   2:4>Target "GetCopyToOutputDirectoryItems: (TargetId:373)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (entry point):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:166)
+                   Done executing task "AssignTargetPath". (TaskId:166)
+10:16:39.770   2:4>Done building target "GetCopyToOutputDirectoryItems" in project "ZERO_CHECK.vcxproj".: (TargetId:373)
+10:16:39.770   2:4>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetCopyToOutputDirectoryItems target(s)) -- FAILED.
+10:16:39.786     1>Done executing task "MSBuild". (TaskId:160)
+                   Task "AssignTargetPath" (TaskId:167)
+                   Done executing task "AssignTargetPath". (TaskId:167)
+10:16:39.786     1>Done building target "GetCopyToOutputDirectoryItems" in project "LibPNG.vcxproj".: (TargetId:370)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+10:16:39.786     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:374)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:16:39.786     1>Done building target "_CopySourceItemsToOutputDirectory" in project "LibPNG.vcxproj".: (TargetId:374)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+10:16:39.786     1>Target "_CheckForCompileOutputs: (TargetId:375)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:16:39.786     1>Done building target "_CheckForCompileOutputs" in project "LibPNG.vcxproj".: (TargetId:375)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+10:16:39.786     1>Target "CopyFilesToOutputDirectory: (TargetId:376)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+10:16:39.786     1>Done building target "CopyFilesToOutputDirectory" in project "LibPNG.vcxproj".: (TargetId:376)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:16:39.786     1>Target "PostBuildEvent: (TargetId:377)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:16:39.786     1>Done building target "PostBuildEvent" in project "LibPNG.vcxproj".: (TargetId:377)
+10:16:39.786     1>Target "BuildLink: (TargetId:378)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:39.786     1>Done building target "BuildLink" in project "LibPNG.vcxproj".: (TargetId:378)
+10:16:39.786     1>Target "AfterBuild: (TargetId:379)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+10:16:39.786     1>Done building target "AfterBuild" in project "LibPNG.vcxproj".: (TargetId:379)
+10:16:39.786     1>Target "FinalizeBuildStatus: (TargetId:380)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:168)
+                     Deleting file "LibPNG.dir\Debug\LibPNG.unsuccessfulbuild". (TaskId:168)
+                   Done executing task "Delete". (TaskId:168)
+                   Task "Touch" (TaskId:169)
+                     Touching "LibPNG.dir\Debug\LibPNG.lastbuildstate". (TaskId:169)
+                   Done executing task "Touch". (TaskId:169)
+10:16:39.786     1>Done building target "FinalizeBuildStatus" in project "LibPNG.vcxproj".: (TargetId:380)
+10:16:39.786     1>Target "Build: (TargetId:381)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (entry point):
+10:16:39.786     1>Done building target "Build" in project "LibPNG.vcxproj".: (TargetId:381)
+10:16:39.786     1>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj" (build target(s)).
+
+Project Performance Summary:
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+     5444 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibPNG\LibPNG.vcxproj   1 calls
+               5444 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ComputeReferenceLibInputs                  1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  GetTargetPath                              1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        2 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  FinalizeBuildStatus                        1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  Build                                      1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  AssignTargetPaths                          2 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  GetNativeManifest                          1 calls
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+       16 ms  GetCopyToOutputDirectoryItems              2 calls
+       31 ms  CustomBuild                                1 calls
+       94 ms  Lib                                        1 calls
+     1061 ms  ResolvedLinkLib                            1 calls
+     4243 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ResolveAssemblyReference                   1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  Message                                    3 calls
+        0 ms  Delete                                     2 calls
+        0 ms  AssignTargetPath                          12 calls
+        0 ms  ResolveNonMSBuildProjectOutput             1 calls
+        0 ms  MakeDir                                    9 calls
+        0 ms  Touch                                      2 calls
+        0 ms  WriteLinesToFile                           2 calls
+       31 ms  CustomBuild                                1 calls
+       94 ms  LIB                                        1 calls
+     1076 ms  MSBuild                                    4 calls
+     4196 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:05.44

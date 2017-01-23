@@ -1,0 +1,10 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib 的目录
+
+adler32.c    compress.c   crc32.c      deflate.c    example.c    gzio.c
+infback.c    inffast.c    inflate.c    inftrees.c   minigzip.c   trees.c
+uncompr.c    zutil.c      
+              14 个文件        299,657 字节
+               0 个目录 186,608,422,912 可用字节

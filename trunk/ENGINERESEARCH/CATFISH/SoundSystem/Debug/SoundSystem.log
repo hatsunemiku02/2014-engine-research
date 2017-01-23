@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/8/22 0:54:58。
+     1>项目“G:\DONOTOPEN\FUCKYOU\CATFISH\SoundSystem\SoundSystem.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\SoundSystem.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\SoundSystem.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\mpg123\ports\MSVC++\2010\libmpg123\Debug /LIBPATH:..\..\OpenAL\bin\Debug /LIBPATH:..\Debug libmpg123.lib OpenAL.lib IO.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\SoundSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\SoundSystem.lib" /MACHINE:X86 /DLL Debug\Sound.obj
+         Debug\SoundAL.obj
+         Debug\SoundDecoderAL.obj
+         Debug\SoundDecoderSL.obj
+         Debug\SoundSL.obj
+         Debug\SoundSystem.obj
+         Debug\SoundSystemAL.obj
+         Debug\SoundSystemSL.obj
+            正在创建库 G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\SoundSystem.lib 和对象 G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\SoundSystem.exp
+     1>LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         SoundSystem.vcxproj -> G:\DONOTOPEN\FUCKYOU\CATFISH\Debug\SoundSystem.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SoundSystem.unsuccessfulbuild”。
+         正在对“Debug\SoundSystem.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\DONOTOPEN\FUCKYOU\CATFISH\SoundSystem\SoundSystem.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.81

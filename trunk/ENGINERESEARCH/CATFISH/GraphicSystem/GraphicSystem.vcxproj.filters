@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\pipeline">
+      <UniqueIdentifier>{327c82bd-422f-495c-8862-fdf66a4b5a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\culler">
+      <UniqueIdentifier>{84cdd269-52b9-4e6d-bbf9-67a641c71a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\light">
+      <UniqueIdentifier>{5bde9a28-62bb-4074-b5ca-fdfd0aba7ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\material">
+      <UniqueIdentifier>{4421579a-0349-48bd-a683-54947eb01f61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RenderUnit.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline.cpp">
+      <Filter>source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplePipeline.cpp">
+      <Filter>source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Culler.cpp">
+      <Filter>source\culler</Filter>
+    </ClCompile>
+    <ClCompile Include="Culler2D.cpp">
+      <Filter>source\culler</Filter>
+    </ClCompile>
+    <ClCompile Include="CullerQuadTree.cpp">
+      <Filter>source\culler</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardRenderPipeline.cpp">
+      <Filter>source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>source\light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>source\light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>source\light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>source\light</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>source\material</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamContainer.cpp">
+      <Filter>source\material</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderUnit.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDllCommon.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline.h">
+      <Filter>source\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplePipeline.h">
+      <Filter>source\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Culler.h">
+      <Filter>source\culler</Filter>
+    </ClInclude>
+    <ClInclude Include="Culler2D.h">
+      <Filter>source\culler</Filter>
+    </ClInclude>
+    <ClInclude Include="CullerQuadTree.h">
+      <Filter>source\culler</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardRenderPipeline.h">
+      <Filter>source\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>source\light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>source\light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>source\light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>source\light</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>source\material</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamContainer.h">
+      <Filter>source\material</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

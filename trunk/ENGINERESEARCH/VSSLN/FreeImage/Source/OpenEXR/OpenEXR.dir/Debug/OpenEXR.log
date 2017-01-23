@@ -1,0 +1,1208 @@
+﻿Build started 2014/8/8 10:16:40.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\zhaohang\AppData\Roaming
+CG_BIN_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\bin
+CG_INC_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\include
+CG_LIB_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\lib
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = CY4612
+ComSpec = C:\windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\zhaohang
+LOCALAPPDATA = C:\Users\zhaohang\AppData\Local
+LOGONSERVER = \\CYBJDC02
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\windows
+TEMP = C:\Users\zhaohang\AppData\Local\Temp
+TMP = C:\Users\zhaohang\AppData\Local\Temp
+UATDATA = C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = CYOU-INC.COM
+USERDOMAIN = CYOU-INC
+USERNAME = zhaohang
+USERPROFILE = C:\Users\zhaohang
+VisualStudioDir = C:\Users\zhaohang\Documents\Visual Studio 2010
+VS100COMNTOOLS = D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+10:16:40.082     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" on node 2 (build target(s)).
+10:16:40.082     1>Building with tools version "4.0".
+10:16:40.082     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:406)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:179)
+                     Configuration=Debug (TaskId:179)
+                   Done executing task "Message". (TaskId:179)
+                   Task "Message" (TaskId:180)
+                     Platform=Win32 (TaskId:180)
+                   Done executing task "Message". (TaskId:180)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\' != '' and !HasTrailingSlash('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('OpenEXR.dir\Debug\' != '' and !HasTrailingSlash('OpenEXR.dir\Debug\')).
+10:16:40.082     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "OpenEXR.vcxproj".: (TargetId:406)
+10:16:40.082     1>Target "_DetermineManagedStateFromCL: (TargetId:407)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:16:40.082     1>Done building target "_DetermineManagedStateFromCL" in project "OpenEXR.vcxproj".: (TargetId:407)
+10:16:40.082     1>Target "_PrepareForBuild: (TargetId:408)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:16:40.082     1>Done building target "_PrepareForBuild" in project "OpenEXR.vcxproj".: (TargetId:408)
+10:16:40.082     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:409)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:181)
+                     PATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\windows\Microsoft.NET\Framework\v4.0.30319\;D:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\windows\SysWow64;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64; (TaskId:181)
+                   Done executing task "SetEnv". (TaskId:181)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:182)
+                     LIB=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:182)
+                   Done executing task "SetEnv". (TaskId:182)
+                   Task "SetEnv" (TaskId:183)
+                     LIBPATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:183)
+                   Done executing task "SetEnv". (TaskId:183)
+                   Task "SetEnv" (TaskId:184)
+                     INCLUDE=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:184)
+                   Done executing task "SetEnv". (TaskId:184)
+10:16:40.082     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "OpenEXR.vcxproj".: (TargetId:409)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:16:40.082     1>Target "BeforeResolveReferences: (TargetId:410)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveReferences" depends on it):
+10:16:40.082     1>Done building target "BeforeResolveReferences" in project "OpenEXR.vcxproj".: (TargetId:410)
+10:16:40.082     1>Target "AssignProjectConfiguration: (TargetId:411)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:185)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:185)
+                   Done executing task "AssignProjectConfiguration". (TaskId:185)
+10:16:40.082     1>Done building target "AssignProjectConfiguration" in project "OpenEXR.vcxproj".: (TargetId:411)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+10:16:40.082     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:412)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" (TaskId:186)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj". (TaskId:186)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has not been resolved. (TaskId:186)
+                   Done executing task "ResolveNonMSBuildProjectOutput". (TaskId:186)
+10:16:40.082     1>Done building target "_SplitProjectReferencesByFileExistence" in project "OpenEXR.vcxproj".: (TargetId:412)
+10:16:40.082     1>Target "_RemoveNameMetadataFromProjectReferenceItems: (TargetId:413)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveProjectReferences" depends on it):
+10:16:40.082     1>Done building target "_RemoveNameMetadataFromProjectReferenceItems" in project "OpenEXR.vcxproj".: (TargetId:413)
+10:16:40.082     1>Target "ResolveProjectReferences: (TargetId:414)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:187)
+                     Global Properties: (TaskId:187)
+                       Configuration=Debug (TaskId:187)
+                       Platform=Win32 (TaskId:187)
+10:16:40.082     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+10:16:40.082     2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetTargetPath" skipped. Previously built successfully.
+10:16:40.082     2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetTargetPath target(s)).
+10:16:40.082     1>Done executing task "MSBuild". (TaskId:187)
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' != 'true' and 'true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:188)
+                     Global Properties: (TaskId:188)
+                       Configuration=Debug (TaskId:188)
+                       Platform=Win32 (TaskId:188)
+10:16:40.082     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+10:16:40.098   2:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetNativeManifest" skipped. Previously built successfully.
+10:16:40.098   2:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetNativeManifest target(s)).
+10:16:40.098     1>Done executing task "MSBuild". (TaskId:188)
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' != '').
+10:16:40.098     1>Done building target "ResolveProjectReferences" in project "OpenEXR.vcxproj".: (TargetId:414)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+10:16:40.098     1>Target "GetFrameworkPaths: (TargetId:415)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+10:16:40.098     1>Done building target "GetFrameworkPaths" in project "OpenEXR.vcxproj".: (TargetId:415)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:16:40.098     1>Target "GetReferenceAssemblyPaths: (TargetId:416)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:16:40.098     1>Done building target "GetReferenceAssemblyPaths" in project "OpenEXR.vcxproj".: (TargetId:416)
+10:16:40.098     1>Target "PlatformPrepareForBuild: (TargetId:417)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:16:40.098     1>Done building target "PlatformPrepareForBuild" in project "OpenEXR.vcxproj".: (TargetId:417)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:16:40.098     1>Target "PrepareForBuild: (TargetId:418)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:189)
+                   Done executing task "MakeDir". (TaskId:189)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:190)
+                   Done executing task "MakeDir". (TaskId:190)
+10:16:40.098     1>Done building target "PrepareForBuild" in project "OpenEXR.vcxproj".: (TargetId:418)
+10:16:40.098     1>Target "GetInstalledSDKLocations: (TargetId:419)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+10:16:40.098     1>Done building target "GetInstalledSDKLocations" in project "OpenEXR.vcxproj".: (TargetId:419)
+10:16:40.098     1>Target "ResolveSDKReferences: (TargetId:420)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+10:16:40.098     1>Done building target "ResolveSDKReferences" in project "OpenEXR.vcxproj".: (TargetId:420)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+10:16:40.098     1>Target "ExpandSDKReferences: (TargetId:421)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+10:16:40.098     1>Done building target "ExpandSDKReferences" in project "OpenEXR.vcxproj".: (TargetId:421)
+10:16:40.098     1>Target "ResolveAssemblyReferences: (TargetId:422)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" (TaskId:191)
+                     TargetFrameworkMoniker: (TaskId:191)
+                         .NETFramework,Version=v4.0 (TaskId:191)
+                     TargetFrameworkMonikerDisplayName: (TaskId:191)
+                         .NET Framework 4 (TaskId:191)
+                     TargetedRuntimeVersion: (TaskId:191)
+                         v4.0.30319 (TaskId:191)
+                     Assemblies: (TaskId:191)
+                         System.Core (TaskId:191)
+                     AssemblyFiles: (TaskId:191)
+                     CandidateAssemblyFiles: (TaskId:191)
+                     TargetFrameworkDirectories: (TaskId:191)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:191)
+                     InstalledAssemblyTables: (TaskId:191)
+                     IgnoreInstalledAssemblyTable: (TaskId:191)
+                         False (TaskId:191)
+                     SearchPaths: (TaskId:191)
+                         {CandidateAssemblyFiles} (TaskId:191)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:191)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:191)
+                         {HintPathFromItem} (TaskId:191)
+                         {TargetFrameworkDirectory} (TaskId:191)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:191)
+                         {AssemblyFolders} (TaskId:191)
+                         {GAC} (TaskId:191)
+                         {RawFileName} (TaskId:191)
+                         E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ (TaskId:191)
+                     AllowedAssemblyExtensions: (TaskId:191)
+                         .winmd (TaskId:191)
+                         .dll (TaskId:191)
+                         .exe (TaskId:191)
+                     AllowedRelatedFileExtensions: (TaskId:191)
+                         .pdb (TaskId:191)
+                         .xml (TaskId:191)
+                         .pri (TaskId:191)
+                     AppConfigFile: (TaskId:191)
+                          (TaskId:191)
+                     AutoUnify: (TaskId:191)
+                         True (TaskId:191)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:191)
+                         True (TaskId:191)
+                     FindDependencies: (TaskId:191)
+                         True (TaskId:191)
+                     TargetProcessorArchitecture: (TaskId:191)
+                         x86 (TaskId:191)
+                     StateFile: (TaskId:191)
+                         OpenEXR.dir\Debug\OpenEXR.vcxprojResolveAssemblyReference.cache (TaskId:191)
+                     InstalledAssemblySubsetTables: (TaskId:191)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:191)
+                         False (TaskId:191)
+                     TargetFrameworkSubsets: (TaskId:191)
+                     FullTargetFrameworkSubsetNames: (TaskId:191)
+                         Full (TaskId:191)
+                     ProfileName: (TaskId:191)
+                          (TaskId:191)
+                     FullFrameworkFolders: (TaskId:191)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:191)
+                     LatestTargetFrameworkDirectories: (TaskId:191)
+                     ProfileTablesLocation: (TaskId:191)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:191)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:191)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:191)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:191)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:191)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:191)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:191)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:191)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:191)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:191)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:191)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:191)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:191)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:191)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:191)
+                   Done executing task "ResolveAssemblyReference". (TaskId:191)
+10:16:40.098     1>Done building target "ResolveAssemblyReferences" in project "OpenEXR.vcxproj".: (TargetId:422)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:16:40.098     1>Target "AfterResolveReferences: (TargetId:423)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ResolveReferences" depends on it):
+10:16:40.098     1>Done building target "AfterResolveReferences" in project "OpenEXR.vcxproj".: (TargetId:423)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+10:16:40.098     1>Target "ResolveReferences: (TargetId:424)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:16:40.098     1>Done building target "ResolveReferences" in project "OpenEXR.vcxproj".: (TargetId:424)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:16:40.098     1>Target "InitializeBuildStatus: (TargetId:425)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:192)
+                   Done executing task "ReadLinesFromFile". (TaskId:192)
+                   Task "WriteLinesToFile" (TaskId:193)
+                   Done executing task "WriteLinesToFile". (TaskId:193)
+                   Task "Touch" (TaskId:194)
+                     Touching "OpenEXR.dir\Debug\OpenEXR.unsuccessfulbuild". (TaskId:194)
+                   Done executing task "Touch". (TaskId:194)
+10:16:40.098     1>Done building target "InitializeBuildStatus" in project "OpenEXR.vcxproj".: (TargetId:425)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:40.098     1>Target "BuildGenerateSourcesTraverse: (TargetId:426)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' == 'true').
+10:16:40.098     1>Done building target "BuildGenerateSourcesTraverse" in project "OpenEXR.vcxproj".: (TargetId:426)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:40.098     1>Target "BeforeBuildGenerateSources: (TargetId:427)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.098     1>Done building target "BeforeBuildGenerateSources" in project "OpenEXR.vcxproj".: (TargetId:427)
+10:16:40.098     1>Target "PreBuildEvent: (TargetId:428)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:16:40.098     1>Done building target "PreBuildEvent" in project "OpenEXR.vcxproj".: (TargetId:428)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:16:40.098     1>Target "_SelectedFiles: (TargetId:429)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "SelectCustomBuild" depends on it):
+10:16:40.098     1>Done building target "_SelectedFiles" in project "OpenEXR.vcxproj".: (TargetId:429)
+10:16:40.098     1>Target "SelectCustomBuild: (TargetId:430)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "CustomBuild" depends on it):
+10:16:40.098     1>Done building target "SelectCustomBuild" in project "OpenEXR.vcxproj".: (TargetId:430)
+10:16:40.098     1>Target "ComputeCustomBuildOutput: (TargetId:431)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "CustomBuild" depends on it):
+                   Task "MakeDir" (TaskId:195)
+                   Done executing task "MakeDir". (TaskId:195)
+10:16:40.098     1>Done building target "ComputeCustomBuildOutput" in project "OpenEXR.vcxproj".: (TargetId:431)
+10:16:40.098     1>Target "CustomBuild: (TargetId:432)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Using "CustomBuild" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CustomBuild" (TaskId:196)
+                     Write Tracking Logs: (TaskId:196)
+                     	OpenEXR.dir\Debug\custombuild.write.1.tlog (TaskId:196)
+                     Read Tracking Logs: (TaskId:196)
+                     	OpenEXR.dir\Debug\custombuild.read.1.tlog (TaskId:196)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\CMAKELISTS.TXT: (TaskId:196)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\CMAKEFILES\GENERATE.STAMP (TaskId:196)
+                     All outputs are up-to-date. (TaskId:196)
+                   Done executing task "CustomBuild". (TaskId:196)
+10:16:40.129     1>Done building target "CustomBuild" in project "OpenEXR.vcxproj".: (TargetId:432)
+10:16:40.129     1>Target "_GenerateXMLData: (TargetId:433)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.129     1>Done building target "_GenerateXMLData" in project "OpenEXR.vcxproj".: (TargetId:433)
+10:16:40.129     1>Target "_GenerateWebServiceProxy: (TargetId:434)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.129     1>Done building target "_GenerateWebServiceProxy" in project "OpenEXR.vcxproj".: (TargetId:434)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+10:16:40.129     1>Target "_Xsd: (TargetId:435)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.129     1>Done building target "_Xsd" in project "OpenEXR.vcxproj".: (TargetId:435)
+10:16:40.129     1>Target "MakeDirsForMidl: (TargetId:436)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:197)
+                   Done executing task "Makedir". (TaskId:197)
+10:16:40.129     1>Done building target "MakeDirsForMidl" in project "OpenEXR.vcxproj".: (TargetId:436)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+10:16:40.129     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:437)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Midl" depends on it):
+10:16:40.129     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "OpenEXR.vcxproj".: (TargetId:437)
+10:16:40.129     1>Target "AfterMidl: (TargetId:438)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Midl" depends on it):
+10:16:40.129     1>Done building target "AfterMidl" in project "OpenEXR.vcxproj".: (TargetId:438)
+10:16:40.129     1>Target "_Midl: (TargetId:439)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.129     1>Done building target "_Midl" in project "OpenEXR.vcxproj".: (TargetId:439)
+10:16:40.129     1>Target "AfterBuildGenerateSources: (TargetId:440)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.129     1>Done building target "AfterBuildGenerateSources" in project "OpenEXR.vcxproj".: (TargetId:440)
+10:16:40.129     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:441)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:40.129     1>Done building target "AfterBuildGenerateSourcesEvent" in project "OpenEXR.vcxproj".: (TargetId:441)
+10:16:40.129     1>Target "BuildGenerateSources: (TargetId:442)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:16:40.129     1>Done building target "BuildGenerateSources" in project "OpenEXR.vcxproj".: (TargetId:442)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:40.129     1>Target "BuildCompileTraverse: (TargetId:443)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:16:40.129     1>Done building target "BuildCompileTraverse" in project "OpenEXR.vcxproj".: (TargetId:443)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:40.129     1>Target "BeforeClCompile: (TargetId:444)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ClCompile" depends on it):
+10:16:40.129     1>Done building target "BeforeClCompile" in project "OpenEXR.vcxproj".: (TargetId:444)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+10:16:40.129     1>Target "ComputeCLInputPDBName: (TargetId:445)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ClCompile" depends on it):
+10:16:40.129     1>Done building target "ComputeCLInputPDBName" in project "OpenEXR.vcxproj".: (TargetId:445)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:40.129     1>Target "ComputeReferenceCLInput: (TargetId:446)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:198)
+                   Done executing task "WriteLinesToFile". (TaskId:198)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+10:16:40.129     1>Done building target "ComputeReferenceCLInput" in project "OpenEXR.vcxproj".: (TargetId:446)
+10:16:40.129     1>Target "MakeDirsForCl: (TargetId:447)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:199)
+                   Done executing task "MakeDir". (TaskId:199)
+10:16:40.145     1>Done building target "MakeDirsForCl" in project "OpenEXR.vcxproj".: (TargetId:447)
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "SelectCustomBuild" skipped. Previously built successfully.
+10:16:40.145     1>Target "SelectClCompile: (TargetId:448)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ClCompile" depends on it):
+10:16:40.145     1>Done building target "SelectClCompile" in project "OpenEXR.vcxproj".: (TargetId:448)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexPosix.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPosix.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosix.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosixCompat.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\eLut.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\half.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\toFloat.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp' != '' and 'false' == 'True').
+10:16:40.145     1>Target "ClCompile: (TargetId:449)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" (TaskId:200)
+                   Done executing task "Delete". (TaskId:200)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:201)
+                     Forcing recompile of all source files due to missing PDB "E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/OpenEXR.pdb". (TaskId:201)
+                     Environment Variables passed to tool: (TaskId:201)
+                       VS_UNICODE_OUTPUT=1836 (TaskId:201)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/. /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"OpenEXR.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/OpenEXR.pdb" /Gd /TP /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexPosix.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPosix.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosix.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosixCompat.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\eLut.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\half.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\toFloat.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp  /Zm1000  (TaskId:201)
+                     Tracking command: (TaskId:201)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\HALF\ELUT.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\HALF\HALF.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\HALF\TOFLOAT.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IEX\IEXBASEEXC.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IEX\IEXTHROWERRNOEXC.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\B44EXPLOGTABLE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFB44COMPRESSOR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFBOXATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCHANNELLIST.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCHANNELLISTATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCHROMATICITIES.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCHROMATICITIESATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCOMPRESSIONATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCOMPRESSOR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCONVERT.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFCRGBAFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFDOUBLEATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFENVMAP.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFENVMAPATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFFLOATATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFFRAMEBUFFER.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFFRAMESPERSECOND.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFHEADER.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFHUF.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFINPUTFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFINTATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFIO.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFKEYCODE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFKEYCODEATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFLINEORDERATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFLUT.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFMATRIXATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFMISC.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFOPAQUEATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFOUTPUTFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFPIZCOMPRESSOR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFPREVIEWIMAGE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFPREVIEWIMAGEATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFPXR24COMPRESSOR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFRATIONAL.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFRATIONALATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFRGBAFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFRGBAYCA.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFRLECOMPRESSOR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFSCANLINEINPUTFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFSTANDARDATTRIBUTES.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFSTDIO.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFSTRINGATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTESTFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTHREADING.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTILEDESCRIPTIONATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTILEDINPUTFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTILEDMISC.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTILEDOUTPUTFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTILEDRGBAFILE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTILEOFFSETS.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTIMECODE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFTIMECODEATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFVECATTRIBUTE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFVERSION.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFWAV.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMIMF\IMFZIPCOMPRESSOR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREAD.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADMUTEX.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADMUTEXPOSIX.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADMUTEXWIN32.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADPOOL.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADPOSIX.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADSEMAPHORE.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADSEMAPHOREPOSIX.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADSEMAPHOREPOSIXCOMPAT.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADSEMAPHOREWIN32.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\ILMTHREAD\ILMTHREADWIN32.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHBOX.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHCOLORALGO.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHFUN.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHMATRIXALGO.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHRANDOM.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHSHEAR.CPP|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\OPENEXR\IMATH\IMATHVEC.CPP" /b MSBuildConsole_CancelEventda6e799988a24c25941bde8b41ec4e7d  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/. /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread /IE:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"OpenEXR.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/OpenEXR.pdb" /Gd /TP /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexPosix.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPosix.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosix.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosixCompat.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\eLut.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\half.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\toFloat.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp  /Zm1000  (TaskId:201)
+                     ImathBox.cpp (TaskId:201)
+                     ImathColorAlgo.cpp (TaskId:201)
+                     ImathFun.cpp (TaskId:201)
+                     ImathMatrixAlgo.cpp (TaskId:201)
+                     ImathRandom.cpp (TaskId:201)
+10:16:41.596     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp(94): warning C4244: '=' : conversion from 'Imath::Int64' to 'unsigned short', possible loss of data
+10:16:41.596     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp(95): warning C4244: '=' : conversion from 'Imath::Int64' to 'unsigned short', possible loss of data
+10:16:41.596     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp(96): warning C4244: '=' : conversion from 'Imath::Int64' to 'unsigned short', possible loss of data
+10:16:41.596     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp(166): warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+                     ImathShear.cpp (TaskId:201)
+                     ImathVec.cpp (TaskId:201)
+10:16:41.939     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp(179): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+10:16:41.954     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp(317): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                     IlmThread.cpp (TaskId:201)
+                     IlmThreadMutex.cpp (TaskId:201)
+                     IlmThreadMutexPosix.cpp (TaskId:201)
+                     IlmThreadPool.cpp (TaskId:201)
+10:16:43.296     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp(250): warning C4018: '<' : signed/unsigned mismatch
+10:16:43.296     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp(367): warning C4018: '>' : signed/unsigned mismatch
+10:16:43.296     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp(373): warning C4018: '<' : signed/unsigned mismatch
+10:16:43.296     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp(379): warning C4018: '<' : signed/unsigned mismatch
+10:16:43.296     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp(392): warning C4018: '<' : signed/unsigned mismatch
+                     IlmThreadPosix.cpp (TaskId:201)
+                     IlmThreadSemaphore.cpp (TaskId:201)
+                     IlmThreadSemaphorePosix.cpp (TaskId:201)
+                     IlmThreadSemaphorePosixCompat.cpp (TaskId:201)
+                     b44ExpLogTable.cpp (TaskId:201)
+                     ImfAttribute.cpp (TaskId:201)
+                     ImfB44Compressor.cpp (TaskId:201)
+10:16:44.528     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:44.700     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp(322): warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+10:16:44.700     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp(343): warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+                     ImfBoxAttribute.cpp (TaskId:201)
+                     ImfChannelList.cpp (TaskId:201)
+10:16:45.043     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     Generating Code... (TaskId:201)
+                     Compiling... (TaskId:201)
+                     ImfChannelListAttribute.cpp (TaskId:201)
+10:16:45.917     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfChromaticities.cpp (TaskId:201)
+                     ImfChromaticitiesAttribute.cpp (TaskId:201)
+                     ImfCompressionAttribute.cpp (TaskId:201)
+                     ImfCompressor.cpp (TaskId:201)
+                     ImfConvert.cpp (TaskId:201)
+10:16:47.071     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp(119): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+                     ImfCRgbaFile.cpp (TaskId:201)
+10:16:47.149     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:47.383     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp(78): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:47.446     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp(292): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+10:16:47.446     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp(293): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                     ImfDoubleAttribute.cpp (TaskId:201)
+                     ImfEnvmap.cpp (TaskId:201)
+10:16:47.960     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp(77): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+10:16:47.960     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp(88): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+10:16:47.960     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp(102): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+10:16:47.960     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                     ImfEnvmapAttribute.cpp (TaskId:201)
+                     ImfFloatAttribute.cpp (TaskId:201)
+                     ImfFrameBuffer.cpp (TaskId:201)
+10:16:48.428     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfFramesPerSecond.cpp (TaskId:201)
+                     ImfHeader.cpp (TaskId:201)
+10:16:48.709     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:49.162     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp(582): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+10:16:49.162     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp(627): warning C4018: '<' : signed/unsigned mismatch
+10:16:49.162     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp(634): warning C4018: '<' : signed/unsigned mismatch
+                     ImfHuf.cpp (TaskId:201)
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(168): warning C4244: '=' : conversion from 'Imath::Int64' to 'char', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(247): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(478): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(547): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(559): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(606): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(709): warning C4244: 'argument' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(877): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'unsigned char', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(892): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'int', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(907): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'unsigned char', possible loss of data
+10:16:49.583     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(934): warning C4244: 'initializing' : conversion from 'Imath::Int64' to 'unsigned char', possible loss of data
+                     ImfInputFile.cpp (TaskId:201)
+10:16:49.692     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:50.113     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp(296): warning C4018: '<' : signed/unsigned mismatch
+                     ImfIntAttribute.cpp (TaskId:201)
+                     ImfIO.cpp (TaskId:201)
+                     ImfKeyCode.cpp (TaskId:201)
+                     ImfKeyCodeAttribute.cpp (TaskId:201)
+                     Generating Code... (TaskId:201)
+                     Compiling... (TaskId:201)
+                     ImfLineOrderAttribute.cpp (TaskId:201)
+                     ImfLut.cpp (TaskId:201)
+10:16:51.923     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:52.126     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(155): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+10:16:52.126     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(173): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                     ImfMatrixAttribute.cpp (TaskId:201)
+                     ImfMisc.cpp (TaskId:201)
+10:16:52.640     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(221): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(567): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(576): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(585): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(717): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(724): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(731): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(751): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(762): warning C4018: '<' : signed/unsigned mismatch
+10:16:52.687     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(771): warning C4018: '<' : signed/unsigned mismatch
+                     ImfOpaqueAttribute.cpp (TaskId:201)
+10:16:52.906     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp(54): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy' (TaskId:201)
+10:16:52.906     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy' (TaskId:201)
+                     ImfOutputFile.cpp (TaskId:201)
+10:16:52.984     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:53.420     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp(1107): warning C4018: '<' : signed/unsigned mismatch
+                     ImfPizCompressor.cpp (TaskId:201)
+10:16:53.545     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:53.686     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfPreviewImage.cpp (TaskId:201)
+                     ImfPreviewImageAttribute.cpp (TaskId:201)
+                     ImfPxr24Compressor.cpp (TaskId:201)
+10:16:54.341     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:54.419     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(460): warning C4018: '>' : signed/unsigned mismatch
+10:16:54.419     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(486): warning C4018: '>' : signed/unsigned mismatch
+10:16:54.419     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(510): warning C4018: '>' : signed/unsigned mismatch
+10:16:54.419     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(535): warning C4018: '<' : signed/unsigned mismatch
+                     ImfRational.cpp (TaskId:201)
+                     ImfRationalAttribute.cpp (TaskId:201)
+                     ImfRgbaFile.cpp (TaskId:201)
+10:16:54.715     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfRgbaYca.cpp (TaskId:201)
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(177): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(209): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(225): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(284): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(299): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(333): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+10:16:55.573     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp(348): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                     ImfRleCompressor.cpp (TaskId:201)
+10:16:55.667     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     ImfScanLineInputFile.cpp (TaskId:201)
+10:16:55.870     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:56.306     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp(948): warning C4018: '<' : signed/unsigned mismatch
+                     ImfStandardAttributes.cpp (TaskId:201)
+10:16:56.431     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfStdIO.cpp (TaskId:201)
+                     ImfStringAttribute.cpp (TaskId:201)
+                     ImfTestFile.cpp (TaskId:201)
+                     Generating Code... (TaskId:201)
+                     Compiling... (TaskId:201)
+                     ImfThreading.cpp (TaskId:201)
+                     ImfTileDescriptionAttribute.cpp (TaskId:201)
+                     ImfTiledInputFile.cpp (TaskId:201)
+10:16:58.163     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:58.615     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp(1029): warning C4018: '<' : signed/unsigned mismatch
+                     ImfTiledMisc.cpp (TaskId:201)
+10:16:58.927     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfTiledOutputFile.cpp (TaskId:201)
+10:16:59.068     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+10:16:59.520     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp(1267): warning C4018: '<' : signed/unsigned mismatch
+10:16:59.520     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp(1383): warning C4018: '<' : signed/unsigned mismatch
+10:16:59.520     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp(1390): warning C4018: '<' : signed/unsigned mismatch
+10:16:59.520     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp(1391): warning C4018: '<' : signed/unsigned mismatch
+                     ImfTiledRgbaFile.cpp (TaskId:201)
+10:16:59.692     1>e:\donotopen\fuckyou\freeimage\source\openexr\ilmimf\ImfName.h(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy' (TaskId:201)
+                     ImfTileOffsets.cpp (TaskId:201)
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(262): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(263): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(274): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(275): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(276): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(287): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(288): warning C4018: '>' : signed/unsigned mismatch
+10:17:00.472     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(289): warning C4018: '>' : signed/unsigned mismatch
+                     ImfTimeCode.cpp (TaskId:201)
+10:17:00.721     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp(236): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+10:17:00.721     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp(250): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+10:17:00.721     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp(264): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+10:17:00.721     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp(278): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+10:17:00.721     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp(292): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+10:17:00.721     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp(306): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+                     ImfTimeCodeAttribute.cpp (TaskId:201)
+                     ImfVecAttribute.cpp (TaskId:201)
+                     ImfVersion.cpp (TaskId:201)
+                     ImfWav.cpp (TaskId:201)
+                     ImfZipCompressor.cpp (TaskId:201)
+10:17:01.252     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     IexBaseExc.cpp (TaskId:201)
+                     IexThrowErrnoExc.cpp (TaskId:201)
+10:17:01.844     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp(54): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror' (TaskId:201)
+                     eLut.cpp (TaskId:201)
+                     half.cpp (TaskId:201)
+                     toFloat.cpp (TaskId:201)
+                     IlmThreadMutexWin32.cpp (TaskId:201)
+                     IlmThreadSemaphoreWin32.cpp (TaskId:201)
+10:17:03.311     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp(98): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+                     Generating Code... (TaskId:201)
+                     Compiling... (TaskId:201)
+                     IlmThreadWin32.cpp (TaskId:201)
+10:17:04.231     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp(79): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+                     Generating Code... (TaskId:201)
+                   Done executing task "CL". (TaskId:201)
+10:17:04.637     1>Done building target "ClCompile" in project "OpenEXR.vcxproj".: (TargetId:449)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexPosix.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPosix.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosix.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosixCompat.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\eLut.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\half.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\toFloat.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp' != '' and 'false' == 'True').
+10:17:04.637     1>Target "AfterClCompile: (TargetId:450)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ClCompile" depends on it):
+10:17:04.637     1>Done building target "AfterClCompile" in project "OpenEXR.vcxproj".: (TargetId:450)
+10:17:04.637     1>Target "_ClCompile: (TargetId:451)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildCompile" depends on it):
+10:17:04.637     1>Done building target "_ClCompile" in project "OpenEXR.vcxproj".: (TargetId:451)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+10:17:04.637     1>Target "BeforeResourceCompile: (TargetId:452)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ResourceCompile" depends on it):
+10:17:04.637     1>Done building target "BeforeResourceCompile" in project "OpenEXR.vcxproj".: (TargetId:452)
+10:17:04.637     1>Target "MakeDirsForResourceCompile: (TargetId:453)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:202)
+                   Done executing task "MakeDir". (TaskId:202)
+10:17:04.637     1>Done building target "MakeDirsForResourceCompile" in project "OpenEXR.vcxproj".: (TargetId:453)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+10:17:04.637     1>Target "AfterResourceCompile: (TargetId:454)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_ResourceCompile" depends on it):
+10:17:04.637     1>Done building target "AfterResourceCompile" in project "OpenEXR.vcxproj".: (TargetId:454)
+10:17:04.637     1>Target "_ResourceCompile: (TargetId:455)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildCompile" depends on it):
+10:17:04.637     1>Done building target "_ResourceCompile" in project "OpenEXR.vcxproj".: (TargetId:455)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+10:17:04.637     1>Target "BeforeLib: (TargetId:456)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+10:17:04.637     1>Done building target "BeforeLib" in project "OpenEXR.vcxproj".: (TargetId:456)
+10:17:04.637     1>Target "ComputeLibAdditionalOptions: (TargetId:457)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+10:17:04.637     1>Done building target "ComputeLibAdditionalOptions" in project "OpenEXR.vcxproj".: (TargetId:457)
+10:17:04.637     1>Target "ComputeRCOutputs: (TargetId:458)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+10:17:04.637     1>Done building target "ComputeRCOutputs" in project "OpenEXR.vcxproj".: (TargetId:458)
+10:17:04.637     1>Target "ComputeRCGeneratedLibInputs: (TargetId:459)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+10:17:04.637     1>Done building target "ComputeRCGeneratedLibInputs" in project "OpenEXR.vcxproj".: (TargetId:459)
+                   Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+10:17:04.637     1>Target "ComputeCLOutputs: (TargetId:460)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ComputeCLGeneratedLibInputs" depends on it):
+10:17:04.637     1>Done building target "ComputeCLOutputs" in project "OpenEXR.vcxproj".: (TargetId:460)
+10:17:04.637     1>Target "ComputeCLGeneratedLibInputs: (TargetId:461)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+10:17:04.637     1>Done building target "ComputeCLGeneratedLibInputs" in project "OpenEXR.vcxproj".: (TargetId:461)
+10:17:04.637     1>Target "ComputeLibInputsFromProject: (TargetId:462)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+10:17:04.637     1>Done building target "ComputeLibInputsFromProject" in project "OpenEXR.vcxproj".: (TargetId:462)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:17:04.637     1>Target "ResolvedLinkLib: (TargetId:463)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "ComputeReferenceLibInputs" depends on it):
+                   Task "MSBuild" (TaskId:203)
+                     Global Properties: (TaskId:203)
+                       Configuration=Debug (TaskId:203)
+                       Platform=Win32 (TaskId:203)
+10:16:40.082     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+10:17:04.652   2:3>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetResolvedLinkLibs" skipped. Previously built successfully.
+10:17:04.652   2:3>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetResolvedLinkLibs target(s)).
+10:17:04.652     1>Done executing task "MSBuild". (TaskId:203)
+10:17:04.652     1>Done building target "ResolvedLinkLib" in project "OpenEXR.vcxproj".: (TargetId:463)
+10:17:04.652     1>Target "ComputeReferenceLibInputs: (TargetId:464)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+10:17:04.652     1>Done building target "ComputeReferenceLibInputs" in project "OpenEXR.vcxproj".: (TargetId:464)
+10:17:04.652     1>Target "MakeDirsForLib: (TargetId:465)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:204)
+                   Done executing task "MakeDir". (TaskId:204)
+10:17:04.652     1>Done building target "MakeDirsForLib" in project "OpenEXR.vcxproj".: (TargetId:465)
+10:17:04.652     1>Target "DoLibOutputFilesMatch: (TargetId:466)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\OpenEXR.lib' != 'E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\OpenEXR.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('OpenEXR' != 'OpenEXR').
+10:17:04.652     1>Done building target "DoLibOutputFilesMatch" in project "OpenEXR.vcxproj".: (TargetId:466)
+10:17:04.652     1>Target "PreLinkEvent: (TargetId:467)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+10:17:04.652     1>Done building target "PreLinkEvent" in project "OpenEXR.vcxproj".: (TargetId:467)
+10:17:04.652     1>Target "Lib: (TargetId:468)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:205)
+                     Write Tracking Logs: (TaskId:205)
+                     	OpenEXR.dir\Debug\Lib-link.write.1.tlog (TaskId:205)
+                     Read Tracking Logs: (TaskId:205)
+                     	OpenEXR.dir\Debug\Lib.read.1.tlog (TaskId:205)
+                     	OpenEXR.dir\Debug\Lib-link.read.1.tlog (TaskId:205)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\B44EXPLOGTABLE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ELUT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\HALF.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXBASEEXC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXTHROWERRNOEXC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOOL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHORE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIXCOMPAT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHBOX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHCOLORALGO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHFUN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHMATRIXALGO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHRANDOM.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHSHEAR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHVEC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFB44COMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFBOXATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLIST.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLISTATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIES.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIESATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSIONATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCONVERT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFDOUBLEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAP.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAPATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFLOATATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMEBUFFER.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMESPERSECOND.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHEADER.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHUF.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINTATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLINEORDERATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLUT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMATRIXATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMISC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOPAQUEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOUTPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPIZCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPXR24COMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONAL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONALATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAYCA.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRLECOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSCANLINEINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTANDARDATTRIBUTES.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTDIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTRINGATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTESTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTHREADING.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDESCRIPTIONATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDMISC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDOUTPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEOFFSETS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVECATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVERSION.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFWAV.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFZIPCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\TOFLOAT.OBJ: (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\BIN\WIN\DEBUG\OPENEXR.LIB (TaskId:205)
+                     D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\2052\LINKUI.DLL does not exist; source compilation required. (TaskId:205)
+                     Inputs for E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\B44EXPLOGTABLE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ELUT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\HALF.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXBASEEXC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXTHROWERRNOEXC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOOL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHORE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIXCOMPAT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHBOX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHCOLORALGO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHFUN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHMATRIXALGO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHRANDOM.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHSHEAR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHVEC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFB44COMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFBOXATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLIST.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLISTATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIES.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIESATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSIONATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCONVERT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFDOUBLEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAP.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAPATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFLOATATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMEBUFFER.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMESPERSECOND.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHEADER.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHUF.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINTATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLINEORDERATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLUT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMATRIXATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMISC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOPAQUEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOUTPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPIZCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPXR24COMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONAL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONALATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAYCA.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRLECOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSCANLINEINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTANDARDATTRIBUTES.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTDIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTRINGATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTESTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTHREADING.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDESCRIPTIONATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDMISC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDOUTPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEOFFSETS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVECATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVERSION.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFWAV.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFZIPCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\TOFLOAT.OBJ: (TaskId:205)
+                     	C:\WINDOWS\SYSTEM32\RSAENH.DLL (TaskId:205)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:205)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHBOX.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHCOLORALGO.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHFUN.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHMATRIXALGO.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHRANDOM.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHSHEAR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHVEC.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREAD.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEX.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXPOSIX.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOOL.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOSIX.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHORE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIX.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIXCOMPAT.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\B44EXPLOGTABLE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFB44COMPRESSOR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFBOXATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLIST.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLISTATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIES.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIESATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSIONATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSOR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCONVERT.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCRGBAFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFDOUBLEATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAP.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAPATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFLOATATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMEBUFFER.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMESPERSECOND.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHEADER.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHUF.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINPUTFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINTATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFIO.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODEATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLINEORDERATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLUT.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMATRIXATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMISC.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOPAQUEATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOUTPUTFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPIZCOMPRESSOR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGEATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPXR24COMPRESSOR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONAL.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONALATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAYCA.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRLECOMPRESSOR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSCANLINEINPUTFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTANDARDATTRIBUTES.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTDIO.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTRINGATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTESTFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTHREADING.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDESCRIPTIONATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDINPUTFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDMISC.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDOUTPUTFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDRGBAFILE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEOFFSETS.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODEATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVECATTRIBUTE.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVERSION.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFWAV.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFZIPCOMPRESSOR.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXBASEEXC.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXTHROWERRNOEXC.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ELUT.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\HALF.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\TOFLOAT.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXWIN32.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREWIN32.OBJ (TaskId:205)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADWIN32.OBJ (TaskId:205)
+                     	D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\2052\LINKUI.DLL (TaskId:205)
+                     Source compilation required: input E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADWIN32.OBJ is newer than output . (TaskId:205)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\OpenEXR.lib" /NOLOGO OpenEXR.dir\Debug\ImathBox.obj
+                     OpenEXR.dir\Debug\ImathColorAlgo.obj
+                     OpenEXR.dir\Debug\ImathFun.obj
+                     OpenEXR.dir\Debug\ImathMatrixAlgo.obj
+                     OpenEXR.dir\Debug\ImathRandom.obj
+                     OpenEXR.dir\Debug\ImathShear.obj
+                     OpenEXR.dir\Debug\ImathVec.obj
+                     OpenEXR.dir\Debug\IlmThread.obj
+                     OpenEXR.dir\Debug\IlmThreadMutex.obj
+                     OpenEXR.dir\Debug\IlmThreadMutexPosix.obj
+                     OpenEXR.dir\Debug\IlmThreadPool.obj
+                     OpenEXR.dir\Debug\IlmThreadPosix.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphore.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphorePosix.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphorePosixCompat.obj
+                     OpenEXR.dir\Debug\b44ExpLogTable.obj
+                     OpenEXR.dir\Debug\ImfAttribute.obj
+                     OpenEXR.dir\Debug\ImfB44Compressor.obj
+                     OpenEXR.dir\Debug\ImfBoxAttribute.obj
+                     OpenEXR.dir\Debug\ImfChannelList.obj
+                     OpenEXR.dir\Debug\ImfChannelListAttribute.obj
+                     OpenEXR.dir\Debug\ImfChromaticities.obj
+                     OpenEXR.dir\Debug\ImfChromaticitiesAttribute.obj
+                     OpenEXR.dir\Debug\ImfCompressionAttribute.obj
+                     OpenEXR.dir\Debug\ImfCompressor.obj
+                     OpenEXR.dir\Debug\ImfConvert.obj
+                     OpenEXR.dir\Debug\ImfCRgbaFile.obj
+                     OpenEXR.dir\Debug\ImfDoubleAttribute.obj
+                     OpenEXR.dir\Debug\ImfEnvmap.obj
+                     OpenEXR.dir\Debug\ImfEnvmapAttribute.obj
+                     OpenEXR.dir\Debug\ImfFloatAttribute.obj
+                     OpenEXR.dir\Debug\ImfFrameBuffer.obj
+                     OpenEXR.dir\Debug\ImfFramesPerSecond.obj
+                     OpenEXR.dir\Debug\ImfHeader.obj
+                     OpenEXR.dir\Debug\ImfHuf.obj
+                     OpenEXR.dir\Debug\ImfInputFile.obj
+                     OpenEXR.dir\Debug\ImfIntAttribute.obj
+                     OpenEXR.dir\Debug\ImfIO.obj
+                     OpenEXR.dir\Debug\ImfKeyCode.obj
+                     OpenEXR.dir\Debug\ImfKeyCodeAttribute.obj
+                     OpenEXR.dir\Debug\ImfLineOrderAttribute.obj
+                     OpenEXR.dir\Debug\ImfLut.obj
+                     OpenEXR.dir\Debug\ImfMatrixAttribute.obj
+                     OpenEXR.dir\Debug\ImfMisc.obj
+                     OpenEXR.dir\Debug\ImfOpaqueAttribute.obj
+                     OpenEXR.dir\Debug\ImfOutputFile.obj
+                     OpenEXR.dir\Debug\ImfPizCompressor.obj
+                     OpenEXR.dir\Debug\ImfPreviewImage.obj
+                     OpenEXR.dir\Debug\ImfPreviewImageAttribute.obj
+                     OpenEXR.dir\Debug\ImfPxr24Compressor.obj
+                     OpenEXR.dir\Debug\ImfRational.obj
+                     OpenEXR.dir\Debug\ImfRationalAttribute.obj
+                     OpenEXR.dir\Debug\ImfRgbaFile.obj
+                     OpenEXR.dir\Debug\ImfRgbaYca.obj
+                     OpenEXR.dir\Debug\ImfRleCompressor.obj
+                     OpenEXR.dir\Debug\ImfScanLineInputFile.obj
+                     OpenEXR.dir\Debug\ImfStandardAttributes.obj
+                     OpenEXR.dir\Debug\ImfStdIO.obj
+                     OpenEXR.dir\Debug\ImfStringAttribute.obj
+                     OpenEXR.dir\Debug\ImfTestFile.obj
+                     OpenEXR.dir\Debug\ImfThreading.obj
+                     OpenEXR.dir\Debug\ImfTileDescriptionAttribute.obj
+                     OpenEXR.dir\Debug\ImfTiledInputFile.obj
+                     OpenEXR.dir\Debug\ImfTiledMisc.obj
+                     OpenEXR.dir\Debug\ImfTiledOutputFile.obj
+                     OpenEXR.dir\Debug\ImfTiledRgbaFile.obj
+                     OpenEXR.dir\Debug\ImfTileOffsets.obj
+                     OpenEXR.dir\Debug\ImfTimeCode.obj
+                     OpenEXR.dir\Debug\ImfTimeCodeAttribute.obj
+                     OpenEXR.dir\Debug\ImfVecAttribute.obj
+                     OpenEXR.dir\Debug\ImfVersion.obj
+                     OpenEXR.dir\Debug\ImfWav.obj
+                     OpenEXR.dir\Debug\ImfZipCompressor.obj
+                     OpenEXR.dir\Debug\IexBaseExc.obj
+                     OpenEXR.dir\Debug\IexThrowErrnoExc.obj
+                     OpenEXR.dir\Debug\eLut.obj
+                     OpenEXR.dir\Debug\half.obj
+                     OpenEXR.dir\Debug\toFloat.obj
+                     OpenEXR.dir\Debug\IlmThreadMutexWin32.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphoreWin32.obj
+                     OpenEXR.dir\Debug\IlmThreadWin32.obj (TaskId:205)
+                     Tracking command: (TaskId:205)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\B44EXPLOGTABLE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ELUT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\HALF.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXBASEEXC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IEXTHROWERRNOEXC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREAD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADMUTEXWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOOL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHORE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREPOSIXCOMPAT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADSEMAPHOREWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\ILMTHREADWIN32.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHBOX.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHCOLORALGO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHFUN.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHMATRIXALGO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHRANDOM.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHSHEAR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMATHVEC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFB44COMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFBOXATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLIST.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHANNELLISTATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIES.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCHROMATICITIESATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSIONATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCONVERT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFCRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFDOUBLEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAP.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFENVMAPATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFLOATATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMEBUFFER.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFFRAMESPERSECOND.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHEADER.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFHUF.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFINTATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFKEYCODEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLINEORDERATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFLUT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMATRIXATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFMISC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOPAQUEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFOUTPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPIZCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPREVIEWIMAGEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFPXR24COMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONAL.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRATIONALATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRGBAYCA.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFRLECOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSCANLINEINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTANDARDATTRIBUTES.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTDIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFSTRINGATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTESTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTHREADING.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDESCRIPTIONATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDINPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDMISC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDOUTPUTFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEDRGBAFILE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTILEOFFSETS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFTIMECODEATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVECATTRIBUTE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFVERSION.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFWAV.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\IMFZIPCOMPRESSOR.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\OPENEXR\OPENEXR.DIR\DEBUG\TOFLOAT.OBJ" /b MSBuildConsole_CancelEvent7420d8e29d5344b59609ab96e1da7a6e  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\OpenEXR.lib" /NOLOGO OpenEXR.dir\Debug\ImathBox.obj
+                     OpenEXR.dir\Debug\ImathColorAlgo.obj
+                     OpenEXR.dir\Debug\ImathFun.obj
+                     OpenEXR.dir\Debug\ImathMatrixAlgo.obj
+                     OpenEXR.dir\Debug\ImathRandom.obj
+                     OpenEXR.dir\Debug\ImathShear.obj
+                     OpenEXR.dir\Debug\ImathVec.obj
+                     OpenEXR.dir\Debug\IlmThread.obj
+                     OpenEXR.dir\Debug\IlmThreadMutex.obj
+                     OpenEXR.dir\Debug\IlmThreadMutexPosix.obj
+                     OpenEXR.dir\Debug\IlmThreadPool.obj
+                     OpenEXR.dir\Debug\IlmThreadPosix.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphore.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphorePosix.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphorePosixCompat.obj
+                     OpenEXR.dir\Debug\b44ExpLogTable.obj
+                     OpenEXR.dir\Debug\ImfAttribute.obj
+                     OpenEXR.dir\Debug\ImfB44Compressor.obj
+                     OpenEXR.dir\Debug\ImfBoxAttribute.obj
+                     OpenEXR.dir\Debug\ImfChannelList.obj
+                     OpenEXR.dir\Debug\ImfChannelListAttribute.obj
+                     OpenEXR.dir\Debug\ImfChromaticities.obj
+                     OpenEXR.dir\Debug\ImfChromaticitiesAttribute.obj
+                     OpenEXR.dir\Debug\ImfCompressionAttribute.obj
+                     OpenEXR.dir\Debug\ImfCompressor.obj
+                     OpenEXR.dir\Debug\ImfConvert.obj
+                     OpenEXR.dir\Debug\ImfCRgbaFile.obj
+                     OpenEXR.dir\Debug\ImfDoubleAttribute.obj
+                     OpenEXR.dir\Debug\ImfEnvmap.obj
+                     OpenEXR.dir\Debug\ImfEnvmapAttribute.obj
+                     OpenEXR.dir\Debug\ImfFloatAttribute.obj
+                     OpenEXR.dir\Debug\ImfFrameBuffer.obj
+                     OpenEXR.dir\Debug\ImfFramesPerSecond.obj
+                     OpenEXR.dir\Debug\ImfHeader.obj
+                     OpenEXR.dir\Debug\ImfHuf.obj
+                     OpenEXR.dir\Debug\ImfInputFile.obj
+                     OpenEXR.dir\Debug\ImfIntAttribute.obj
+                     OpenEXR.dir\Debug\ImfIO.obj
+                     OpenEXR.dir\Debug\ImfKeyCode.obj
+                     OpenEXR.dir\Debug\ImfKeyCodeAttribute.obj
+                     OpenEXR.dir\Debug\ImfLineOrderAttribute.obj
+                     OpenEXR.dir\Debug\ImfLut.obj
+                     OpenEXR.dir\Debug\ImfMatrixAttribute.obj
+                     OpenEXR.dir\Debug\ImfMisc.obj
+                     OpenEXR.dir\Debug\ImfOpaqueAttribute.obj
+                     OpenEXR.dir\Debug\ImfOutputFile.obj
+                     OpenEXR.dir\Debug\ImfPizCompressor.obj
+                     OpenEXR.dir\Debug\ImfPreviewImage.obj
+                     OpenEXR.dir\Debug\ImfPreviewImageAttribute.obj
+                     OpenEXR.dir\Debug\ImfPxr24Compressor.obj
+                     OpenEXR.dir\Debug\ImfRational.obj
+                     OpenEXR.dir\Debug\ImfRationalAttribute.obj
+                     OpenEXR.dir\Debug\ImfRgbaFile.obj
+                     OpenEXR.dir\Debug\ImfRgbaYca.obj
+                     OpenEXR.dir\Debug\ImfRleCompressor.obj
+                     OpenEXR.dir\Debug\ImfScanLineInputFile.obj
+                     OpenEXR.dir\Debug\ImfStandardAttributes.obj
+                     OpenEXR.dir\Debug\ImfStdIO.obj
+                     OpenEXR.dir\Debug\ImfStringAttribute.obj
+                     OpenEXR.dir\Debug\ImfTestFile.obj
+                     OpenEXR.dir\Debug\ImfThreading.obj
+                     OpenEXR.dir\Debug\ImfTileDescriptionAttribute.obj
+                     OpenEXR.dir\Debug\ImfTiledInputFile.obj
+                     OpenEXR.dir\Debug\ImfTiledMisc.obj
+                     OpenEXR.dir\Debug\ImfTiledOutputFile.obj
+                     OpenEXR.dir\Debug\ImfTiledRgbaFile.obj
+                     OpenEXR.dir\Debug\ImfTileOffsets.obj
+                     OpenEXR.dir\Debug\ImfTimeCode.obj
+                     OpenEXR.dir\Debug\ImfTimeCodeAttribute.obj
+                     OpenEXR.dir\Debug\ImfVecAttribute.obj
+                     OpenEXR.dir\Debug\ImfVersion.obj
+                     OpenEXR.dir\Debug\ImfWav.obj
+                     OpenEXR.dir\Debug\ImfZipCompressor.obj
+                     OpenEXR.dir\Debug\IexBaseExc.obj
+                     OpenEXR.dir\Debug\IexThrowErrnoExc.obj
+                     OpenEXR.dir\Debug\eLut.obj
+                     OpenEXR.dir\Debug\half.obj
+                     OpenEXR.dir\Debug\toFloat.obj
+                     OpenEXR.dir\Debug\IlmThreadMutexWin32.obj
+                     OpenEXR.dir\Debug\IlmThreadSemaphoreWin32.obj
+                     OpenEXR.dir\Debug\IlmThreadWin32.obj (TaskId:205)
+10:17:04.746     1>b44ExpLogTable.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+10:17:04.746     1>IlmThreadSemaphore.obj : warning LNK4006: "public: __thiscall IlmThread::Semaphore::Semaphore(unsigned int)" (??0Semaphore@IlmThread@@QAE@I@Z) already defined in IlmThreadSemaphoreWin32.obj; second definition ignored
+10:17:04.746     1>IlmThreadSemaphore.obj : warning LNK4006: "public: virtual __thiscall IlmThread::Semaphore::~Semaphore(void)" (??1Semaphore@IlmThread@@UAE@XZ) already defined in IlmThreadSemaphoreWin32.obj; second definition ignored
+10:17:04.746     1>IlmThreadSemaphore.obj : warning LNK4006: "public: void __thiscall IlmThread::Semaphore::wait(void)" (?wait@Semaphore@IlmThread@@QAEXXZ) already defined in IlmThreadSemaphoreWin32.obj; second definition ignored
+10:17:04.746     1>IlmThreadSemaphore.obj : warning LNK4006: "public: bool __thiscall IlmThread::Semaphore::tryWait(void)" (?tryWait@Semaphore@IlmThread@@QAE_NXZ) already defined in IlmThreadSemaphoreWin32.obj; second definition ignored
+10:17:04.746     1>IlmThreadSemaphore.obj : warning LNK4006: "public: void __thiscall IlmThread::Semaphore::post(void)" (?post@Semaphore@IlmThread@@QAEXXZ) already defined in IlmThreadSemaphoreWin32.obj; second definition ignored
+10:17:04.746     1>IlmThreadSemaphore.obj : warning LNK4006: "public: int __thiscall IlmThread::Semaphore::value(void)const " (?value@Semaphore@IlmThread@@QBEHXZ) already defined in IlmThreadSemaphoreWin32.obj; second definition ignored
+10:17:04.762     1>IlmThreadSemaphore.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+10:17:04.762     1>IlmThreadMutex.obj : warning LNK4006: "public: __thiscall IlmThread::Mutex::Mutex(void)" (??0Mutex@IlmThread@@QAE@XZ) already defined in IlmThreadMutexWin32.obj; second definition ignored
+10:17:04.762     1>IlmThreadMutex.obj : warning LNK4006: "public: virtual __thiscall IlmThread::Mutex::~Mutex(void)" (??1Mutex@IlmThread@@UAE@XZ) already defined in IlmThreadMutexWin32.obj; second definition ignored
+10:17:04.762     1>IlmThreadMutex.obj : warning LNK4006: "private: void __thiscall IlmThread::Mutex::lock(void)const " (?lock@Mutex@IlmThread@@ABEXXZ) already defined in IlmThreadMutexWin32.obj; second definition ignored
+10:17:04.762     1>IlmThreadMutex.obj : warning LNK4006: "private: void __thiscall IlmThread::Mutex::unlock(void)const " (?unlock@Mutex@IlmThread@@ABEXXZ) already defined in IlmThreadMutexWin32.obj; second definition ignored
+10:17:04.762     1>IlmThreadMutex.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+10:17:04.762     1>IlmThread.obj : warning LNK4006: "bool __cdecl IlmThread::supportsThreads(void)" (?supportsThreads@IlmThread@@YA_NXZ) already defined in IlmThreadWin32.obj; second definition ignored
+10:17:04.762     1>IlmThread.obj : warning LNK4006: "public: __thiscall IlmThread::Thread::Thread(void)" (??0Thread@IlmThread@@QAE@XZ) already defined in IlmThreadWin32.obj; second definition ignored
+10:17:04.762     1>IlmThread.obj : warning LNK4006: "public: virtual __thiscall IlmThread::Thread::~Thread(void)" (??1Thread@IlmThread@@UAE@XZ) already defined in IlmThreadWin32.obj; second definition ignored
+10:17:04.762     1>IlmThread.obj : warning LNK4006: "public: void __thiscall IlmThread::Thread::start(void)" (?start@Thread@IlmThread@@QAEXXZ) already defined in IlmThreadWin32.obj; second definition ignored
+10:17:04.762     1>ImathShear.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+10:17:04.762     1>ImathBox.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+                   Done executing task "LIB". (TaskId:205)
+                   Task "Message" (TaskId:206)
+                     OpenEXR.vcxproj -> E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\OpenEXR.lib (TaskId:206)
+                   Done executing task "Message". (TaskId:206)
+10:17:04.808     1>Done building target "Lib" in project "OpenEXR.vcxproj".: (TargetId:468)
+10:17:04.808     1>Target "AfterLib: (TargetId:469)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_Lib" depends on it):
+10:17:04.808     1>Done building target "AfterLib" in project "OpenEXR.vcxproj".: (TargetId:469)
+10:17:04.808     1>Target "_Lib: (TargetId:470)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildCompile" depends on it):
+10:17:04.808     1>Done building target "_Lib" in project "OpenEXR.vcxproj".: (TargetId:470)
+10:17:04.808     1>Target "AfterBuildCompileEvent: (TargetId:471)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildCompile" depends on it):
+10:17:04.808     1>Done building target "AfterBuildCompileEvent" in project "OpenEXR.vcxproj".: (TargetId:471)
+10:17:04.808     1>Target "BuildCompile: (TargetId:472)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:17:04.808     1>Done building target "BuildCompile" in project "OpenEXR.vcxproj".: (TargetId:472)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:17:04.808     1>Target "BuildLinkTraverse: (TargetId:473)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:17:04.808     1>Done building target "BuildLinkTraverse" in project "OpenEXR.vcxproj".: (TargetId:473)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+10:17:04.808     1>Target "_ALink: (TargetId:474)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "_ALink" in project "OpenEXR.vcxproj".: (TargetId:474)
+10:17:04.808     1>Target "_Manifest: (TargetId:475)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "_Manifest" in project "OpenEXR.vcxproj".: (TargetId:475)
+10:17:04.808     1>Target "RegisterOutput: (TargetId:476)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+10:17:04.808     1>Done building target "RegisterOutput" in project "OpenEXR.vcxproj".: (TargetId:476)
+10:17:04.808     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:477)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_XdcMake" depends on it):
+10:17:04.808     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "OpenEXR.vcxproj".: (TargetId:477)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:17:04.808     1>Target "ResolvedXDCMake: (TargetId:478)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('.vcxproj' == '.vcxproj' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' == 'true').
+10:17:04.808     1>Done building target "ResolvedXDCMake" in project "OpenEXR.vcxproj".: (TargetId:478)
+10:17:04.808     1>Target "MakeDirsForXdcMake: (TargetId:479)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:207)
+                   Done executing task "MakeDir". (TaskId:207)
+10:17:04.808     1>Done building target "MakeDirsForXdcMake" in project "OpenEXR.vcxproj".: (TargetId:479)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+10:17:04.808     1>Target "_XdcMake: (TargetId:480)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "_XdcMake" in project "OpenEXR.vcxproj".: (TargetId:480)
+10:17:04.808     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:481)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_BscMake" depends on it):
+10:17:04.808     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "OpenEXR.vcxproj".: (TargetId:481)
+10:17:04.808     1>Target "MakeDirsForBscMake: (TargetId:482)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:208)
+                   Done executing task "MakeDir". (TaskId:208)
+10:17:04.808     1>Done building target "MakeDirsForBscMake" in project "OpenEXR.vcxproj".: (TargetId:482)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:17:04.808     1>Target "_BscMake: (TargetId:483)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "_BscMake" in project "OpenEXR.vcxproj".: (TargetId:483)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+10:17:04.808     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:484)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+10:17:04.808     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "OpenEXR.vcxproj".: (TargetId:484)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+10:17:04.808     1>Target "CreateSatelliteAssemblies: (TargetId:485)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "CreateSatelliteAssemblies" in project "OpenEXR.vcxproj".: (TargetId:485)
+10:17:04.808     1>Target "_Appverifier: (TargetId:486)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "_Appverifier" in project "OpenEXR.vcxproj".: (TargetId:486)
+10:17:04.808     1>Target "_Deploy: (TargetId:487)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+10:17:04.808     1>Done building target "_Deploy" in project "OpenEXR.vcxproj".: (TargetId:487)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+10:17:04.808     1>Target "AssignTargetPaths: (TargetId:488)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:209)
+                   Done executing task "AssignTargetPath". (TaskId:209)
+                   Task "AssignTargetPath" (TaskId:210)
+                   Done executing task "AssignTargetPath". (TaskId:210)
+                   Task "AssignTargetPath" (TaskId:211)
+                   Done executing task "AssignTargetPath". (TaskId:211)
+                   Task "AssignTargetPath" (TaskId:212)
+                   Done executing task "AssignTargetPath". (TaskId:212)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+10:17:04.808     1>Done building target "AssignTargetPaths" in project "OpenEXR.vcxproj".: (TargetId:488)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:17:04.808     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:489)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:213)
+                   Done executing task "AssignTargetPath". (TaskId:213)
+10:17:04.808     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "OpenEXR.vcxproj".: (TargetId:489)
+10:17:04.808     1>Target "GetCopyToOutputDirectoryItems: (TargetId:490)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" (TaskId:214)
+                     Global Properties: (TaskId:214)
+                       Configuration=Debug (TaskId:214)
+                       Platform=Win32 (TaskId:214)
+10:16:40.082     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:4) on node 2 (GetCopyToOutputDirectoryItems target(s)).
+10:17:04.808   2:4>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetCopyToOutputDirectoryItems" skipped. Previously built successfully.
+10:17:04.808   2:4>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetCopyToOutputDirectoryItems target(s)).
+10:17:04.808     1>Done executing task "MSBuild". (TaskId:214)
+                   Task "AssignTargetPath" (TaskId:215)
+                   Done executing task "AssignTargetPath". (TaskId:215)
+10:17:04.808     1>Done building target "GetCopyToOutputDirectoryItems" in project "OpenEXR.vcxproj".: (TargetId:490)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+10:17:04.808     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:491)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:17:04.808     1>Done building target "_CopySourceItemsToOutputDirectory" in project "OpenEXR.vcxproj".: (TargetId:491)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+10:17:04.808     1>Target "_CheckForCompileOutputs: (TargetId:492)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:17:04.808     1>Done building target "_CheckForCompileOutputs" in project "OpenEXR.vcxproj".: (TargetId:492)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+10:17:04.808     1>Target "CopyFilesToOutputDirectory: (TargetId:493)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+10:17:04.808     1>Done building target "CopyFilesToOutputDirectory" in project "OpenEXR.vcxproj".: (TargetId:493)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:17:04.808     1>Target "PostBuildEvent: (TargetId:494)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:17:04.808     1>Done building target "PostBuildEvent" in project "OpenEXR.vcxproj".: (TargetId:494)
+10:17:04.808     1>Target "BuildLink: (TargetId:495)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:17:04.808     1>Done building target "BuildLink" in project "OpenEXR.vcxproj".: (TargetId:495)
+10:17:04.808     1>Target "AfterBuild: (TargetId:496)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+10:17:04.808     1>Done building target "AfterBuild" in project "OpenEXR.vcxproj".: (TargetId:496)
+10:17:04.808     1>Target "FinalizeBuildStatus: (TargetId:497)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:216)
+                     Deleting file "OpenEXR.dir\Debug\OpenEXR.unsuccessfulbuild". (TaskId:216)
+                   Done executing task "Delete". (TaskId:216)
+                   Task "Touch" (TaskId:217)
+                     Touching "OpenEXR.dir\Debug\OpenEXR.lastbuildstate". (TaskId:217)
+                   Done executing task "Touch". (TaskId:217)
+10:17:04.808     1>Done building target "FinalizeBuildStatus" in project "OpenEXR.vcxproj".: (TargetId:497)
+10:17:04.808     1>Target "Build: (TargetId:498)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (entry point):
+10:17:04.808     1>Done building target "Build" in project "OpenEXR.vcxproj".: (TargetId:498)
+10:17:04.824     1>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj" (build target(s)).
+
+Project Performance Summary:
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+    24742 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\OpenEXR.vcxproj   1 calls
+              24742 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ComputeReferenceLibInputs                  1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  FinalizeBuildStatus                        1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  Build                                      1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+       16 ms  ResolveProjectReferences                   1 calls
+       16 ms  ResolvedLinkLib                            1 calls
+       16 ms  MakeDirsForCl                              1 calls
+       31 ms  CustomBuild                                1 calls
+      156 ms  Lib                                        1 calls
+    24492 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ResolveAssemblyReference                   1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  Message                                    3 calls
+        0 ms  Delete                                     2 calls
+        0 ms  AssignTargetPath                           6 calls
+        0 ms  ResolveNonMSBuildProjectOutput             1 calls
+        0 ms  MakeDir                                    9 calls
+        0 ms  Touch                                      2 calls
+        0 ms  WriteLinesToFile                           2 calls
+       16 ms  MSBuild                                    4 calls
+       31 ms  CustomBuild                                1 calls
+      156 ms  LIB                                        1 calls
+    24430 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:24.75

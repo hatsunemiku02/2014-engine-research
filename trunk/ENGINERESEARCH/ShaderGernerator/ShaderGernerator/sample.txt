@@ -1,0 +1,41 @@
+
+
+param
+{
+	position:POS
+
+
+}
+dsfaultvaluelist
+{
+
+
+}
+
+gles
+{
+	vs
+	{
+
+	}
+
+	ps
+	{
+
+	}
+}
+
+tech
+{
+	pass
+	{
+		vs = *
+		ps = *
+	}
+
+	pass
+	{
+		vs = *
+		ps = *
+	}
+}

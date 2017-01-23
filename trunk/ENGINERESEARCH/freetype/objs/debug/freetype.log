@@ -1,0 +1,18 @@
+﻿Build started 2014/6/6 14:06:37.
+     1>Project "E:\DONOTOPEN\FUCKYOU\freetype\builds\windows\vc2010\freetype.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\..\objs\debug\freetype.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         freetype.vcxproj -> E:\DONOTOPEN\FUCKYOU\freetype\builds\windows\vc2010\.\..\..\..\objs\win32\vc2010\freetype253_D.dll
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\..\objs\debug\freetype.unsuccessfulbuild".
+         Touching ".\..\..\..\objs\debug\freetype.lastbuildstate".
+     1>Done Building Project "E:\DONOTOPEN\FUCKYOU\freetype\builds\windows\vc2010\freetype.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

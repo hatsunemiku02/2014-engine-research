@@ -1,0 +1,10 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath 的目录
+
+ImathBox.cpp          ImathColorAlgo.cpp    ImathFun.cpp
+ImathMatrixAlgo.cpp   ImathRandom.cpp       ImathShear.cpp
+ImathVec.cpp          
+               7 个文件         29,036 字节
+               0 个目录 186,608,435,200 可用字节

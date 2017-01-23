@@ -1,0 +1,8 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG 的目录
+
+png.h       pngconf.h   
+               2 个文件        197,796 字节
+               0 个目录 186,608,455,680 可用字节

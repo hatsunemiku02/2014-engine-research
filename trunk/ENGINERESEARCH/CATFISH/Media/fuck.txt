@@ -1,0 +1,9 @@
+/Media/glow.mp3
+BG /Media/picglow2.jpeg 0 0 1.0 1.0 0.0 999999.0
+sss
+R /Media/round.png /Media/circle.png 0 0 1.0 1.0 1.0 4.0 0.2
+R /Media/round.png /Media/circle.png 200 0 1.0 1.0 1.0 6.0 0.2
+R /Media/round.png /Media/circle.png 400 0 1.0 1.0 1.0 8.0 0.2
+R /Media/round.png /Media/circle.png 600 0 1.0 1.0 1.0 10.0 0.2
+R /Media/round.png /Media/circle.png 800 0 1.0 1.0 1.0 12.0 0.2
+R /Media/round.png /Media/circle.png 1000 0 1.0 1.0 1.0 14.0 0.2

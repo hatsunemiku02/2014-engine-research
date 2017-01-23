@@ -1,0 +1,34 @@
+﻿生成启动时间为 2013/12/26 10:05:54。
+     1>项目“E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ScriptSystem\ScriptSystem.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“ScriptSystem.dir\Debug\ScriptSystem.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ScriptSystem.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:/DONOTOPEN/FUCKYOU/Bin/Win /LIBPATH:E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Lua.lib /MANIFEST /ManifestFile:"ScriptSystem.dir\Debug\ScriptSystem.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ScriptSystem.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ScriptSystem.lib" /MACHINE:X86 /DLL ScriptSystem.dir\Debug\ScriptSystem.dll.embed.manifest.res
+         ScriptSystem.dir\Debug\LuaDomain.obj
+         ScriptSystem.dir\Debug\LuaRootScript.obj
+         ScriptSystem.dir\Debug\LuaScript.obj
+         ScriptSystem.dir\Debug\LuaUtitly.obj
+         ScriptSystem.dir\Debug\ScriptFooWarpper.obj
+         ScriptSystem.dir\Debug\ScriptObjWarpper.obj
+         ScriptSystem.dir\Debug\ScriptSys.obj  /machine:X86 /debug 
+            正在创建库 E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ScriptSystem.lib 和对象 E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/ScriptSystem.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"ScriptSystem.dir\Debug\ScriptSystem.dll.embed.manifest" /manifest ScriptSystem.dir\Debug\ScriptSystem.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ScriptSystem.vcxproj -> E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ScriptSystem.dll
+       FinalizeBuildStatus:
+         正在删除文件“ScriptSystem.dir\Debug\ScriptSystem.unsuccessfulbuild”。
+         正在对“ScriptSystem.dir\Debug\ScriptSystem.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ScriptSystem\ScriptSystem.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.35

@@ -1,0 +1,36 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf 的目录
+
+b44ExpLogTable.cpp                ImfAttribute.cpp
+ImfB44Compressor.cpp              ImfBoxAttribute.cpp
+ImfChannelList.cpp                ImfChannelListAttribute.cpp
+ImfChromaticities.cpp             ImfChromaticitiesAttribute.cpp
+ImfCompressionAttribute.cpp       ImfCompressor.cpp
+ImfConvert.cpp                    ImfCRgbaFile.cpp
+ImfDoubleAttribute.cpp            ImfEnvmap.cpp
+ImfEnvmapAttribute.cpp            ImfFloatAttribute.cpp
+ImfFrameBuffer.cpp                ImfFramesPerSecond.cpp
+ImfHeader.cpp                     ImfHuf.cpp
+ImfInputFile.cpp                  ImfIntAttribute.cpp
+ImfIO.cpp                         ImfKeyCode.cpp
+ImfKeyCodeAttribute.cpp           ImfLineOrderAttribute.cpp
+ImfLut.cpp                        ImfMatrixAttribute.cpp
+ImfMisc.cpp                       ImfOpaqueAttribute.cpp
+ImfOutputFile.cpp                 ImfPizCompressor.cpp
+ImfPreviewImage.cpp               ImfPreviewImageAttribute.cpp
+ImfPxr24Compressor.cpp            ImfRational.cpp
+ImfRationalAttribute.cpp          ImfRgbaFile.cpp
+ImfRgbaYca.cpp                    ImfRleCompressor.cpp
+ImfScanLineInputFile.cpp          ImfStandardAttributes.cpp
+ImfStdIO.cpp                      ImfStringAttribute.cpp
+ImfTestFile.cpp                   ImfThreading.cpp
+ImfTileDescriptionAttribute.cpp   ImfTiledInputFile.cpp
+ImfTiledMisc.cpp                  ImfTiledOutputFile.cpp
+ImfTiledRgbaFile.cpp              ImfTileOffsets.cpp
+ImfTimeCode.cpp                   ImfTimeCodeAttribute.cpp
+ImfVecAttribute.cpp               ImfVersion.cpp
+ImfWav.cpp                        ImfZipCompressor.cpp
+              58 个文件        523,055 字节
+               0 个目录 186,608,427,008 可用字节

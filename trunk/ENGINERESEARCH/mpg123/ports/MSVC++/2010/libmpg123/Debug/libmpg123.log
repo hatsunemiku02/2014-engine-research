@@ -1,0 +1,22 @@
+﻿  dct36_3dnow.S
+  dct36_3dnowext.S
+  dct64_3dnow.S
+  dct64_3dnowext.S
+  dct64_mmx.S
+  dct64_sse.S
+  dct64_sse_float.S
+  equalizer_3dnow.S
+  getcpuflags.S
+  synth_3dnow.S
+  synth_3dnowext.S
+  synth_i586.S
+  synth_mmx.S
+  synth_sse.S
+  synth_sse_float.S
+  synth_stereo_sse_float.S
+  tabinit_mmx.S
+  synth_sse_accurate.S
+  synth_sse_s32.S
+  synth_stereo_sse_accurate.S
+  synth_stereo_sse_s32.S
+  libmpg123.vcxproj -> D:\DONOTOPEN\FUCKYOU\mpg123\ports\MSVC++\2010\libmpg123\Debug\libmpg123.lib

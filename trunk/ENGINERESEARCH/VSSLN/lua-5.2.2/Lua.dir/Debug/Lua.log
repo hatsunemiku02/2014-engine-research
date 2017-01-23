@@ -1,0 +1,196 @@
+﻿生成启动时间为 2013/12/26 9:57:55。
+     1>项目“E:\DONOTOPEN\FUCKYOU\VSSLN\lua-5.2.2\Lua.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Lua.dir\Debug\Lua.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D _UNICODE /D UNICODE /D LUA_BUILD_AS_DLL /D "CMAKE_INTDIR=\"Debug\"" /D Lua_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Lua.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/Lua.pdb" /Gd /TC /analyze- /errorReport:prompt "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lapi.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lauxlib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lbaselib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lbitlib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lcode.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lcorolib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lctype.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ldblib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ldebug.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ldo.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ldump.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lfunc.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lgc.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\linit.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\liolib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\llex.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lmathlib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lmem.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loadlib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lobject.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lopcodes.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loslib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lparser.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstate.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstring.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ltable.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ltablib.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\ltm.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lua.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\luac.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lundump.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lvm.c" "E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lzio.c"  /Zm1000 
+         lapi.c
+         lauxlib.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lauxlib.c(216): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lauxlib.c(218): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lauxlib.c(588): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lauxlib.c(642): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lauxlib.c(648): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+         lbaselib.c
+         lbitlib.c
+         lcode.c
+         lcorolib.c
+         lctype.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         linit.c
+         liolib.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\liolib.c(219): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\liolib.c(221): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\liolib.c(231): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\liolib.c(257): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(338) : 参见“tmpfile”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\liolib.c(351): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+         llex.c
+         lmathlib.c
+         lmem.c
+         loadlib.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loadlib.c(331): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loadlib.c(639): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loadlib.c(641): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+         lobject.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lobject.c(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         正在生成代码...
+         正在编译...
+         lopcodes.c
+         loslib.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loslib.c(108): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(344) : 参见“tmpnam”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loslib.c(117): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loslib.c(200): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\loslib.c(204): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+         lparser.c
+         lstate.c
+         lstring.c
+         lstrlib.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(845): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(886): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(914): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(924): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(934): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(943): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lstrlib.c(960): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         ltable.c
+         ltablib.c
+         ltm.c
+         lua.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lua.c(425): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lua.c(428): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+         luac.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\luac.c(43): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\luac.c(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         lundump.c
+         lvm.c
+     1>E:\DONOTOPEN\FUCKYOU\lua-5.2.2\src\lvm.c(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         lzio.c
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\Lua.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"Lua.dir\Debug\Lua.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/Lua.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/Lua.lib" /MACHINE:X86 /DLL Lua.dir\Debug\Lua.dll.embed.manifest.res
+         Lua.dir\Debug\lapi.obj
+         Lua.dir\Debug\lauxlib.obj
+         Lua.dir\Debug\lbaselib.obj
+         Lua.dir\Debug\lbitlib.obj
+         Lua.dir\Debug\lcode.obj
+         Lua.dir\Debug\lcorolib.obj
+         Lua.dir\Debug\lctype.obj
+         Lua.dir\Debug\ldblib.obj
+         Lua.dir\Debug\ldebug.obj
+         Lua.dir\Debug\ldo.obj
+         Lua.dir\Debug\ldump.obj
+         Lua.dir\Debug\lfunc.obj
+         Lua.dir\Debug\lgc.obj
+         Lua.dir\Debug\linit.obj
+         Lua.dir\Debug\liolib.obj
+         Lua.dir\Debug\llex.obj
+         Lua.dir\Debug\lmathlib.obj
+         Lua.dir\Debug\lmem.obj
+         Lua.dir\Debug\loadlib.obj
+         Lua.dir\Debug\lobject.obj
+         Lua.dir\Debug\lopcodes.obj
+         Lua.dir\Debug\loslib.obj
+         Lua.dir\Debug\lparser.obj
+         Lua.dir\Debug\lstate.obj
+         Lua.dir\Debug\lstring.obj
+         Lua.dir\Debug\lstrlib.obj
+         Lua.dir\Debug\ltable.obj
+         Lua.dir\Debug\ltablib.obj
+         Lua.dir\Debug\ltm.obj
+         Lua.dir\Debug\lua.obj
+         Lua.dir\Debug\luac.obj
+         Lua.dir\Debug\lundump.obj
+         Lua.dir\Debug\lvm.obj
+         Lua.dir\Debug\lzio.obj  /machine:X86 /debug 
+            正在创建库 E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/Lua.lib 和对象 E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/Lua.exp
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_close 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_toboolean 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pcallk 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushlightuserdata 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushinteger 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushcclosure 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_newstate 在函数 _main 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_settop 在函数 _finalreport 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_tolstring 在函数 _finalreport 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_type 在函数 _finalreport 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_openlibs 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_gc 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_checkversion_ 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_setfield 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushboolean 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_touserdata 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_tointegerx 在函数 _pmain 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_loadfilex 在函数 _dofile 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_remove 在函数 _docall 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_insert 在函数 _docall 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_gettop 在函数 _docall 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_sethook 在函数 _laction 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_error 在函数 _lstop 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushlstring 在函数 _traceback 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_callmeta 在函数 _traceback 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_traceback 在函数 _traceback 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushfstring 在函数 _dotty 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_getglobal 在函数 _dotty 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_checkstack 在函数 _dotty 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_concat 在函数 _loadline 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _luaL_loadbufferx 在函数 _loadline 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_pushstring 在函数 _pushline 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_setglobal 在函数 _handle_script 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_rawseti 在函数 _getargs 中导入
+     1>lua.obj : warning LNK4217: 本地定义的符号 _lua_createtable 在函数 _getargs 中导入
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Lua.dir\Debug\Lua.dll.embed.manifest" /manifest Lua.dir\Debug\Lua.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Lua.vcxproj -> E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\Lua.dll
+       FinalizeBuildStatus:
+         正在删除文件“Lua.dir\Debug\Lua.unsuccessfulbuild”。
+         正在对“Lua.dir\Debug\Lua.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\DONOTOPEN\FUCKYOU\VSSLN\lua-5.2.2\Lua.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.80

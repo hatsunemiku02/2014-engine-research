@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{aaf7b8de-86ee-4513-8c62-81d372d013af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL">
+      <UniqueIdentifier>{0d895b67-2e06-4cb2-982d-cb97b580c332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GL\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DX9">
+      <UniqueIdentifier>{fa75d86e-070a-4cf8-896c-4955390504a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX9\Header">
+      <UniqueIdentifier>{f3710b79-3b3d-476b-8b32-295ac36d5385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX9\Src">
+      <UniqueIdentifier>{f232d0c8-d53d-4107-a9cb-84abf212003d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{aaf89fab-ad6b-46e6-a29f-abb2b45b1021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Header">
+      <UniqueIdentifier>{e97ef5a0-5f3f-4b8a-8d40-6b9acb03e818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Src">
+      <UniqueIdentifier>{6a4f421d-9f24-443c-9e38-a4e39167c1cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VertexBufferObj.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlesDevice.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexLayout.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexComponent.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuProgram.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBufferObj.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawEnums.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferObj.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GDebug.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveGroup.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformDiff.cpp">
+      <Filter>GL\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VertexBufferObj.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlesDevice.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexLayout.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexComponent.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuProgram.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBufferObj.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferObj.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GDllCommon.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GDebug.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveGroup.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenglHeader.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawEnums.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformDiff.h">
+      <Filter>GL\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

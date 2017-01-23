@@ -1,0 +1,573 @@
+﻿Build started 2014/8/8 10:22:16.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\zhaohang\AppData\Roaming
+CG_BIN_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\bin
+CG_INC_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\include
+CG_LIB_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\lib
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = CY4612
+ComSpec = C:\windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\zhaohang
+LOCALAPPDATA = C:\Users\zhaohang\AppData\Local
+LOGONSERVER = \\CYBJDC02
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\windows
+TEMP = C:\Users\zhaohang\AppData\Local\Temp
+TMP = C:\Users\zhaohang\AppData\Local\Temp
+UATDATA = C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = CYOU-INC.COM
+USERDOMAIN = CYOU-INC
+USERNAME = zhaohang
+USERPROFILE = C:\Users\zhaohang
+VisualStudioDir = C:\Users\zhaohang\Documents\Visual Studio 2010
+VS100COMNTOOLS = D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+10:22:16.541     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" on node 2 (build target(s)).
+10:22:16.541     1>Building with tools version "4.0".
+10:22:16.541     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:28)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:17)
+                     Configuration=Debug (TaskId:17)
+                   Done executing task "Message". (TaskId:17)
+                   Task "Message" (TaskId:18)
+                     Platform=Win32 (TaskId:18)
+                   Done executing task "Message". (TaskId:18)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\' != '' and !HasTrailingSlash('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('GlesSystem.dir\Debug\' != '' and !HasTrailingSlash('GlesSystem.dir\Debug\')).
+10:22:16.541     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "GlesSystem.vcxproj".: (TargetId:28)
+10:22:16.541     1>Target "_DetermineManagedStateFromCL: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "Build" depends on it):
+10:22:16.541     1>Done building target "_DetermineManagedStateFromCL" in project "GlesSystem.vcxproj".: (TargetId:29)
+10:22:16.541     1>Target "_PrepareForBuild: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "Build" depends on it):
+10:22:16.541     1>Done building target "_PrepareForBuild" in project "GlesSystem.vcxproj".: (TargetId:30)
+10:22:16.541     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:19)
+                     PATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\windows\Microsoft.NET\Framework\v4.0.30319\;D:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\windows\SysWow64;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64; (TaskId:19)
+                   Done executing task "SetEnv". (TaskId:19)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:20)
+                     LIB=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:20)
+                   Done executing task "SetEnv". (TaskId:20)
+                   Task "SetEnv" (TaskId:21)
+                     LIBPATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:21)
+                   Done executing task "SetEnv". (TaskId:21)
+                   Task "SetEnv" (TaskId:22)
+                     INCLUDE=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:22)
+                   Done executing task "SetEnv". (TaskId:22)
+10:22:16.541     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "GlesSystem.vcxproj".: (TargetId:31)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:22:16.541     1>Target "BeforeResolveReferences: (TargetId:32)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveReferences" depends on it):
+10:22:16.541     1>Done building target "BeforeResolveReferences" in project "GlesSystem.vcxproj".: (TargetId:32)
+10:22:16.541     1>Target "AssignProjectConfiguration: (TargetId:33)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:23)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:23)
+                   Done executing task "AssignProjectConfiguration". (TaskId:23)
+10:22:16.541     1>Done building target "AssignProjectConfiguration" in project "GlesSystem.vcxproj".: (TargetId:33)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+10:22:16.541     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:34)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Using "ResolveNonMSBuildProjectOutput" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveNonMSBuildProjectOutput" (TaskId:24)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj". (TaskId:24)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has not been resolved. (TaskId:24)
+                   Done executing task "ResolveNonMSBuildProjectOutput". (TaskId:24)
+10:22:16.541     1>Done building target "_SplitProjectReferencesByFileExistence" in project "GlesSystem.vcxproj".: (TargetId:34)
+10:22:16.541     1>Target "_RemoveNameMetadataFromProjectReferenceItems: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveProjectReferences" depends on it):
+10:22:16.541     1>Done building target "_RemoveNameMetadataFromProjectReferenceItems" in project "GlesSystem.vcxproj".: (TargetId:35)
+10:22:16.541     1>Target "ResolveProjectReferences: (TargetId:36)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Using "MSBuild" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MSBuild" (TaskId:25)
+                     Global Properties: (TaskId:25)
+                       Configuration=Debug (TaskId:25)
+                       Platform=Win32 (TaskId:25)
+10:22:16.541     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+10:22:16.541     2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+10:22:16.541     2>Target "GetTargetPath: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (entry point):
+10:22:16.541     2>Done building target "GetTargetPath" in project "ZERO_CHECK.vcxproj".: (TargetId:37)
+10:22:16.541     2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetTargetPath target(s)) -- FAILED.
+10:22:16.541     1>Done executing task "MSBuild". (TaskId:25)
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' != 'true' and 'true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:26)
+                     Global Properties: (TaskId:26)
+                       Configuration=Debug (TaskId:26)
+                       Platform=Win32 (TaskId:26)
+10:22:16.541     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+10:22:16.541   2:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+10:22:16.541   2:2>Target "GetNativeManifest: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (entry point):
+10:22:16.541   2:2>Done building target "GetNativeManifest" in project "ZERO_CHECK.vcxproj".: (TargetId:38)
+10:22:16.541   2:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetNativeManifest target(s)) -- FAILED.
+10:22:16.556     1>Done executing task "MSBuild". (TaskId:26)
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' != '').
+10:22:16.556     1>Done building target "ResolveProjectReferences" in project "GlesSystem.vcxproj".: (TargetId:36)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+10:22:16.556     1>Target "GetFrameworkPaths: (TargetId:39)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+10:22:16.556     1>Done building target "GetFrameworkPaths" in project "GlesSystem.vcxproj".: (TargetId:39)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:22:16.556     1>Target "GetReferenceAssemblyPaths: (TargetId:40)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:22:16.556     1>Done building target "GetReferenceAssemblyPaths" in project "GlesSystem.vcxproj".: (TargetId:40)
+10:22:16.556     1>Target "PlatformPrepareForBuild: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:22:16.556     1>Done building target "PlatformPrepareForBuild" in project "GlesSystem.vcxproj".: (TargetId:41)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:22:16.556     1>Target "PrepareForBuild: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:27)
+                   Done executing task "MakeDir". (TaskId:27)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:28)
+                   Done executing task "MakeDir". (TaskId:28)
+10:22:16.556     1>Done building target "PrepareForBuild" in project "GlesSystem.vcxproj".: (TargetId:42)
+10:22:16.556     1>Target "GetInstalledSDKLocations: (TargetId:43)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+10:22:16.556     1>Done building target "GetInstalledSDKLocations" in project "GlesSystem.vcxproj".: (TargetId:43)
+10:22:16.556     1>Target "ResolveSDKReferences: (TargetId:44)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+10:22:16.556     1>Done building target "ResolveSDKReferences" in project "GlesSystem.vcxproj".: (TargetId:44)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+10:22:16.556     1>Target "ExpandSDKReferences: (TargetId:45)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+10:22:16.556     1>Done building target "ExpandSDKReferences" in project "GlesSystem.vcxproj".: (TargetId:45)
+10:22:16.556     1>Target "ResolveAssemblyReferences: (TargetId:46)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" (TaskId:29)
+                     TargetFrameworkMoniker: (TaskId:29)
+                         .NETFramework,Version=v4.0 (TaskId:29)
+                     TargetFrameworkMonikerDisplayName: (TaskId:29)
+                         .NET Framework 4 (TaskId:29)
+                     TargetedRuntimeVersion: (TaskId:29)
+                         v4.0.30319 (TaskId:29)
+                     Assemblies: (TaskId:29)
+                         System.Core (TaskId:29)
+                     AssemblyFiles: (TaskId:29)
+                     CandidateAssemblyFiles: (TaskId:29)
+                     TargetFrameworkDirectories: (TaskId:29)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:29)
+                     InstalledAssemblyTables: (TaskId:29)
+                     IgnoreInstalledAssemblyTable: (TaskId:29)
+                         False (TaskId:29)
+                     SearchPaths: (TaskId:29)
+                         {CandidateAssemblyFiles} (TaskId:29)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:29)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:29)
+                         {HintPathFromItem} (TaskId:29)
+                         {TargetFrameworkDirectory} (TaskId:29)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:29)
+                         {AssemblyFolders} (TaskId:29)
+                         {GAC} (TaskId:29)
+                         {RawFileName} (TaskId:29)
+                         E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ (TaskId:29)
+                     AllowedAssemblyExtensions: (TaskId:29)
+                         .winmd (TaskId:29)
+                         .dll (TaskId:29)
+                         .exe (TaskId:29)
+                     AllowedRelatedFileExtensions: (TaskId:29)
+                         .pdb (TaskId:29)
+                         .xml (TaskId:29)
+                         .pri (TaskId:29)
+                     AppConfigFile: (TaskId:29)
+                          (TaskId:29)
+                     AutoUnify: (TaskId:29)
+                         True (TaskId:29)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:29)
+                         True (TaskId:29)
+                     FindDependencies: (TaskId:29)
+                         True (TaskId:29)
+                     TargetProcessorArchitecture: (TaskId:29)
+                         x86 (TaskId:29)
+                     StateFile: (TaskId:29)
+                         GlesSystem.dir\Debug\GlesSystem.vcxprojResolveAssemblyReference.cache (TaskId:29)
+                     InstalledAssemblySubsetTables: (TaskId:29)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:29)
+                         False (TaskId:29)
+                     TargetFrameworkSubsets: (TaskId:29)
+                     FullTargetFrameworkSubsetNames: (TaskId:29)
+                         Full (TaskId:29)
+                     ProfileName: (TaskId:29)
+                          (TaskId:29)
+                     FullFrameworkFolders: (TaskId:29)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:29)
+                     LatestTargetFrameworkDirectories: (TaskId:29)
+                     ProfileTablesLocation: (TaskId:29)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:29)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:29)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:29)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:29)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:29)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:29)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:29)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:29)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:29)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:29)
+                   Done executing task "ResolveAssemblyReference". (TaskId:29)
+10:22:16.556     1>Done building target "ResolveAssemblyReferences" in project "GlesSystem.vcxproj".: (TargetId:46)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:22:16.556     1>Target "AfterResolveReferences: (TargetId:47)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ResolveReferences" depends on it):
+10:22:16.556     1>Done building target "AfterResolveReferences" in project "GlesSystem.vcxproj".: (TargetId:47)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+10:22:16.556     1>Target "ResolveReferences: (TargetId:48)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "Build" depends on it):
+10:22:16.556     1>Done building target "ResolveReferences" in project "GlesSystem.vcxproj".: (TargetId:48)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:22:16.556     1>Target "InitializeBuildStatus: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:30)
+                   Done executing task "ReadLinesFromFile". (TaskId:30)
+                   Task "WriteLinesToFile" (TaskId:31)
+                   Done executing task "WriteLinesToFile". (TaskId:31)
+                   Task "Touch" (TaskId:32)
+                     Touching "GlesSystem.dir\Debug\GlesSystem.unsuccessfulbuild". (TaskId:32)
+                   Done executing task "Touch". (TaskId:32)
+10:22:16.556     1>Done building target "InitializeBuildStatus" in project "GlesSystem.vcxproj".: (TargetId:49)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:22:16.556     1>Target "BuildGenerateSourcesTraverse: (TargetId:50)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' == 'true').
+10:22:16.556     1>Done building target "BuildGenerateSourcesTraverse" in project "GlesSystem.vcxproj".: (TargetId:50)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:22:16.556     1>Target "BeforeBuildGenerateSources: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "BeforeBuildGenerateSources" in project "GlesSystem.vcxproj".: (TargetId:51)
+10:22:16.556     1>Target "PreBuildEvent: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:22:16.556     1>Done building target "PreBuildEvent" in project "GlesSystem.vcxproj".: (TargetId:52)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+10:22:16.556     1>Target "_GenerateXMLData: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "_GenerateXMLData" in project "GlesSystem.vcxproj".: (TargetId:53)
+10:22:16.556     1>Target "_GenerateWebServiceProxy: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "_GenerateWebServiceProxy" in project "GlesSystem.vcxproj".: (TargetId:54)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+10:22:16.556     1>Target "_Xsd: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "_Xsd" in project "GlesSystem.vcxproj".: (TargetId:55)
+10:22:16.556     1>Target "MakeDirsForMidl: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:33)
+                   Done executing task "Makedir". (TaskId:33)
+10:22:16.556     1>Done building target "MakeDirsForMidl" in project "GlesSystem.vcxproj".: (TargetId:56)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+10:22:16.556     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_Midl" depends on it):
+10:22:16.556     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "GlesSystem.vcxproj".: (TargetId:57)
+10:22:16.556     1>Target "AfterMidl: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_Midl" depends on it):
+10:22:16.556     1>Done building target "AfterMidl" in project "GlesSystem.vcxproj".: (TargetId:58)
+10:22:16.556     1>Target "_Midl: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "_Midl" in project "GlesSystem.vcxproj".: (TargetId:59)
+10:22:16.556     1>Target "AfterBuildGenerateSources: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "AfterBuildGenerateSources" in project "GlesSystem.vcxproj".: (TargetId:60)
+10:22:16.556     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildGenerateSources" depends on it):
+10:22:16.556     1>Done building target "AfterBuildGenerateSourcesEvent" in project "GlesSystem.vcxproj".: (TargetId:61)
+10:22:16.556     1>Target "BuildGenerateSources: (TargetId:62)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "Build" depends on it):
+10:22:16.556     1>Done building target "BuildGenerateSources" in project "GlesSystem.vcxproj".: (TargetId:62)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:22:16.556     1>Target "BuildCompileTraverse: (TargetId:63)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:22:16.556     1>Done building target "BuildCompileTraverse" in project "GlesSystem.vcxproj".: (TargetId:63)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:22:16.556     1>Target "BeforeClCompile: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_ClCompile" depends on it):
+10:22:16.556     1>Done building target "BeforeClCompile" in project "GlesSystem.vcxproj".: (TargetId:64)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+10:22:16.556     1>Target "ComputeCLInputPDBName: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_ClCompile" depends on it):
+10:22:16.556     1>Done building target "ComputeCLInputPDBName" in project "GlesSystem.vcxproj".: (TargetId:65)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:22:16.556     1>Target "ComputeReferenceCLInput: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:34)
+                   Done executing task "WriteLinesToFile". (TaskId:34)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+10:22:16.556     1>Done building target "ComputeReferenceCLInput" in project "GlesSystem.vcxproj".: (TargetId:66)
+10:22:16.556     1>Target "MakeDirsForCl: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:35)
+                   Done executing task "MakeDir". (TaskId:35)
+10:22:16.556     1>Done building target "MakeDirsForCl" in project "GlesSystem.vcxproj".: (TargetId:67)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:22:16.556     1>Target "_SelectedFiles: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "SelectClCompile" depends on it):
+10:22:16.556     1>Done building target "_SelectedFiles" in project "GlesSystem.vcxproj".: (TargetId:68)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+10:22:16.556     1>Target "SelectCustomBuild: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "SelectClCompile" depends on it):
+10:22:16.556     1>Done building target "SelectCustomBuild" in project "GlesSystem.vcxproj".: (TargetId:69)
+10:22:16.556     1>Target "SelectClCompile: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "ClCompile" depends on it):
+10:22:16.556     1>Done building target "SelectClCompile" in project "GlesSystem.vcxproj".: (TargetId:70)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.cpp;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.cpp' != '' and 'false' == 'True').
+10:22:16.556     1>Target "ClCompile: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (target "_ClCompile" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:36)
+                   Done executing task "Delete". (TaskId:36)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:37)
+                     Forcing recompile of all source files due to missing PDB "E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/GlesSystem.pdb". (TaskId:37)
+                     Environment Variables passed to tool: (TaskId:37)
+                       VS_UNICODE_OUTPUT=1588 (TaskId:37)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:/DONOTOPEN/FUCKYOU/GLESEmulator/Include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D GlesSystem_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GlesSystem.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/GlesSystem.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.cpp  /Zm1000  (TaskId:37)
+                     Tracking command: (TaskId:37)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\DRAWENUMS.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\FRAMEBUFFEROBJ.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\GDEBUG.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\GLESDEVICE.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\GPUPROGRAM.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\INDEXBUFFEROBJ.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\PRIMITIVEGROUP.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\SHADER.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\TEXTURE.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\VERTEXBUFFEROBJ.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\VERTEXCOMPONENT.CPP|E:\DONOTOPEN\FUCKYOU\CATFISH\GLESSYETEM\VERTEXLAYOUT.CPP" /b MSBuildConsole_CancelEvent661f33ee95bd4c079972a915d96cb01d  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /IE:/DONOTOPEN/FUCKYOU/GLESEmulator/Include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D GlesSystem_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GlesSystem.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/GlesSystem.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.cpp E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.cpp  /Zm1000  (TaskId:37)
+                     PrimitiveGroup.cpp (TaskId:37)
+10:22:16.728     1>e:\donotopen\fuckyou\catfish\glessyetem\PrimitiveGroup.h(33): warning C4251: 'GraphicCore::PrimitiveGroup::m_pVecVBO' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::PrimitiveGroup'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=GraphicCore::VertexBufferObj * (TaskId:37)
+                             ] (TaskId:37)
+10:22:16.728     1>e:\donotopen\fuckyou\catfish\glessyetem\PrimitiveGroup.h(34): warning C4251: 'GraphicCore::PrimitiveGroup::m_pVecIBO' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::PrimitiveGroup'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=GraphicCore::IndexBufferObj * (TaskId:37)
+                             ] (TaskId:37)
+10:22:16.744     1>e:\donotopen\fuckyou\catfish\glessyetem\VertexLayout.h(45): warning C4251: 'GraphicCore::VertexLayout::m_Layout' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::VertexLayout'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=int, (TaskId:37)
+                                 _Ty=GraphicCore::VertexLayout::Ele (TaskId:37)
+                             ] (TaskId:37)
+                     GDebug.cpp (TaskId:37)
+                     DrawEnums.cpp (TaskId:37)
+                     FrameBufferObj.cpp (TaskId:37)
+                     GlesDevice.cpp (TaskId:37)
+10:22:17.446     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(110): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=std::string (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.446     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(122): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'Math::vector2<T>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 T=int (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.461     1>e:\donotopen\fuckyou\catfish\glessyetem\VertexLayout.h(45): warning C4251: 'GraphicCore::VertexLayout::m_Layout' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::VertexLayout'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=int, (TaskId:37)
+                                 _Ty=GraphicCore::VertexLayout::Ele (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.461     1>e:\donotopen\fuckyou\catfish\glessyetem\GpuProgram.h(75): warning C4251: 'GraphicCore::GpuProgram::m_AttMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GpuProgram'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=std::string, (TaskId:37)
+                                 _Ty=GraphicCore::GpuProgram::AttributeParam (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.461     1>e:\donotopen\fuckyou\catfish\glessyetem\GpuProgram.h(76): warning C4251: 'GraphicCore::GpuProgram::m_UniformMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GpuProgram'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=std::string, (TaskId:37)
+                                 _Ty=GraphicCore::GpuProgram::UniformParam (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.461     1>e:\donotopen\fuckyou\catfish\glessyetem\GpuProgram.h(77): warning C4251: 'GraphicCore::GpuProgram::m_TextureUnitMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GpuProgram'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=int, (TaskId:37)
+                                 _Ty=GraphicCore::TextureUnit (TaskId:37)
+                             ] (TaskId:37)
+                     GpuProgram.cpp (TaskId:37)
+10:22:17.773     1>e:\donotopen\fuckyou\catfish\glessyetem\GpuProgram.h(75): warning C4251: 'GraphicCore::GpuProgram::m_AttMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GpuProgram'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=std::string, (TaskId:37)
+                                 _Ty=GraphicCore::GpuProgram::AttributeParam (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.789     1>e:\donotopen\fuckyou\catfish\glessyetem\GpuProgram.h(76): warning C4251: 'GraphicCore::GpuProgram::m_UniformMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GpuProgram'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=std::string, (TaskId:37)
+                                 _Ty=GraphicCore::GpuProgram::UniformParam (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.789     1>e:\donotopen\fuckyou\catfish\glessyetem\GpuProgram.h(77): warning C4251: 'GraphicCore::GpuProgram::m_TextureUnitMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GpuProgram'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=int, (TaskId:37)
+                                 _Ty=GraphicCore::TextureUnit (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.992     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(110): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=std::string (TaskId:37)
+                             ] (TaskId:37)
+10:22:17.992     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(122): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'Math::vector2<T>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 T=int (TaskId:37)
+                             ] (TaskId:37)
+                     IndexBufferObj.cpp (TaskId:37)
+10:22:18.491     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(110): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=std::string (TaskId:37)
+                             ] (TaskId:37)
+10:22:18.491     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(122): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'Math::vector2<T>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 T=int (TaskId:37)
+                             ] (TaskId:37)
+                     Shader.cpp (TaskId:37)
+10:22:18.928     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(110): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=std::string (TaskId:37)
+                             ] (TaskId:37)
+10:22:18.928     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(122): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'Math::vector2<T>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 T=int (TaskId:37)
+                             ] (TaskId:37)
+                     Texture.cpp (TaskId:37)
+10:22:19.364     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(110): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=std::string (TaskId:37)
+                             ] (TaskId:37)
+10:22:19.364     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(122): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'Math::vector2<T>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 T=int (TaskId:37)
+                             ] (TaskId:37)
+10:22:19.364     1>E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.cpp(4): fatal error C1083: Cannot open include file: 'CommonMath.h': No such file or directory
+                     VertexBufferObj.cpp (TaskId:37)
+10:22:19.598     1>e:\donotopen\fuckyou\catfish\glessyetem\VertexLayout.h(45): warning C4251: 'GraphicCore::VertexLayout::m_Layout' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::VertexLayout'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=int, (TaskId:37)
+                                 _Ty=GraphicCore::VertexLayout::Ele (TaskId:37)
+                             ] (TaskId:37)
+10:22:19.676     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(110): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Ty=std::string (TaskId:37)
+                             ] (TaskId:37)
+10:22:19.676     1>e:\donotopen\fuckyou\catfish\glessyetem\GlesDevice.h(122): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'Math::vector2<T>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 T=int (TaskId:37)
+                             ] (TaskId:37)
+                     VertexComponent.cpp (TaskId:37)
+                     VertexLayout.cpp (TaskId:37)
+10:22:19.910     1>e:\donotopen\fuckyou\catfish\glessyetem\VertexLayout.h(45): warning C4251: 'GraphicCore::VertexLayout::m_Layout' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::VertexLayout'
+                             with (TaskId:37)
+                             [ (TaskId:37)
+                                 _Kty=int, (TaskId:37)
+                                 _Ty=GraphicCore::VertexLayout::Ele (TaskId:37)
+                             ] (TaskId:37)
+                     Generating Code... (TaskId:37)
+                     The command exited with code 2. (TaskId:37)
+                   Done executing task "CL" -- FAILED. (TaskId:37)
+10:22:20.269     1>Done building target "ClCompile" in project "GlesSystem.vcxproj" -- FAILED.: (TargetId:71)
+10:22:20.269     1>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj" (build target(s)) -- FAILED.
+
+Project Performance Summary:
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj   2 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+     3728 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\GlesSyetem\GlesSystem.vcxproj   1 calls
+               3728 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  GetTargetPath                              1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  GetNativeManifest                          1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+       16 ms  ResolveProjectReferences                   1 calls
+     3713 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  Touch                                      1 calls
+        0 ms  MakeDir                                    4 calls
+        0 ms  WriteLinesToFile                           2 calls
+        0 ms  Message                                    2 calls
+        0 ms  ResolveAssemblyReference                   1 calls
+        0 ms  ResolveNonMSBuildProjectOutput             1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  Delete                                     1 calls
+       16 ms  MSBuild                                    2 calls
+     3713 ms  CL                                         1 calls
+
+Build FAILED.
+
+Time Elapsed 00:00:03.72

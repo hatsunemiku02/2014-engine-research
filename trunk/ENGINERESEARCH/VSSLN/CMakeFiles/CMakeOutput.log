@@ -1,0 +1,121 @@
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp
+
+Run Build Command:d:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec737231978
+
+Microsoft(R) Visual Studio 10.0.40219.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec737231978, 配置: Debug Win32 ------
+1>生成启动时间为 2013/12/20 10:29:18。
+1>InitializeBuildStatus:
+1>  正在创建“cmTryCompileExec737231978.dir\Debug\cmTryCompileExec737231978.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+1>ClCompile:
+1>  用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 16.00.40219.01 版
+1>  版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec737231978.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec737231978.pdb" /Gd /TC /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\VSSLN\CMakeFiles\CMakeTmp\testCCompiler.c  /Zm1000 
+1>  
+1>  testCCompiler.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec737231978.vcxproj -> E:\DONOTOPEN\FUCKYOU\VSSLN\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec737231978.exe
+1>FinalizeBuildStatus:
+1>  正在删除文件“cmTryCompileExec737231978.dir\Debug\cmTryCompileExec737231978.unsuccessfulbuild”。
+1>  正在对“cmTryCompileExec737231978.dir\Debug\cmTryCompileExec737231978.lastbuildstate”执行 Touch 任务。
+1>
+1>生成成功。
+1>
+1>已用时间 00:00:02.91
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp
+
+Run Build Command:d:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1134101822
+
+Microsoft(R) Visual Studio 10.0.40219.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec1134101822, 配置: Debug Win32 ------
+1>生成启动时间为 2013/12/20 10:29:25。
+1>InitializeBuildStatus:
+1>  正在创建“cmTryCompileExec1134101822.dir\Debug\cmTryCompileExec1134101822.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+1>ClCompile:
+1>  用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 16.00.40219.01 版
+1>  版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1134101822.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1134101822.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+1>  
+1>  CMakeCCompilerABI.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec1134101822.vcxproj -> E:\DONOTOPEN\FUCKYOU\VSSLN\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1134101822.exe
+1>FinalizeBuildStatus:
+1>  正在删除文件“cmTryCompileExec1134101822.dir\Debug\cmTryCompileExec1134101822.unsuccessfulbuild”。
+1>  正在对“cmTryCompileExec1134101822.dir\Debug\cmTryCompileExec1134101822.lastbuildstate”执行 Touch 任务。
+1>
+1>生成成功。
+1>
+1>已用时间 00:00:01.21
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp
+
+Run Build Command:d:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3539992906
+
+Microsoft(R) Visual Studio 10.0.40219.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec3539992906, 配置: Debug Win32 ------
+1>生成启动时间为 2013/12/20 10:29:28。
+1>InitializeBuildStatus:
+1>  正在创建“cmTryCompileExec3539992906.dir\Debug\cmTryCompileExec3539992906.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+1>ClCompile:
+1>  用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 16.00.40219.01 版
+1>  版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3539992906.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3539992906.pdb" /Gd /TP /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\VSSLN\CMakeFiles\CMakeTmp\testCXXCompiler.cxx  /Zm1000 
+1>  
+1>  testCXXCompiler.cxx
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3539992906.vcxproj -> E:\DONOTOPEN\FUCKYOU\VSSLN\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3539992906.exe
+1>FinalizeBuildStatus:
+1>  正在删除文件“cmTryCompileExec3539992906.dir\Debug\cmTryCompileExec3539992906.unsuccessfulbuild”。
+1>  正在对“cmTryCompileExec3539992906.dir\Debug\cmTryCompileExec3539992906.lastbuildstate”执行 Touch 任务。
+1>
+1>生成成功。
+1>
+1>已用时间 00:00:01.17
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp
+
+Run Build Command:d:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4089557631
+
+Microsoft(R) Visual Studio 10.0.40219.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec4089557631, 配置: Debug Win32 ------
+1>生成启动时间为 2013/12/20 10:29:30。
+1>InitializeBuildStatus:
+1>  正在创建“cmTryCompileExec4089557631.dir\Debug\cmTryCompileExec4089557631.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+1>ClCompile:
+1>  用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 16.00.40219.01 版
+1>  版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4089557631.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/VSSLN/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4089557631.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>LinkEmbedManifest:
+1>  cmTryCompileExec4089557631.vcxproj -> E:\DONOTOPEN\FUCKYOU\VSSLN\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4089557631.exe
+1>FinalizeBuildStatus:
+1>  正在删除文件“cmTryCompileExec4089557631.dir\Debug\cmTryCompileExec4089557631.unsuccessfulbuild”。
+1>  正在对“cmTryCompileExec4089557631.dir\Debug\cmTryCompileExec4089557631.lastbuildstate”执行 Touch 任务。
+1>
+1>生成成功。
+1>
+1>已用时间 00:00:01.07
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+

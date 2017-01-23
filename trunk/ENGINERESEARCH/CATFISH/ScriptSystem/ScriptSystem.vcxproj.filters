@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ScriptCore">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ScriptBind">
+      <UniqueIdentifier>{15e3cb85-fc1b-4a3f-9001-6f4cf8da7a81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScriptSys.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaDomain.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFooWarpper.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjWarpper.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaUtitly.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaRootScript.cpp">
+      <Filter>ScriptCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScriptSys.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDomain.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFooWarpper.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjWarpper.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDefines.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaUtitly.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaRootScript.h">
+      <Filter>ScriptCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+
+
+SET(GRA_INCLUDE_DIR  ${PROJECT_SOURCE_DIR}/CATFISH/GlesSyetem)
+SET(RES_INCLUDE_DIR  ${PROJECT_SOURCE_DIR}/CATFISH/ResourcePhraser)
+SET(IO_INCLUDE_DIR  ${PROJECT_SOURCE_DIR}/CATFISH/IO)
+SET(SOUND_INCLUDE_DIR  ${PROJECT_SOURCE_DIR}/CATFISH/SoundSystem)
+SET(FI_INCLUDE_DIR  ${PROJECT_SOURCE_DIR}/FreeImage/Source)
+
+IF(WINDOWS_BUILD)
+SET(ALL_LIB_DIR ${PROJECT_SOURCE_DIR}/Bin/Win)
+ELSE(WINDOWS_BUILD)
+SET(ALL_LIB_DIR ${PROJECT_SOURCE_DIR}/Bin/android/)
+ENDIF(WINDOWS_BUILD)
+
+MESSAGE( STATUS "GRA_INCLUDE_DIR:" ${GRA_INCLUDE_DIR} )	
+MESSAGE( STATUS "IO_INCLUDE_DIR:" ${IO_INCLUDE_DIR} )	
+MESSAGE( STATUS "FI_INCLUDE_DIR:" ${FI_INCLUDE_DIR} )	
+MESSAGE ( STATUS "res_INCLUDE_DIR:" ${RES_INCLUDE_DIR})
+MESSAGE( STATUS "ALL_LIB_DIR:" ${ALL_LIB_DIR} )
+
+INCLUDE_DIRECTORIES(
+	${GRA_INCLUDE_DIR} 
+	${IO_INCLUDE_DIR}
+	${FI_INCLUDE_DIR}
+	${RES_INCLUDE_DIR}
+	${SOUND_INCLUDE_DIR}
+	${PROJECT_SOURCE_DIR}/CATFISH/ScriptSystem
+	${PROJECT_SOURCE_DIR}/GLESEmulator/Include
+)
+LINK_DIRECTORIES( ${ALL_LIB_DIR} )
+
+
+# folder
+SET ( _HEADER_FILES 
+
+)
+
+# folder
+SET ( _SOURCE_FILES
+
+	main.cpp
+)
+#<-------- Additional Include Directories ------------------>
+IF(ANDROID_BUILD)
+SET( CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -landroid -lGLESv2 -lEGL -llog -lc -lm" )
+SET( CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,-soname,libDemo -Wl,--no-undefined  " )
+SET( CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -shared -Wl,-z,noexecstack " )
+SET( CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -lgnustl_static -lgcc" )
+ENDIF(ANDROID_BUILD)
+
+ADD_LIBRARY( 
+	Demo
+	SHARED
+	#head
+	${_HEADER_FILES}
+	#source
+	${_SOURCE_FILES}
+
+)
+TARGET_LINK_LIBRARIES(
+#target
+	Demo
+	
+	${ALL_LIB_DIR}/libGlesSystem.so
+	${ALL_LIB_DIR}/libIO.so
+	${ALL_LIB_DIR}/libResourcePhraser.so
+	${ALL_LIB_DIR}/libScriptSystem.so
+	${ALL_LIB_DIR}/libSoundSystem.so
+	${ANDROID_NDK_ROOT}/sources/cxx-stl/gnu-libstdc++/4.4.3/libs/armeabi/libgnustl_static.a 
+)
+ADD_DEPENDENCIES(
+	Demo
+	GlesSystem
+	ResourcePhraser
+	ScriptSystem
+	SoundSystem
+)
+ADD_DEFINITIONS(
+
+)
+
+
+#Organize projects into folders
+SET_PROPERTY(TARGET Demo PROPERTY FOLDER "4.EXE")
+
+

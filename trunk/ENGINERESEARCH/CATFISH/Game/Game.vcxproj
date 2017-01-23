@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71547815-5D83-4428-BC8E-7F19FDC78EEA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\DONOTOPEN\FUCKYOU\CATFISH\Game;E:\DONOTOPEN\FUCKYOU\CATFISH\Game\Rhythm;E:\DONOTOPEN\FUCKYOU\CATFISH\Sprite2D;E:\DONOTOPEN\FUCKYOU\CATFISH\App;E:\DONOTOPEN\FUCKYOU\CATFISH\Font;E:\DONOTOPEN\FUCKYOU\CATFISH\SoundSystem;E:\DONOTOPEN\FUCKYOU\CATFISH\IO;E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser;E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem;E:\DONOTOPEN\FUCKYOU\CATFISH\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ClickToStart.cpp" />
+    <ClCompile Include="MikuGame.cpp" />
+    <ClCompile Include="MikuRhythmStage.cpp" />
+    <ClCompile Include="Rhythm\BackGround.cpp" />
+    <ClCompile Include="Rhythm\PressRhythm.cpp" />
+    <ClCompile Include="Rhythm\Rhythm.cpp" />
+    <ClCompile Include="Rhythm\ScoreBoard.cpp" />
+    <ClCompile Include="Rhythm\SubTitle.cpp" />
+    <ClCompile Include="ScoreBoard.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="StageLoader.cpp" />
+    <ClCompile Include="StrUtil.cpp" />
+    <ClCompile Include="SubTitleLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClickToStart.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="MikuGame.h" />
+    <ClInclude Include="MikuRhythmStage.h" />
+    <ClInclude Include="Rhythm\BackGround.h" />
+    <ClInclude Include="Rhythm\PressRhythm.h" />
+    <ClInclude Include="Rhythm\Rhythm.h" />
+    <ClInclude Include="Rhythm\ScoreBoard.h" />
+    <ClInclude Include="Rhythm\SubTitle.h" />
+    <ClInclude Include="ScoreBoard.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="StageLoader.h" />
+    <ClInclude Include="StrUtil.h" />
+    <ClInclude Include="SubTitleLoader.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

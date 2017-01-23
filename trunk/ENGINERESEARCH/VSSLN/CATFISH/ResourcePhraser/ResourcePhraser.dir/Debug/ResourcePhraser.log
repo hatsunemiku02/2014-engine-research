@@ -1,0 +1,400 @@
+﻿Build started 2014/8/8 10:17:28.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\zhaohang\AppData\Roaming
+CG_BIN_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\bin
+CG_INC_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\include
+CG_LIB_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\lib
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = CY4612
+ComSpec = C:\windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\zhaohang
+LOCALAPPDATA = C:\Users\zhaohang\AppData\Local
+LOGONSERVER = \\CYBJDC02
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\windows
+TEMP = C:\Users\zhaohang\AppData\Local\Temp
+TMP = C:\Users\zhaohang\AppData\Local\Temp
+UATDATA = C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = CYOU-INC.COM
+USERDOMAIN = CYOU-INC
+USERNAME = zhaohang
+USERPROFILE = C:\Users\zhaohang
+VisualStudioDir = C:\Users\zhaohang\Documents\Visual Studio 2010
+VS100COMNTOOLS = D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" on node 5 (build target(s)).
+10:17:28.177     1>Building with tools version "4.0".
+10:17:28.177     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:106)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:48)
+                     Configuration=Debug (TaskId:48)
+                   Done executing task "Message". (TaskId:48)
+                   Task "Message" (TaskId:49)
+                     Platform=Win32 (TaskId:49)
+                   Done executing task "Message". (TaskId:49)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\' != '' and !HasTrailingSlash('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('ResourcePhraser.dir\Debug\' != '' and !HasTrailingSlash('ResourcePhraser.dir\Debug\')).
+10:17:28.177     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "ResourcePhraser.vcxproj".: (TargetId:106)
+10:17:28.177     1>Target "_DetermineManagedStateFromCL: (TargetId:107)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "Build" depends on it):
+10:17:28.177     1>Done building target "_DetermineManagedStateFromCL" in project "ResourcePhraser.vcxproj".: (TargetId:107)
+10:17:28.177     1>Target "_PrepareForBuild: (TargetId:108)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "Build" depends on it):
+10:17:28.177     1>Done building target "_PrepareForBuild" in project "ResourcePhraser.vcxproj".: (TargetId:108)
+10:17:28.177     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:109)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:50)
+                     PATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\windows\Microsoft.NET\Framework\v4.0.30319\;D:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\windows\SysWow64;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64; (TaskId:50)
+                   Done executing task "SetEnv". (TaskId:50)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:51)
+                     LIB=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:51)
+                   Done executing task "SetEnv". (TaskId:51)
+                   Task "SetEnv" (TaskId:52)
+                     LIBPATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:52)
+                   Done executing task "SetEnv". (TaskId:52)
+                   Task "SetEnv" (TaskId:53)
+                     INCLUDE=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:53)
+                   Done executing task "SetEnv". (TaskId:53)
+10:17:28.177     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "ResourcePhraser.vcxproj".: (TargetId:109)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:17:28.177     1>Target "BeforeResolveReferences: (TargetId:110)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveReferences" depends on it):
+10:17:28.177     1>Done building target "BeforeResolveReferences" in project "ResourcePhraser.vcxproj".: (TargetId:110)
+10:17:28.177     1>Target "AssignProjectConfiguration: (TargetId:111)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:54)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:54)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:54)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:54)
+                   Done executing task "AssignProjectConfiguration". (TaskId:54)
+10:17:28.177     1>Done building target "AssignProjectConfiguration" in project "ResourcePhraser.vcxproj".: (TargetId:111)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+10:17:28.177     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:112)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" (TaskId:55)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj". (TaskId:55)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj" has not been resolved. (TaskId:55)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj". (TaskId:55)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj" has not been resolved. (TaskId:55)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj". (TaskId:55)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has not been resolved. (TaskId:55)
+                   Done executing task "ResolveNonMSBuildProjectOutput". (TaskId:55)
+10:17:28.177     1>Done building target "_SplitProjectReferencesByFileExistence" in project "ResourcePhraser.vcxproj".: (TargetId:112)
+10:17:28.177     1>Target "_RemoveNameMetadataFromProjectReferenceItems: (TargetId:113)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveProjectReferences" depends on it):
+10:17:28.177     1>Done building target "_RemoveNameMetadataFromProjectReferenceItems" in project "ResourcePhraser.vcxproj".: (TargetId:113)
+10:17:28.177     1>Target "ResolveProjectReferences: (TargetId:114)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:56)
+                     Global Properties: (TaskId:56)
+                       Configuration=Debug (TaskId:56)
+                       Platform=Win32 (TaskId:56)
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+10:17:28.177     2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetTargetPath" skipped. Previously built successfully.
+10:17:28.177     2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetTargetPath target(s)).
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj" (3) on node 4 (GetTargetPath target(s)).
+10:17:28.177     3>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+10:17:28.177     3>Target "GetTargetPath: (TargetId:202)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj" (entry point):
+10:17:28.177     3>Done building target "GetTargetPath" in project "FreeImaged.vcxproj".: (TargetId:202)
+10:17:28.177     3>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj" (GetTargetPath target(s)).
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj" (4) on node 5 (GetTargetPath target(s)).
+10:17:28.177     4>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+10:17:28.177     4>Target "GetTargetPath: (TargetId:115)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj" (entry point):
+10:17:28.177     4>Done building target "GetTargetPath" in project "IO.vcxproj".: (TargetId:115)
+10:17:28.177     4>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj" (GetTargetPath target(s)).
+10:17:28.177     1>Done executing task "MSBuild". (TaskId:56)
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' != 'true' and 'true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:57)
+                     Global Properties: (TaskId:57)
+                       Configuration=Debug (TaskId:57)
+                       Platform=Win32 (TaskId:57)
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+10:17:28.177   2:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetNativeManifest" skipped. Previously built successfully.
+10:17:28.177   2:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetNativeManifest target(s)).
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj" (3:2) on node 4 (GetNativeManifest target(s)).
+10:17:28.177   3:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+10:17:28.177   3:2>Target "GetNativeManifest: (TargetId:203)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj" (entry point):
+10:17:28.177   3:2>Done building target "GetNativeManifest" in project "FreeImaged.vcxproj".: (TargetId:203)
+10:17:28.177   3:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj" (GetNativeManifest target(s)).
+10:17:28.177     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj" (4:2) on node 5 (GetNativeManifest target(s)).
+10:17:28.177   4:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+10:17:28.177   4:2>Target "GetNativeManifest: (TargetId:116)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj" (entry point):
+10:17:28.177   4:2>Done building target "GetNativeManifest" in project "IO.vcxproj".: (TargetId:116)
+10:17:28.177   4:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj" (GetNativeManifest target(s)).
+10:17:28.177     1>Done executing task "MSBuild". (TaskId:57)
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' != '').
+10:17:28.177     1>Done building target "ResolveProjectReferences" in project "ResourcePhraser.vcxproj".: (TargetId:114)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+10:17:28.193     1>Target "GetFrameworkPaths: (TargetId:117)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+10:17:28.193     1>Done building target "GetFrameworkPaths" in project "ResourcePhraser.vcxproj".: (TargetId:117)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:17:28.193     1>Target "GetReferenceAssemblyPaths: (TargetId:118)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:17:28.193     1>Done building target "GetReferenceAssemblyPaths" in project "ResourcePhraser.vcxproj".: (TargetId:118)
+10:17:28.193     1>Target "PlatformPrepareForBuild: (TargetId:119)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:17:28.193     1>Done building target "PlatformPrepareForBuild" in project "ResourcePhraser.vcxproj".: (TargetId:119)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:17:28.193     1>Target "PrepareForBuild: (TargetId:120)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:58)
+                   Done executing task "MakeDir". (TaskId:58)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:59)
+                   Done executing task "MakeDir". (TaskId:59)
+10:17:28.193     1>Done building target "PrepareForBuild" in project "ResourcePhraser.vcxproj".: (TargetId:120)
+10:17:28.193     1>Target "GetInstalledSDKLocations: (TargetId:121)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+10:17:28.193     1>Done building target "GetInstalledSDKLocations" in project "ResourcePhraser.vcxproj".: (TargetId:121)
+10:17:28.193     1>Target "ResolveSDKReferences: (TargetId:122)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+10:17:28.193     1>Done building target "ResolveSDKReferences" in project "ResourcePhraser.vcxproj".: (TargetId:122)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+10:17:28.193     1>Target "ExpandSDKReferences: (TargetId:123)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+10:17:28.193     1>Done building target "ExpandSDKReferences" in project "ResourcePhraser.vcxproj".: (TargetId:123)
+10:17:28.193     1>Target "ResolveAssemblyReferences: (TargetId:124)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" (TaskId:60)
+                     TargetFrameworkMoniker: (TaskId:60)
+                         .NETFramework,Version=v4.0 (TaskId:60)
+                     TargetFrameworkMonikerDisplayName: (TaskId:60)
+                         .NET Framework 4 (TaskId:60)
+                     TargetedRuntimeVersion: (TaskId:60)
+                         v4.0.30319 (TaskId:60)
+                     Assemblies: (TaskId:60)
+                         System.Core (TaskId:60)
+                     AssemblyFiles: (TaskId:60)
+                     CandidateAssemblyFiles: (TaskId:60)
+                     TargetFrameworkDirectories: (TaskId:60)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:60)
+                     InstalledAssemblyTables: (TaskId:60)
+                     IgnoreInstalledAssemblyTable: (TaskId:60)
+                         False (TaskId:60)
+                     SearchPaths: (TaskId:60)
+                         {CandidateAssemblyFiles} (TaskId:60)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:60)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:60)
+                         {HintPathFromItem} (TaskId:60)
+                         {TargetFrameworkDirectory} (TaskId:60)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:60)
+                         {AssemblyFolders} (TaskId:60)
+                         {GAC} (TaskId:60)
+                         {RawFileName} (TaskId:60)
+                         E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ (TaskId:60)
+                     AllowedAssemblyExtensions: (TaskId:60)
+                         .winmd (TaskId:60)
+                         .dll (TaskId:60)
+                         .exe (TaskId:60)
+                     AllowedRelatedFileExtensions: (TaskId:60)
+                         .pdb (TaskId:60)
+                         .xml (TaskId:60)
+                         .pri (TaskId:60)
+                     AppConfigFile: (TaskId:60)
+                          (TaskId:60)
+                     AutoUnify: (TaskId:60)
+                         True (TaskId:60)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:60)
+                         True (TaskId:60)
+                     FindDependencies: (TaskId:60)
+                         True (TaskId:60)
+                     TargetProcessorArchitecture: (TaskId:60)
+                         x86 (TaskId:60)
+                     StateFile: (TaskId:60)
+                         ResourcePhraser.dir\Debug\ResourcePhraser.vcxprojResolveAssemblyReference.cache (TaskId:60)
+                     InstalledAssemblySubsetTables: (TaskId:60)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:60)
+                         False (TaskId:60)
+                     TargetFrameworkSubsets: (TaskId:60)
+                     FullTargetFrameworkSubsetNames: (TaskId:60)
+                         Full (TaskId:60)
+                     ProfileName: (TaskId:60)
+                          (TaskId:60)
+                     FullFrameworkFolders: (TaskId:60)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:60)
+                     LatestTargetFrameworkDirectories: (TaskId:60)
+                     ProfileTablesLocation: (TaskId:60)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:60)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:60)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:60)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:60)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:60)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:60)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:60)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:60)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:60)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:60)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:60)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:60)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:60)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:60)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:60)
+                   Done executing task "ResolveAssemblyReference". (TaskId:60)
+10:17:28.193     1>Done building target "ResolveAssemblyReferences" in project "ResourcePhraser.vcxproj".: (TargetId:124)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:17:28.193     1>Target "AfterResolveReferences: (TargetId:125)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "ResolveReferences" depends on it):
+10:17:28.193     1>Done building target "AfterResolveReferences" in project "ResourcePhraser.vcxproj".: (TargetId:125)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+10:17:28.193     1>Target "ResolveReferences: (TargetId:126)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "Build" depends on it):
+10:17:28.193     1>Done building target "ResolveReferences" in project "ResourcePhraser.vcxproj".: (TargetId:126)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:17:28.193     1>Target "InitializeBuildStatus: (TargetId:127)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:61)
+                   Done executing task "ReadLinesFromFile". (TaskId:61)
+                   Task "WriteLinesToFile" (TaskId:62)
+                   Done executing task "WriteLinesToFile". (TaskId:62)
+                   Task "Touch" (TaskId:63)
+                     Touching "ResourcePhraser.dir\Debug\ResourcePhraser.unsuccessfulbuild". (TaskId:63)
+                   Done executing task "Touch". (TaskId:63)
+10:17:28.193     1>Done building target "InitializeBuildStatus" in project "ResourcePhraser.vcxproj".: (TargetId:127)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:17:28.193     1>Target "BuildGenerateSourcesTraverse: (TargetId:128)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/FreeImage/FreeImaged.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/CATFISH/IO/IO.vcxproj;E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' == 'true').
+10:17:28.193     1>Done building target "BuildGenerateSourcesTraverse" in project "ResourcePhraser.vcxproj".: (TargetId:128)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:17:28.193     1>Target "BeforeBuildGenerateSources: (TargetId:129)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "BuildGenerateSources" depends on it):
+10:17:28.193     1>Done building target "BeforeBuildGenerateSources" in project "ResourcePhraser.vcxproj".: (TargetId:129)
+10:17:28.193     1>Target "PreBuildEvent: (TargetId:130)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:17:28.193     1>Done building target "PreBuildEvent" in project "ResourcePhraser.vcxproj".: (TargetId:130)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:17:28.193     1>Target "_SelectedFiles: (TargetId:131)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "SelectCustomBuild" depends on it):
+10:17:28.193     1>Done building target "_SelectedFiles" in project "ResourcePhraser.vcxproj".: (TargetId:131)
+10:17:28.193     1>Target "SelectCustomBuild: (TargetId:132)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "CustomBuild" depends on it):
+10:17:28.193     1>Done building target "SelectCustomBuild" in project "ResourcePhraser.vcxproj".: (TargetId:132)
+10:17:28.193     1>Target "ComputeCustomBuildOutput: (TargetId:133)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "CustomBuild" depends on it):
+                   Task "MakeDir" (TaskId:64)
+                   Done executing task "MakeDir". (TaskId:64)
+10:17:28.208     1>Done building target "ComputeCustomBuildOutput" in project "ResourcePhraser.vcxproj".: (TargetId:133)
+10:17:28.208     1>Target "CustomBuild: (TargetId:134)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Using "CustomBuild" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CustomBuild" (TaskId:65)
+                     Write Tracking Logs: (TaskId:65)
+                     	ResourcePhraser.dir\Debug\custombuild.write.1.tlog (TaskId:65)
+                     Read Tracking Logs: (TaskId:65)
+                     	ResourcePhraser.dir\Debug\custombuild.read.1.tlog (TaskId:65)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\CATFISH\RESOURCEPHRASER\CMAKELISTS.TXT: (TaskId:65)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\RESOURCEPHRASER\CMAKEFILES\GENERATE.STAMP (TaskId:65)
+                     ..\..\..\CATFISH\ResourcePhraser\CMakeLists.txt will be compiled as E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\CMakeLists.txt was modified at 2014/3/6 16:08:08. (TaskId:65)
+                     setlocal
+                     D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\CMakeFiles\generate.stamp
+                     if %errorlevel% neq 0 goto :cmEnd
+                     :cmEnd
+                     endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+                     :cmErrorLevel
+                     exit /b %1
+                     :cmDone
+                     if %errorlevel% neq 0 goto :VCEnd (TaskId:65)
+                     Building Custom Rule E:/DONOTOPEN/FUCKYOU/CATFISH/ResourcePhraser/CMakeLists.txt (TaskId:65)
+                     系统找不到指定的路径。 (TaskId:65)
+10:17:28.286     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 3.
+                   Done executing task "CustomBuild" -- FAILED. (TaskId:65)
+10:17:28.286     1>Done building target "CustomBuild" in project "ResourcePhraser.vcxproj" -- FAILED.: (TargetId:134)
+10:17:28.286     1>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj" (build target(s)) -- FAILED.
+
+Project Performance Summary:
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\FreeImaged.vcxproj   2 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\IO\IO.vcxproj   2 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj   2 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+      109 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\CATFISH\ResourcePhraser\ResourcePhraser.vcxproj   1 calls
+                109 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  GetTargetPath                              2 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  GetNativeManifest                          2 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  PrepareForBuild                            1 calls
+       16 ms  ComputeCustomBuildOutput                   1 calls
+       78 ms  CustomBuild                                1 calls
+
+Task Performance Summary:
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  ResolveAssemblyReference                   1 calls
+        0 ms  WriteLinesToFile                           1 calls
+        0 ms  Message                                    2 calls
+        0 ms  MSBuild                                    2 calls
+        0 ms  Touch                                      1 calls
+        0 ms  ResolveNonMSBuildProjectOutput             1 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  SetEnv                                     4 calls
+       16 ms  MakeDir                                    3 calls
+       78 ms  CustomBuild                                1 calls
+
+Build FAILED.
+
+Time Elapsed 00:00:00.10

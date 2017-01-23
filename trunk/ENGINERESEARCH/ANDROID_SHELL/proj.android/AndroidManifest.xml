@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.zh.test"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-sdk android:minSdkVersion="8"/>
+
+    <application android:label="赵航傻逼"
+        android:debuggable="true"
+        android:icon="@drawable/icon">
+
+        <activity android:name=".TlRun"
+                  android:label="赵航傻逼"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+   
+         
+        <service android:name="com.changyou.paylib.service.ErrorLogUploadService" />  
+        <service android:name="com.changyou.paylib.service.InfoLogUploadService" />  
+        
+
+    </application>
+    <supports-screens android:largeScreens="true"
+                      android:smallScreens="true"
+                      android:anyDensity="true"
+                      android:normalScreens="true"/>
+</manifest> 

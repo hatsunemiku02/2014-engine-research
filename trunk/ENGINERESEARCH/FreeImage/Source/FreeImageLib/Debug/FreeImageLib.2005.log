@@ -1,0 +1,343 @@
+﻿生成启动时间为 2014/8/22 0:39:03。
+     1>项目“G:\DONOTOPEN\FUCKYOU\FreeImage\Source\FreeImageLib\FreeImageLib.2005.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\FreeImageLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ /I..\ZLib /I..\DeprecationManager /I..\OpenEXR\Half /I..\OpenEXR\Iex /I..\OpenEXR\IlmImf /I..\OpenEXR\Imath /I..\OpenEXR\IlmThread /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OPJ_STATIC /D FREEIMAGE_LIB /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\FreeImage\BitmapAccess.cpp ..\FreeImage\ColorLookup.cpp ..\FreeImage\FreeImage.cpp ..\FreeImage\FreeImageIO.cpp ..\FreeImage\GetType.cpp ..\FreeImage\MemoryIO.cpp ..\FreeImage\PixelAccess.cpp ..\FreeImage\NNQuantizer.cpp ..\FreeImage\WuQuantizer.cpp ..\FreeImage\Conversion.cpp ..\FreeImage\Conversion16_555.cpp ..\FreeImage\Conversion16_565.cpp ..\FreeImage\Conversion24.cpp ..\FreeImage\Conversion32.cpp ..\FreeImage\Conversion4.cpp ..\FreeImage\Conversion8.cpp ..\FreeImage\ConversionRGBF.cpp ..\FreeImage\ConversionType.cpp ..\FreeImage\Halftoning.cpp ..\FreeImage\tmoColorConvert.cpp ..\FreeImage\tmoDrago03.cpp ..\FreeImage\tmoFattal02.cpp ..\FreeImage\tmoReinhard05.cpp ..\FreeImage\ToneMapping.cpp ..\FreeImage\J2KHelper.cpp ..\FreeImage\Plugin.cpp ..\FreeImage\PluginBMP.cpp ..\FreeImage\PluginCUT.cpp ..\FreeImage\PluginDDS.cpp ..\FreeImage\PluginEXR.cpp ..\FreeImage\PluginG3.cpp ..\FreeImage\PluginGIF.cpp ..\FreeImage\PluginHDR.cpp ..\FreeImage\PluginICO.cpp ..\FreeImage\PluginIFF.cpp ..\FreeImage\PluginJ2K.cpp ..\FreeImage\PluginJP2.cpp ..\FreeImage\PluginJPEG.cpp ..\FreeImage\PluginKOALA.cpp ..\FreeImage\PluginMNG.cpp ..\FreeImage\PluginPCD.cpp ..\FreeImage\PluginPCX.cpp ..\FreeImage\PluginPNG.cpp ..\FreeImage\PluginPNM.cpp ..\FreeImage\PluginPSD.cpp ..\FreeImage\PluginRAS.cpp ..\FreeImage\PluginSGI.cpp ..\FreeImage\PluginTARGA.cpp ..\FreeImage\PluginTIFF.cpp ..\FreeImage\PluginWBMP.cpp ..\FreeImage\PluginXBM.cpp ..\FreeImage\PluginXPM.cpp ..\DeprecationManager\DeprecationMgr.cpp ..\FreeImage\CacheFile.cpp ..\FreeImage\MultiPage.cpp ..\FreeImage\ZLibInterface.cpp ..\Metadata\Exif.cpp ..\Metadata\FIRational.cpp ..\Metadata\FreeImageTag.cpp ..\Metadata\IPTC.cpp ..\Metadata\TagConversion.cpp ..\Metadata\TagLib.cpp ..\Metadata\XTIFF.cpp ..\FreeImageToolkit\BSplineRotate.cpp ..\FreeImageToolkit\Channels.cpp ..\FreeImageToolkit\ClassicRotate.cpp ..\FreeImageToolkit\Colors.cpp ..\FreeImageToolkit\CopyPaste.cpp ..\FreeImageToolkit\Display.cpp ..\FreeImageToolkit\Flip.cpp ..\FreeImageToolkit\JPEGTransform.cpp ..\FreeImageToolkit\MultigridPoissonSolver.cpp ..\FreeImageToolkit\Rescale.cpp ..\FreeImageToolkit\Resize.cpp
+         BitmapAccess.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\bitmapaccess.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ColorLookup.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FreeImage.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\freeimage.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FreeImageIO.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         GetType.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MemoryIO.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\memoryio.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PixelAccess.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         NNQuantizer.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\nnquantizer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\quantizers.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         WuQuantizer.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\wuquantizer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\quantizers.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversion.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\quantizers.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion16_555.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversion16_555.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion16_565.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversion16_565.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion24.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversion24.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion32.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversion32.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion4.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Conversion8.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversion8.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ConversionRGBF.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversionrgbf.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ConversionType.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\conversiontype.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Halftoning.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\halftoning.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tmoColorConvert.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\tmocolorconvert.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\tonemapping.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         tmoDrago03.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\tmodrago03.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\tonemapping.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tmoFattal02.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\tmofattal02.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\tonemapping.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tmoReinhard05.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\tmoreinhard05.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\tonemapping.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ToneMapping.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\tonemapping.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         J2KHelper.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Plugin.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginBMP.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginbmp.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginCUT.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginDDS.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginEXR.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginG3.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluging3.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginGIF.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginHDR.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginhdr.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginICO.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginico.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginIFF.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginiff.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginJ2K.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginJP2.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginjp2.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginJPEG.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginKOALA.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginMNG.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         PluginPCD.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginPCX.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginpcx.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginPNG.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginPNM.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginpnm.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginPSD.cpp
+         PluginRAS.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginras.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginSGI.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginTARGA.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\plugintarga.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginTIFF.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginWBMP.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginwbmp.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginXBM.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginxbm.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PluginXPM.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\pluginxpm.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         DeprecationMgr.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CacheFile.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MultiPage.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimage\multipage.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ZLibInterface.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Exif.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FIRational.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\firational.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\firational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FreeImageTag.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         IPTC.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\iptc.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         TagConversion.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\tagconversion.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\firational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         TagLib.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\taglib.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         XTIFF.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\freeimagetag.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\metadata\firational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BSplineRotate.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\bsplinerotate.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Channels.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\channels.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ClassicRotate.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\classicrotate.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Colors.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\colors.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CopyPaste.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\copypaste.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Display.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\display.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Flip.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\flip.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         JPEGTransform.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\jpegtransform.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MultigridPoissonSolver.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\multigridpoissonsolver.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\tonemapping.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Rescale.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\rescale.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\resize.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\filters.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Resize.cpp
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\resize.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\resize.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\donotopen\fuckyou\freeimage\source\freeimagetoolkit\filters.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(G:\DONOTOPEN\FUCKYOU\FreeImage\Source\FreeImageLib\.\Debug\FreeImageLib.lib) 与 Library 的 OutputFile 属性值(G:\DONOTOPEN\FUCKYOU\FreeImage\Source\FreeImageLib\Debug\FreeImaged.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(FreeImageLib) 与 Library 的 OutputFile 属性值(FreeImaged)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Debug\FreeImaged.lib" /NOLOGO .\Debug/BitmapAccess.obj
+         .\Debug/ColorLookup.obj
+         .\Debug/FreeImage.obj
+         .\Debug/FreeImageIO.obj
+         .\Debug/GetType.obj
+         .\Debug/MemoryIO.obj
+         .\Debug/PixelAccess.obj
+         .\Debug/NNQuantizer.obj
+         .\Debug/WuQuantizer.obj
+         .\Debug/Conversion.obj
+         .\Debug/Conversion16_555.obj
+         .\Debug/Conversion16_565.obj
+         .\Debug/Conversion24.obj
+         .\Debug/Conversion32.obj
+         .\Debug/Conversion4.obj
+         .\Debug/Conversion8.obj
+         .\Debug/ConversionRGBF.obj
+         .\Debug/ConversionType.obj
+         .\Debug/Halftoning.obj
+         .\Debug/tmoColorConvert.obj
+         .\Debug/tmoDrago03.obj
+         .\Debug/tmoFattal02.obj
+         .\Debug/tmoReinhard05.obj
+         .\Debug/ToneMapping.obj
+         .\Debug/J2KHelper.obj
+         .\Debug/Plugin.obj
+         .\Debug/PluginBMP.obj
+         .\Debug/PluginCUT.obj
+         .\Debug/PluginDDS.obj
+         .\Debug/PluginEXR.obj
+         .\Debug/PluginG3.obj
+         .\Debug/PluginGIF.obj
+         .\Debug/PluginHDR.obj
+         .\Debug/PluginICO.obj
+         .\Debug/PluginIFF.obj
+         .\Debug/PluginJ2K.obj
+         .\Debug/PluginJP2.obj
+         .\Debug/PluginJPEG.obj
+         .\Debug/PluginKOALA.obj
+         .\Debug/PluginMNG.obj
+         .\Debug/PluginPCD.obj
+         .\Debug/PluginPCX.obj
+         .\Debug/PluginPNG.obj
+         .\Debug/PluginPNM.obj
+         .\Debug/PluginPSD.obj
+         .\Debug/PluginRAS.obj
+         .\Debug/PluginSGI.obj
+         .\Debug/PluginTARGA.obj
+         .\Debug/PluginTIFF.obj
+         .\Debug/PluginWBMP.obj
+         .\Debug/PluginXBM.obj
+         .\Debug/PluginXPM.obj
+         .\Debug/DeprecationMgr.obj
+         .\Debug/CacheFile.obj
+         .\Debug/MultiPage.obj
+         .\Debug/ZLibInterface.obj
+         .\Debug/Exif.obj
+         .\Debug/FIRational.obj
+         .\Debug/FreeImageTag.obj
+         .\Debug/IPTC.obj
+         .\Debug/TagConversion.obj
+         .\Debug/TagLib.obj
+         .\Debug/XTIFF.obj
+         .\Debug/BSplineRotate.obj
+         .\Debug/Channels.obj
+         .\Debug/ClassicRotate.obj
+         .\Debug/Colors.obj
+         .\Debug/CopyPaste.obj
+         .\Debug/Display.obj
+         .\Debug/Flip.obj
+         .\Debug/JPEGTransform.obj
+         .\Debug/MultigridPoissonSolver.obj
+         .\Debug/Rescale.obj
+         .\Debug/Resize.obj
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibJPEG\Debug\LibJPEG.lib
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibMNG\Debug\LibMNG.lib
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\Debug\LibOpenJPEG.lib
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibPNG\Debug\LibPNG.lib
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\Debug\LibTIFF.lib
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Debug\OpenEXR.lib
+         G:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\Debug\ZLib.lib
+     1>OpenEXR.lib(ImathBox.obj) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>OpenEXR.lib(ImathShear.obj) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         FreeImageLib.2005.vcxproj -> G:\DONOTOPEN\FUCKYOU\FreeImage\Source\FreeImageLib\.\Debug\FreeImageLib.lib
+       PostBuildEvent:
+         copy Debug\FreeImaged.lib ..\..\Dist
+         copy ..\FreeImage.h ..\..\Dist
+         
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\FreeImageLib.unsuccessfulbuild”。
+         正在对“.\Debug\FreeImageLib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\DONOTOPEN\FUCKYOU\FreeImage\Source\FreeImageLib\FreeImageLib.2005.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:27.24

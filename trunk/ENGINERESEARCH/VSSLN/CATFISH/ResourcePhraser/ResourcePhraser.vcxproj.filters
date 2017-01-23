@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImagePhaser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImageRes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\Res.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ResMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\MeshRes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\ObjMeshPhraser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\ShaderPhraser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CATFISH\ResourcePhraser\ShaderRes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImagePhaser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ImageRes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\RDllCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\Res.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ResourcePhraser\ResMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\MeshRes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\ObjMeshPhraser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\ShaderPhraser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CATFISH\ResourcePhraser\ShaderRes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CATFISH\ResourcePhraser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{661B98B1-EBB7-4FE5-8C3E-B1959B39242C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F91BE4A8-95A1-44B1-8816-A532B6D02284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

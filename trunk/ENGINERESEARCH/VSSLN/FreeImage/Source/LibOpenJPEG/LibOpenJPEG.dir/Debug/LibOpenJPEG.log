@@ -1,0 +1,885 @@
+﻿Build started 2014/8/8 10:16:35.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\zhaohang\AppData\Roaming
+CG_BIN_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\bin
+CG_INC_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\include
+CG_LIB_PATH = D:\Program Files (x86)\NVIDIA Corporation\Cg\lib
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = CY4612
+ComSpec = C:\windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\zhaohang
+LOCALAPPDATA = C:\Users\zhaohang\AppData\Local
+LOGONSERVER = \\CYBJDC02
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\windows
+TEMP = C:\Users\zhaohang\AppData\Local\Temp
+TMP = C:\Users\zhaohang\AppData\Local\Temp
+UATDATA = C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = CYOU-INC.COM
+USERDOMAIN = CYOU-INC
+USERNAME = zhaohang
+USERPROFILE = C:\Users\zhaohang
+VisualStudioDir = C:\Users\zhaohang\Documents\Visual Studio 2010
+VS100COMNTOOLS = D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+10:16:35.012     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" on node 2 (build target(s)).
+10:16:35.012     1>Building with tools version "4.0".
+10:16:35.012     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:162)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:86)
+                     Configuration=Debug (TaskId:86)
+                   Done executing task "Message". (TaskId:86)
+                   Task "Message" (TaskId:87)
+                     Platform=Win32 (TaskId:87)
+                   Done executing task "Message". (TaskId:87)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\' != '' and !HasTrailingSlash('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('LibOpenJPEG.dir\Debug\' != '' and !HasTrailingSlash('LibOpenJPEG.dir\Debug\')).
+10:16:35.012     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "LibOpenJPEG.vcxproj".: (TargetId:162)
+10:16:35.012     1>Target "_DetermineManagedStateFromCL: (TargetId:163)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:35.012     1>Done building target "_DetermineManagedStateFromCL" in project "LibOpenJPEG.vcxproj".: (TargetId:163)
+10:16:35.012     1>Target "_PrepareForBuild: (TargetId:164)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:35.012     1>Done building target "_PrepareForBuild" in project "LibOpenJPEG.vcxproj".: (TargetId:164)
+10:16:35.012     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:165)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:88)
+                     PATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\windows\Microsoft.NET\Framework\v4.0.30319\;D:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\windows\SysWow64;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Xoreax\IncrediBuild;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin;D:\Program Files (x86)\NVIDIA Corporation\Cg\bin.x64; (TaskId:88)
+                   Done executing task "SetEnv". (TaskId:88)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:89)
+                     LIB=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:89)
+                   Done executing task "SetEnv". (TaskId:89)
+                   Task "SetEnv" (TaskId:90)
+                     LIBPATH=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:90)
+                   Done executing task "SetEnv". (TaskId:90)
+                   Task "SetEnv" (TaskId:91)
+                     INCLUDE=D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:91)
+                   Done executing task "SetEnv". (TaskId:91)
+10:16:35.012     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "LibOpenJPEG.vcxproj".: (TargetId:165)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:16:35.012     1>Target "BeforeResolveReferences: (TargetId:166)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveReferences" depends on it):
+10:16:35.012     1>Done building target "BeforeResolveReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:166)
+10:16:35.012     1>Target "AssignProjectConfiguration: (TargetId:167)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:92)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has been assigned the "Debug|Win32" configuration. (TaskId:92)
+                   Done executing task "AssignProjectConfiguration". (TaskId:92)
+10:16:35.012     1>Done building target "AssignProjectConfiguration" in project "LibOpenJPEG.vcxproj".: (TargetId:167)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+10:16:35.012     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:168)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" (TaskId:93)
+                     Resolving project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj". (TaskId:93)
+                     Project reference "E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj" has not been resolved. (TaskId:93)
+                   Done executing task "ResolveNonMSBuildProjectOutput". (TaskId:93)
+10:16:35.012     1>Done building target "_SplitProjectReferencesByFileExistence" in project "LibOpenJPEG.vcxproj".: (TargetId:168)
+10:16:35.012     1>Target "_RemoveNameMetadataFromProjectReferenceItems: (TargetId:169)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveProjectReferences" depends on it):
+10:16:35.012     1>Done building target "_RemoveNameMetadataFromProjectReferenceItems" in project "LibOpenJPEG.vcxproj".: (TargetId:169)
+10:16:35.012     1>Target "ResolveProjectReferences: (TargetId:170)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:94)
+                     Global Properties: (TaskId:94)
+                       Configuration=Debug (TaskId:94)
+                       Platform=Win32 (TaskId:94)
+10:16:35.012     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+10:16:35.012     2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetTargetPath" skipped. Previously built successfully.
+10:16:35.012     2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetTargetPath target(s)).
+10:16:35.012     1>Done executing task "MSBuild". (TaskId:94)
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' != 'true' and 'true' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '').
+                   Task "MSBuild" (TaskId:95)
+                     Global Properties: (TaskId:95)
+                       Configuration=Debug (TaskId:95)
+                       Platform=Win32 (TaskId:95)
+10:16:35.012     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+10:16:35.012   2:2>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetNativeManifest" skipped. Previously built successfully.
+10:16:35.012   2:2>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetNativeManifest target(s)).
+10:16:35.012     1>Done executing task "MSBuild". (TaskId:95)
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' != '').
+10:16:35.012     1>Done building target "ResolveProjectReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:170)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+10:16:35.012     1>Target "GetFrameworkPaths: (TargetId:171)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+10:16:35.012     1>Done building target "GetFrameworkPaths" in project "LibOpenJPEG.vcxproj".: (TargetId:171)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:16:35.012     1>Target "GetReferenceAssemblyPaths: (TargetId:172)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:16:35.012     1>Done building target "GetReferenceAssemblyPaths" in project "LibOpenJPEG.vcxproj".: (TargetId:172)
+10:16:35.012     1>Target "PlatformPrepareForBuild: (TargetId:173)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:16:35.012     1>Done building target "PlatformPrepareForBuild" in project "LibOpenJPEG.vcxproj".: (TargetId:173)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:16:35.012     1>Target "PrepareForBuild: (TargetId:174)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:96)
+                   Done executing task "MakeDir". (TaskId:96)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:97)
+                   Done executing task "MakeDir". (TaskId:97)
+10:16:35.012     1>Done building target "PrepareForBuild" in project "LibOpenJPEG.vcxproj".: (TargetId:174)
+10:16:35.012     1>Target "GetInstalledSDKLocations: (TargetId:175)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+10:16:35.012     1>Done building target "GetInstalledSDKLocations" in project "LibOpenJPEG.vcxproj".: (TargetId:175)
+10:16:35.012     1>Target "ResolveSDKReferences: (TargetId:176)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+10:16:35.012     1>Done building target "ResolveSDKReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:176)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+10:16:35.012     1>Target "ExpandSDKReferences: (TargetId:177)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+10:16:35.012     1>Done building target "ExpandSDKReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:177)
+10:16:35.012     1>Target "ResolveAssemblyReferences: (TargetId:178)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" (TaskId:98)
+                     TargetFrameworkMoniker: (TaskId:98)
+                         .NETFramework,Version=v4.0 (TaskId:98)
+                     TargetFrameworkMonikerDisplayName: (TaskId:98)
+                         .NET Framework 4 (TaskId:98)
+                     TargetedRuntimeVersion: (TaskId:98)
+                         v4.0.30319 (TaskId:98)
+                     Assemblies: (TaskId:98)
+                         System.Core (TaskId:98)
+                     AssemblyFiles: (TaskId:98)
+                     CandidateAssemblyFiles: (TaskId:98)
+                     TargetFrameworkDirectories: (TaskId:98)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:98)
+                     InstalledAssemblyTables: (TaskId:98)
+                     IgnoreInstalledAssemblyTable: (TaskId:98)
+                         False (TaskId:98)
+                     SearchPaths: (TaskId:98)
+                         {CandidateAssemblyFiles} (TaskId:98)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:98)
+                         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:98)
+                         {HintPathFromItem} (TaskId:98)
+                         {TargetFrameworkDirectory} (TaskId:98)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:98)
+                         {AssemblyFolders} (TaskId:98)
+                         {GAC} (TaskId:98)
+                         {RawFileName} (TaskId:98)
+                         E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\ (TaskId:98)
+                     AllowedAssemblyExtensions: (TaskId:98)
+                         .winmd (TaskId:98)
+                         .dll (TaskId:98)
+                         .exe (TaskId:98)
+                     AllowedRelatedFileExtensions: (TaskId:98)
+                         .pdb (TaskId:98)
+                         .xml (TaskId:98)
+                         .pri (TaskId:98)
+                     AppConfigFile: (TaskId:98)
+                          (TaskId:98)
+                     AutoUnify: (TaskId:98)
+                         True (TaskId:98)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:98)
+                         True (TaskId:98)
+                     FindDependencies: (TaskId:98)
+                         True (TaskId:98)
+                     TargetProcessorArchitecture: (TaskId:98)
+                         x86 (TaskId:98)
+                     StateFile: (TaskId:98)
+                         LibOpenJPEG.dir\Debug\LibOpenJPEG.vcxprojResolveAssemblyReference.cache (TaskId:98)
+                     InstalledAssemblySubsetTables: (TaskId:98)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:98)
+                         False (TaskId:98)
+                     TargetFrameworkSubsets: (TaskId:98)
+                     FullTargetFrameworkSubsetNames: (TaskId:98)
+                         Full (TaskId:98)
+                     ProfileName: (TaskId:98)
+                          (TaskId:98)
+                     FullFrameworkFolders: (TaskId:98)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:98)
+                     LatestTargetFrameworkDirectories: (TaskId:98)
+                     ProfileTablesLocation: (TaskId:98)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:98)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:98)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:98)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:98)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:98)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:98)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:98)
+                             For SearchPath "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:98)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:98)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:98)
+                             Considered "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:98)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:98)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:98)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:98)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:98)
+                   Done executing task "ResolveAssemblyReference". (TaskId:98)
+10:16:35.012     1>Done building target "ResolveAssemblyReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:178)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:16:35.012     1>Target "AfterResolveReferences: (TargetId:179)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ResolveReferences" depends on it):
+10:16:35.012     1>Done building target "AfterResolveReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:179)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+10:16:35.012     1>Target "ResolveReferences: (TargetId:180)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:35.012     1>Done building target "ResolveReferences" in project "LibOpenJPEG.vcxproj".: (TargetId:180)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:16:35.012     1>Target "InitializeBuildStatus: (TargetId:181)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:99)
+                   Done executing task "ReadLinesFromFile". (TaskId:99)
+                   Task "WriteLinesToFile" (TaskId:100)
+                   Done executing task "WriteLinesToFile". (TaskId:100)
+                   Task "Touch" (TaskId:101)
+                     Creating "LibOpenJPEG.dir\Debug\LibOpenJPEG.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:101)
+                   Done executing task "Touch". (TaskId:101)
+10:16:35.012     1>Done building target "InitializeBuildStatus" in project "LibOpenJPEG.vcxproj".: (TargetId:181)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:35.012     1>Target "BuildGenerateSourcesTraverse: (TargetId:182)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'true' == 'true').
+10:16:35.012     1>Done building target "BuildGenerateSourcesTraverse" in project "LibOpenJPEG.vcxproj".: (TargetId:182)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:35.012     1>Target "BeforeBuildGenerateSources: (TargetId:183)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.012     1>Done building target "BeforeBuildGenerateSources" in project "LibOpenJPEG.vcxproj".: (TargetId:183)
+10:16:35.012     1>Target "PreBuildEvent: (TargetId:184)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:16:35.012     1>Done building target "PreBuildEvent" in project "LibOpenJPEG.vcxproj".: (TargetId:184)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:16:35.012     1>Target "_SelectedFiles: (TargetId:185)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "SelectCustomBuild" depends on it):
+10:16:35.012     1>Done building target "_SelectedFiles" in project "LibOpenJPEG.vcxproj".: (TargetId:185)
+10:16:35.012     1>Target "SelectCustomBuild: (TargetId:186)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "CustomBuild" depends on it):
+10:16:35.012     1>Done building target "SelectCustomBuild" in project "LibOpenJPEG.vcxproj".: (TargetId:186)
+10:16:35.012     1>Target "ComputeCustomBuildOutput: (TargetId:187)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "CustomBuild" depends on it):
+                   Task "MakeDir" (TaskId:102)
+                   Done executing task "MakeDir". (TaskId:102)
+10:16:35.012     1>Done building target "ComputeCustomBuildOutput" in project "LibOpenJPEG.vcxproj".: (TargetId:187)
+10:16:35.012     1>Target "CustomBuild: (TargetId:188)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Using "CustomBuild" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CustomBuild" (TaskId:103)
+                     Write Tracking Logs: (TaskId:103)
+                     	LibOpenJPEG.dir\Debug\custombuild.write.1.tlog (TaskId:103)
+                     Read Tracking Logs: (TaskId:103)
+                     	LibOpenJPEG.dir\Debug\custombuild.read.1.tlog (TaskId:103)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\CMAKELISTS.TXT: (TaskId:103)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\CMAKEFILES\GENERATE.STAMP (TaskId:103)
+                     All outputs are up-to-date. (TaskId:103)
+                   Done executing task "CustomBuild". (TaskId:103)
+10:16:35.075     1>Done building target "CustomBuild" in project "LibOpenJPEG.vcxproj".: (TargetId:188)
+10:16:35.075     1>Target "_GenerateXMLData: (TargetId:189)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.075     1>Done building target "_GenerateXMLData" in project "LibOpenJPEG.vcxproj".: (TargetId:189)
+10:16:35.075     1>Target "_GenerateWebServiceProxy: (TargetId:190)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.075     1>Done building target "_GenerateWebServiceProxy" in project "LibOpenJPEG.vcxproj".: (TargetId:190)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+10:16:35.075     1>Target "_Xsd: (TargetId:191)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.075     1>Done building target "_Xsd" in project "LibOpenJPEG.vcxproj".: (TargetId:191)
+10:16:35.075     1>Target "MakeDirsForMidl: (TargetId:192)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:104)
+                   Done executing task "Makedir". (TaskId:104)
+10:16:35.075     1>Done building target "MakeDirsForMidl" in project "LibOpenJPEG.vcxproj".: (TargetId:192)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+10:16:35.075     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:193)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Midl" depends on it):
+10:16:35.090     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "LibOpenJPEG.vcxproj".: (TargetId:193)
+10:16:35.090     1>Target "AfterMidl: (TargetId:194)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Midl" depends on it):
+10:16:35.090     1>Done building target "AfterMidl" in project "LibOpenJPEG.vcxproj".: (TargetId:194)
+10:16:35.090     1>Target "_Midl: (TargetId:195)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.090     1>Done building target "_Midl" in project "LibOpenJPEG.vcxproj".: (TargetId:195)
+10:16:35.090     1>Target "AfterBuildGenerateSources: (TargetId:196)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.090     1>Done building target "AfterBuildGenerateSources" in project "LibOpenJPEG.vcxproj".: (TargetId:196)
+10:16:35.090     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:197)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildGenerateSources" depends on it):
+10:16:35.090     1>Done building target "AfterBuildGenerateSourcesEvent" in project "LibOpenJPEG.vcxproj".: (TargetId:197)
+10:16:35.090     1>Target "BuildGenerateSources: (TargetId:198)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:35.090     1>Done building target "BuildGenerateSources" in project "LibOpenJPEG.vcxproj".: (TargetId:198)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:35.090     1>Target "BuildCompileTraverse: (TargetId:199)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:16:35.090     1>Done building target "BuildCompileTraverse" in project "LibOpenJPEG.vcxproj".: (TargetId:199)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:35.090     1>Target "BeforeClCompile: (TargetId:200)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ClCompile" depends on it):
+10:16:35.090     1>Done building target "BeforeClCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:200)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+10:16:35.090     1>Target "ComputeCLInputPDBName: (TargetId:201)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ClCompile" depends on it):
+10:16:35.090     1>Done building target "ComputeCLInputPDBName" in project "LibOpenJPEG.vcxproj".: (TargetId:201)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:35.090     1>Target "ComputeReferenceCLInput: (TargetId:202)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:105)
+                   Done executing task "WriteLinesToFile". (TaskId:105)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+10:16:35.090     1>Done building target "ComputeReferenceCLInput" in project "LibOpenJPEG.vcxproj".: (TargetId:202)
+10:16:35.090     1>Target "MakeDirsForCl: (TargetId:203)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:106)
+                   Done executing task "MakeDir". (TaskId:106)
+10:16:35.090     1>Done building target "MakeDirsForCl" in project "LibOpenJPEG.vcxproj".: (TargetId:203)
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "SelectCustomBuild" skipped. Previously built successfully.
+10:16:35.090     1>Target "SelectClCompile: (TargetId:204)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ClCompile" depends on it):
+10:16:35.090     1>Done building target "SelectClCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:204)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\bio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\cio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\dwt.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\event.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\image.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k_lib.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jp2.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jpt.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mct.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mqc.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\openjpeg.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\pi.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\raw.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1_generate_luts.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t2.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tcd.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tgt.c' != '' and 'false' == 'True').
+10:16:35.090     1>Target "ClCompile: (TargetId:205)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" (TaskId:107)
+                   Done executing task "Delete". (TaskId:107)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:108)
+                     Forcing recompile of all source files due to missing PDB "E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibOpenJPEG.pdb". (TaskId:108)
+                     Environment Variables passed to tool: (TaskId:108)
+                       VS_UNICODE_OUTPUT=704 (TaskId:108)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D _LIB /D OPJ_STATIC /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"LibOpenJPEG.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibOpenJPEG.pdb" /Gd /TC /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\bio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\cio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\dwt.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\event.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\image.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k_lib.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jp2.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jpt.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mct.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mqc.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\openjpeg.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\pi.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\raw.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1_generate_luts.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t2.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tcd.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tgt.c  /Zm1000  (TaskId:108)
+                     Tracking command: (TaskId:108)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\BIO.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\CIO.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\DWT.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\EVENT.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\IMAGE.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\J2K.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\J2K_LIB.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\JP2.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\JPT.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\MCT.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\MQC.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\OPENJPEG.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\PI.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\RAW.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\T1.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\T1_GENERATE_LUTS.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\T2.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\TCD.C|E:\DONOTOPEN\FUCKYOU\FREEIMAGE\SOURCE\LIBOPENJPEG\TGT.C" /b MSBuildConsole_CancelEventd9088ccf8fea4b13bfb1d30aba8513dd  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __WIN32__ /D WIN32 /D _LIB /D OPJ_STATIC /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"LibOpenJPEG.dir\Debug\\" /Fd"E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibOpenJPEG.pdb" /Gd /TC /analyze- /errorReport:prompt E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\bio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\cio.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\dwt.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\event.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\image.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k_lib.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jp2.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jpt.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mct.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mqc.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\openjpeg.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\pi.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\raw.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1_generate_luts.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t2.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tcd.c E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tgt.c  /Zm1000  (TaskId:108)
+                     bio.c (TaskId:108)
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     cio.c (TaskId:108)
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     dwt.c (TaskId:108)
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.699     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     event.c (TaskId:108)
+10:16:35.761     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\event.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.761     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.777     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.777     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.777     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     image.c (TaskId:108)
+10:16:35.792     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.824     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.824     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.824     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     j2k.c (TaskId:108)
+10:16:35.839     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.855     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.855     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:35.855     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     j2k_lib.c (TaskId:108)
+10:16:35.886     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k_lib.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.883     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.898     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.898     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.898     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     jp2.c (TaskId:108)
+10:16:37.914     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jp2.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.914     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.930     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.930     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.930     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     jpt.c (TaskId:108)
+10:16:37.945     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.961     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.961     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.961     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     mct.c (TaskId:108)
+10:16:37.976     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.992     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.992     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:37.992     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     mqc.c (TaskId:108)
+10:16:38.008     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.023     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.023     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.023     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     openjpeg.c (TaskId:108)
+10:16:38.039     1>E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\openjpeg.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.195     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.195     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.195     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.195     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     pi.c (TaskId:108)
+10:16:38.226     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.242     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.242     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.242     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     raw.c (TaskId:108)
+10:16:38.257     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.273     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.273     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.273     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     t1.c (TaskId:108)
+10:16:38.288     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.304     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.304     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.304     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     t1_generate_luts.c (TaskId:108)
+10:16:38.320     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.335     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.335     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.335     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     t2.c (TaskId:108)
+10:16:38.351     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.366     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.366     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.366     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     tcd.c (TaskId:108)
+10:16:38.398     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.413     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.413     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.413     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     tgt.c (TaskId:108)
+10:16:38.444     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\opj_includes.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.460     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\j2k_lib.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.460     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\event.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+10:16:38.460     1>e:\donotopen\fuckyou\freeimage\source\libopenjpeg\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                     Generating Code... (TaskId:108)
+                   Done executing task "CL". (TaskId:108)
+10:16:38.944     1>Done building target "ClCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:205)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\bio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\cio.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\dwt.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\event.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\image.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\j2k_lib.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jp2.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\jpt.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mct.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\mqc.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\openjpeg.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\pi.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\raw.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t1_generate_luts.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\t2.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tcd.c;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG\tgt.c' != '' and 'false' == 'True').
+10:16:38.944     1>Target "AfterClCompile: (TargetId:248)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ClCompile" depends on it):
+10:16:38.944     1>Done building target "AfterClCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:248)
+10:16:38.944     1>Target "_ClCompile: (TargetId:249)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildCompile" depends on it):
+10:16:38.944     1>Done building target "_ClCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:249)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+10:16:38.944     1>Target "BeforeResourceCompile: (TargetId:250)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ResourceCompile" depends on it):
+10:16:38.944     1>Done building target "BeforeResourceCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:250)
+10:16:38.944     1>Target "MakeDirsForResourceCompile: (TargetId:251)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:115)
+                   Done executing task "MakeDir". (TaskId:115)
+10:16:38.944     1>Done building target "MakeDirsForResourceCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:251)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+10:16:38.944     1>Target "AfterResourceCompile: (TargetId:252)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_ResourceCompile" depends on it):
+10:16:38.944     1>Done building target "AfterResourceCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:252)
+10:16:38.944     1>Target "_ResourceCompile: (TargetId:253)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildCompile" depends on it):
+10:16:38.944     1>Done building target "_ResourceCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:253)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+10:16:38.944     1>Target "BeforeLib: (TargetId:254)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+10:16:38.944     1>Done building target "BeforeLib" in project "LibOpenJPEG.vcxproj".: (TargetId:254)
+10:16:38.944     1>Target "ComputeLibAdditionalOptions: (TargetId:255)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+10:16:38.944     1>Done building target "ComputeLibAdditionalOptions" in project "LibOpenJPEG.vcxproj".: (TargetId:255)
+10:16:38.944     1>Target "ComputeRCOutputs: (TargetId:256)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+10:16:38.944     1>Done building target "ComputeRCOutputs" in project "LibOpenJPEG.vcxproj".: (TargetId:256)
+10:16:38.944     1>Target "ComputeRCGeneratedLibInputs: (TargetId:257)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+10:16:38.944     1>Done building target "ComputeRCGeneratedLibInputs" in project "LibOpenJPEG.vcxproj".: (TargetId:257)
+                   Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+10:16:38.944     1>Target "ComputeCLOutputs: (TargetId:258)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ComputeCLGeneratedLibInputs" depends on it):
+10:16:38.944     1>Done building target "ComputeCLOutputs" in project "LibOpenJPEG.vcxproj".: (TargetId:258)
+10:16:38.944     1>Target "ComputeCLGeneratedLibInputs: (TargetId:259)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+10:16:38.944     1>Done building target "ComputeCLGeneratedLibInputs" in project "LibOpenJPEG.vcxproj".: (TargetId:259)
+10:16:38.944     1>Target "ComputeLibInputsFromProject: (TargetId:260)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+10:16:38.944     1>Done building target "ComputeLibInputsFromProject" in project "LibOpenJPEG.vcxproj".: (TargetId:260)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:38.944     1>Target "ResolvedLinkLib: (TargetId:261)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "ComputeReferenceLibInputs" depends on it):
+                   Task "MSBuild" (TaskId:116)
+                     Global Properties: (TaskId:116)
+                       Configuration=Debug (TaskId:116)
+                       Platform=Win32 (TaskId:116)
+10:16:35.012     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+10:16:38.975   2:3>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:38.975   2:3>Target "GetResolvedLinkLibs: (TargetId:262)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (entry point):
+10:16:38.975   2:3>Done building target "GetResolvedLinkLibs" in project "ZERO_CHECK.vcxproj".: (TargetId:262)
+10:16:38.975   2:3>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetResolvedLinkLibs target(s)) -- FAILED.
+10:16:38.990     1>Done executing task "MSBuild". (TaskId:116)
+10:16:38.990     1>Done building target "ResolvedLinkLib" in project "LibOpenJPEG.vcxproj".: (TargetId:261)
+10:16:38.990     1>Target "ComputeReferenceLibInputs: (TargetId:263)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+10:16:38.990     1>Done building target "ComputeReferenceLibInputs" in project "LibOpenJPEG.vcxproj".: (TargetId:263)
+10:16:38.990     1>Target "MakeDirsForLib: (TargetId:264)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:117)
+                   Done executing task "MakeDir". (TaskId:117)
+10:16:38.990     1>Done building target "MakeDirsForLib" in project "LibOpenJPEG.vcxproj".: (TargetId:264)
+10:16:38.990     1>Target "DoLibOutputFilesMatch: (TargetId:265)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibOpenJPEG.lib' != 'E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibOpenJPEG.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('LibOpenJPEG' != 'LibOpenJPEG').
+10:16:38.990     1>Done building target "DoLibOutputFilesMatch" in project "LibOpenJPEG.vcxproj".: (TargetId:265)
+10:16:38.990     1>Target "PreLinkEvent: (TargetId:266)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+10:16:38.990     1>Done building target "PreLinkEvent" in project "LibOpenJPEG.vcxproj".: (TargetId:266)
+10:16:38.990     1>Target "Lib: (TargetId:267)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:118)
+                     Write Tracking Logs: (TaskId:118)
+                     	LibOpenJPEG.dir\Debug\Lib-link.write.1.tlog (TaskId:118)
+                     Read Tracking Logs: (TaskId:118)
+                     	LibOpenJPEG.dir\Debug\Lib.read.1.tlog (TaskId:118)
+                     	LibOpenJPEG.dir\Debug\Lib-link.read.1.tlog (TaskId:118)
+                     Outputs for E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\BIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\CIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\DWT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\EVENT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\IMAGE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K_LIB.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JP2.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JPT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MCT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MQC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\OPENJPEG.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\PI.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\RAW.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1_GENERATE_LUTS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T2.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TCD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TGT.OBJ: (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\BIN\WIN\DEBUG\LIBOPENJPEG.LIB (TaskId:118)
+                     E:\DONOTOPEN\FUCKYOU\BIN\WIN\DEBUG\LIBOPENJPEG.LIB does not exist; source compilation required. (TaskId:118)
+                     Inputs for E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\BIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\CIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\DWT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\EVENT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\IMAGE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K_LIB.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JP2.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JPT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MCT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MQC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\OPENJPEG.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\PI.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\RAW.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1_GENERATE_LUTS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T2.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TCD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TGT.OBJ: (TaskId:118)
+                     	C:\WINDOWS\SYSTEM32\RSAENH.DLL (TaskId:118)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:118)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\BIO.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\CIO.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\DWT.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\EVENT.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\IMAGE.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K_LIB.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JP2.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JPT.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MCT.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MQC.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\OPENJPEG.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\PI.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\RAW.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1_GENERATE_LUTS.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T2.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TCD.OBJ (TaskId:118)
+                     	E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TGT.OBJ (TaskId:118)
+                     Source compilation required: input E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\BIO.OBJ is newer than output . (TaskId:118)
+                     D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibOpenJPEG.lib" /NOLOGO LibOpenJPEG.dir\Debug\bio.obj
+                     LibOpenJPEG.dir\Debug\cio.obj
+                     LibOpenJPEG.dir\Debug\dwt.obj
+                     LibOpenJPEG.dir\Debug\event.obj
+                     LibOpenJPEG.dir\Debug\image.obj
+                     LibOpenJPEG.dir\Debug\j2k.obj
+                     LibOpenJPEG.dir\Debug\j2k_lib.obj
+                     LibOpenJPEG.dir\Debug\jp2.obj
+                     LibOpenJPEG.dir\Debug\jpt.obj
+                     LibOpenJPEG.dir\Debug\mct.obj
+                     LibOpenJPEG.dir\Debug\mqc.obj
+                     LibOpenJPEG.dir\Debug\openjpeg.obj
+                     LibOpenJPEG.dir\Debug\pi.obj
+                     LibOpenJPEG.dir\Debug\raw.obj
+                     LibOpenJPEG.dir\Debug\t1.obj
+                     LibOpenJPEG.dir\Debug\t1_generate_luts.obj
+                     LibOpenJPEG.dir\Debug\t2.obj
+                     LibOpenJPEG.dir\Debug\tcd.obj
+                     LibOpenJPEG.dir\Debug\tgt.obj (TaskId:118)
+                     Tracking command: (TaskId:118)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.dir\Debug /r "E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\BIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\CIO.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\DWT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\EVENT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\IMAGE.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\J2K_LIB.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JP2.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\JPT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MCT.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\MQC.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\OPENJPEG.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\PI.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\RAW.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T1_GENERATE_LUTS.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\T2.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TCD.OBJ|E:\DONOTOPEN\FUCKYOU\VSSLN\FREEIMAGE\SOURCE\LIBOPENJPEG\LIBOPENJPEG.DIR\DEBUG\TGT.OBJ" /b MSBuildConsole_CancelEvent0ba4eb780d61466b90b27c15bb48dbff  /c "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibOpenJPEG.lib" /NOLOGO LibOpenJPEG.dir\Debug\bio.obj
+                     LibOpenJPEG.dir\Debug\cio.obj
+                     LibOpenJPEG.dir\Debug\dwt.obj
+                     LibOpenJPEG.dir\Debug\event.obj
+                     LibOpenJPEG.dir\Debug\image.obj
+                     LibOpenJPEG.dir\Debug\j2k.obj
+                     LibOpenJPEG.dir\Debug\j2k_lib.obj
+                     LibOpenJPEG.dir\Debug\jp2.obj
+                     LibOpenJPEG.dir\Debug\jpt.obj
+                     LibOpenJPEG.dir\Debug\mct.obj
+                     LibOpenJPEG.dir\Debug\mqc.obj
+                     LibOpenJPEG.dir\Debug\openjpeg.obj
+                     LibOpenJPEG.dir\Debug\pi.obj
+                     LibOpenJPEG.dir\Debug\raw.obj
+                     LibOpenJPEG.dir\Debug\t1.obj
+                     LibOpenJPEG.dir\Debug\t1_generate_luts.obj
+                     LibOpenJPEG.dir\Debug\t2.obj
+                     LibOpenJPEG.dir\Debug\tcd.obj
+                     LibOpenJPEG.dir\Debug\tgt.obj (TaskId:118)
+                   Done executing task "LIB". (TaskId:118)
+                   Task "Message" (TaskId:119)
+                     LibOpenJPEG.vcxproj -> E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\LibOpenJPEG.lib (TaskId:119)
+                   Done executing task "Message". (TaskId:119)
+10:16:39.443     1>Done building target "Lib" in project "LibOpenJPEG.vcxproj".: (TargetId:267)
+10:16:39.443     1>Target "AfterLib: (TargetId:268)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_Lib" depends on it):
+10:16:39.443     1>Done building target "AfterLib" in project "LibOpenJPEG.vcxproj".: (TargetId:268)
+10:16:39.443     1>Target "_Lib: (TargetId:269)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildCompile" depends on it):
+10:16:39.443     1>Done building target "_Lib" in project "LibOpenJPEG.vcxproj".: (TargetId:269)
+10:16:39.443     1>Target "AfterBuildCompileEvent: (TargetId:270)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildCompile" depends on it):
+10:16:39.443     1>Done building target "AfterBuildCompileEvent" in project "LibOpenJPEG.vcxproj".: (TargetId:270)
+10:16:39.443     1>Target "BuildCompile: (TargetId:271)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:39.443     1>Done building target "BuildCompile" in project "LibOpenJPEG.vcxproj".: (TargetId:271)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:39.443     1>Target "BuildLinkTraverse: (TargetId:272)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != ''  and 'true' == 'true').
+10:16:39.443     1>Done building target "BuildLinkTraverse" in project "LibOpenJPEG.vcxproj".: (TargetId:272)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+10:16:39.443     1>Target "_ALink: (TargetId:273)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "_ALink" in project "LibOpenJPEG.vcxproj".: (TargetId:273)
+10:16:39.443     1>Target "_Manifest: (TargetId:274)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "_Manifest" in project "LibOpenJPEG.vcxproj".: (TargetId:274)
+10:16:39.443     1>Target "RegisterOutput: (TargetId:275)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+10:16:39.443     1>Done building target "RegisterOutput" in project "LibOpenJPEG.vcxproj".: (TargetId:275)
+10:16:39.443     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:276)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_XdcMake" depends on it):
+10:16:39.443     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "LibOpenJPEG.vcxproj".: (TargetId:276)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:16:39.443     1>Target "ResolvedXDCMake: (TargetId:277)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('.vcxproj' == '.vcxproj' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and 'E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj' != '' and '' == 'true').
+10:16:39.443     1>Done building target "ResolvedXDCMake" in project "LibOpenJPEG.vcxproj".: (TargetId:277)
+10:16:39.443     1>Target "MakeDirsForXdcMake: (TargetId:278)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:120)
+                   Done executing task "MakeDir". (TaskId:120)
+10:16:39.443     1>Done building target "MakeDirsForXdcMake" in project "LibOpenJPEG.vcxproj".: (TargetId:278)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+10:16:39.443     1>Target "_XdcMake: (TargetId:279)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "_XdcMake" in project "LibOpenJPEG.vcxproj".: (TargetId:279)
+10:16:39.443     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:280)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_BscMake" depends on it):
+10:16:39.443     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "LibOpenJPEG.vcxproj".: (TargetId:280)
+10:16:39.443     1>Target "MakeDirsForBscMake: (TargetId:281)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:121)
+                   Done executing task "MakeDir". (TaskId:121)
+10:16:39.443     1>Done building target "MakeDirsForBscMake" in project "LibOpenJPEG.vcxproj".: (TargetId:281)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:16:39.443     1>Target "_BscMake: (TargetId:282)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "_BscMake" in project "LibOpenJPEG.vcxproj".: (TargetId:282)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+10:16:39.443     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:283)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+10:16:39.443     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "LibOpenJPEG.vcxproj".: (TargetId:283)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+10:16:39.443     1>Target "CreateSatelliteAssemblies: (TargetId:284)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "CreateSatelliteAssemblies" in project "LibOpenJPEG.vcxproj".: (TargetId:284)
+10:16:39.443     1>Target "_Appverifier: (TargetId:285)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "_Appverifier" in project "LibOpenJPEG.vcxproj".: (TargetId:285)
+10:16:39.443     1>Target "_Deploy: (TargetId:286)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+10:16:39.443     1>Done building target "_Deploy" in project "LibOpenJPEG.vcxproj".: (TargetId:286)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+10:16:39.443     1>Target "AssignTargetPaths: (TargetId:287)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:122)
+                   Done executing task "AssignTargetPath". (TaskId:122)
+                   Task "AssignTargetPath" (TaskId:123)
+                   Done executing task "AssignTargetPath". (TaskId:123)
+                   Task "AssignTargetPath" (TaskId:124)
+                   Done executing task "AssignTargetPath". (TaskId:124)
+                   Task "AssignTargetPath" (TaskId:125)
+                   Done executing task "AssignTargetPath". (TaskId:125)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+10:16:39.443     1>Done building target "AssignTargetPaths" in project "LibOpenJPEG.vcxproj".: (TargetId:287)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:16:39.443     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:288)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:126)
+                   Done executing task "AssignTargetPath". (TaskId:126)
+10:16:39.443     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "LibOpenJPEG.vcxproj".: (TargetId:288)
+10:16:39.443     1>Target "GetCopyToOutputDirectoryItems: (TargetId:289)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" (TaskId:127)
+                     Global Properties: (TaskId:127)
+                       Configuration=Debug (TaskId:127)
+                       Platform=Win32 (TaskId:127)
+10:16:35.012     1>Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (1) is building "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (2:4) on node 2 (GetCopyToOutputDirectoryItems target(s)).
+10:16:39.786   2:4>Building with tools version "4.0".
+                   Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+                   Target "GetCopyToOutputDirectoryItems" skipped. Previously built successfully.
+10:16:39.786   2:4>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj" (GetCopyToOutputDirectoryItems target(s)).
+10:16:39.802     1>Done executing task "MSBuild". (TaskId:127)
+                   Task "AssignTargetPath" (TaskId:176)
+                   Done executing task "AssignTargetPath". (TaskId:176)
+10:16:39.802     1>Done building target "GetCopyToOutputDirectoryItems" in project "LibOpenJPEG.vcxproj".: (TargetId:289)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+10:16:39.802     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:398)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:16:39.802     1>Done building target "_CopySourceItemsToOutputDirectory" in project "LibOpenJPEG.vcxproj".: (TargetId:398)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+10:16:39.802     1>Target "_CheckForCompileOutputs: (TargetId:399)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:16:39.802     1>Done building target "_CheckForCompileOutputs" in project "LibOpenJPEG.vcxproj".: (TargetId:399)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+10:16:39.802     1>Target "CopyFilesToOutputDirectory: (TargetId:400)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+10:16:39.802     1>Done building target "CopyFilesToOutputDirectory" in project "LibOpenJPEG.vcxproj".: (TargetId:400)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:16:39.802     1>Target "PostBuildEvent: (TargetId:401)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:16:39.802     1>Done building target "PostBuildEvent" in project "LibOpenJPEG.vcxproj".: (TargetId:401)
+10:16:39.802     1>Target "BuildLink: (TargetId:402)" in file "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:39.802     1>Done building target "BuildLink" in project "LibOpenJPEG.vcxproj".: (TargetId:402)
+10:16:39.802     1>Target "AfterBuild: (TargetId:403)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+10:16:39.802     1>Done building target "AfterBuild" in project "LibOpenJPEG.vcxproj".: (TargetId:403)
+10:16:39.802     1>Target "FinalizeBuildStatus: (TargetId:404)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:177)
+                     Deleting file "LibOpenJPEG.dir\Debug\LibOpenJPEG.unsuccessfulbuild". (TaskId:177)
+                   Done executing task "Delete". (TaskId:177)
+                   Task "Touch" (TaskId:178)
+                     Touching "LibOpenJPEG.dir\Debug\LibOpenJPEG.lastbuildstate". (TaskId:178)
+                   Done executing task "Touch". (TaskId:178)
+10:16:39.802     1>Done building target "FinalizeBuildStatus" in project "LibOpenJPEG.vcxproj".: (TargetId:404)
+10:16:39.802     1>Target "Build: (TargetId:405)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (entry point):
+10:16:39.802     1>Done building target "Build" in project "LibOpenJPEG.vcxproj".: (TargetId:405)
+10:16:39.802     1>Done Building Project "E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj" (build target(s)).
+
+Project Performance Summary:
+        0 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\ZERO_CHECK.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+     4789 ms  E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibOpenJPEG\LibOpenJPEG.vcxproj   1 calls
+               4789 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ComputeReferenceLibInputs                  1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  GetResolvedLinkLibs                        1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  FinalizeBuildStatus                        1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  Build                                      1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+       16 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+       47 ms  ResolvedLinkLib                            1 calls
+       62 ms  CustomBuild                                1 calls
+      359 ms  GetCopyToOutputDirectoryItems              1 calls
+      452 ms  Lib                                        1 calls
+     3853 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ResolveAssemblyReference                   1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  Message                                    3 calls
+        0 ms  Delete                                     2 calls
+        0 ms  AssignTargetPath                           6 calls
+        0 ms  ResolveNonMSBuildProjectOutput             1 calls
+        0 ms  MakeDir                                    9 calls
+        0 ms  Touch                                      2 calls
+        0 ms  WriteLinesToFile                           2 calls
+       62 ms  CustomBuild                                1 calls
+      406 ms  MSBuild                                    4 calls
+      452 ms  LIB                                        1 calls
+     3853 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78

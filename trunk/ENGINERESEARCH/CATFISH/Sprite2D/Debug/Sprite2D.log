@@ -1,0 +1,168 @@
+﻿  Sprite2D.cpp
+e:\donotopen\fuckyou\catfish\resourcephraser\resmgr.h(35): warning C4251: 'Resource::ResMgr::m_ResMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Resource::ResMgr'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=Resource::Res *
+          ]
+e:\donotopen\fuckyou\catfish\resourcephraser\resmgr.h(36): warning C4251: 'Resource::ResMgr::m_strBasePath' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Resource::ResMgr'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Ax=std::allocator<char>
+          ]
+e:\donotopen\fuckyou\catfish\resourcephraser\res.h(15): warning C4251: 'Resource::Res::m_Path' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Resource::Res'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Ax=std::allocator<char>
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\renderunit.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\paramcontainer.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\paramcontainer.h(40): warning C4251: 'GraphicSys::ParamContainer::m_mapParams' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicSys::ParamContainer'
+          with
+          [
+              _Kty=std::string,
+              _Ty=GraphicSys::ParamContainer::vec2f
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\paramcontainer.h(41): warning C4251: 'GraphicSys::ParamContainer::m_mapTexs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicSys::ParamContainer'
+          with
+          [
+              _Kty=std::string,
+              _Ty=GraphicCore::Texture *
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\renderunit.h(73): warning C4251: 'GraphicSys::RenderUnit::m_Max' : class 'cml::vector<E,AT>' needs to have dll-interface to be used by clients of class 'GraphicSys::RenderUnit'
+          with
+          [
+              E=float,
+              AT=cml::fixed<2>
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\renderunit.h(74): warning C4251: 'GraphicSys::RenderUnit::m_Min' : class 'cml::vector<E,AT>' needs to have dll-interface to be used by clients of class 'GraphicSys::RenderUnit'
+          with
+          [
+              E=float,
+              AT=cml::fixed<2>
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\simplepipeline.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\renderpipeline.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\renderpipeline.h(39): warning C4251: 'GraphicSys::RenderPipeline::m_vecRenderUnit' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicSys::RenderPipeline'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=GraphicSys::RenderUnit *
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\primitivegroup.h(33): warning C4251: 'GraphicCore::PrimitiveGroup::m_pVecVBO' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::PrimitiveGroup'
+          with
+          [
+              _Ty=GraphicCore::VertexBufferObj *
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\primitivegroup.h(34): warning C4251: 'GraphicCore::PrimitiveGroup::m_pVecIBO' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::PrimitiveGroup'
+          with
+          [
+              _Ty=GraphicCore::IndexBufferObj *
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\glesdevice.h(113): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+          with
+          [
+              _Ty=std::string
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\glesdevice.h(126): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'cml::vector<E,AT>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+          with
+          [
+              E=int,
+              AT=cml::fixed<2>
+          ]
+e:\donotopen\fuckyou\catfish\sprite2d\cavans.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Lable.cpp
+e:\donotopen\fuckyou\catfish\sprite2d\lable.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\sprite2d\lable.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\font\font.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\font\font.h(59): warning C4251: 'FontSys::FontSystem::m_vecBitmap' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'FontSys::FontSystem'
+          with
+          [
+              _Ty=FontSys::FChar
+          ]
+e:\donotopen\fuckyou\catfish\resourcephraser\res.h(15): warning C4251: 'Resource::Res::m_Path' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Resource::Res'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Ax=std::allocator<char>
+          ]
+e:\donotopen\fuckyou\catfish\resourcephraser\resmgr.h(35): warning C4251: 'Resource::ResMgr::m_ResMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Resource::ResMgr'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=Resource::Res *
+          ]
+e:\donotopen\fuckyou\catfish\resourcephraser\resmgr.h(36): warning C4251: 'Resource::ResMgr::m_strBasePath' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Resource::ResMgr'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Ax=std::allocator<char>
+          ]
+e:\donotopen\fuckyou\catfish\font\font.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\renderunit.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\paramcontainer.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\paramcontainer.h(40): warning C4251: 'GraphicSys::ParamContainer::m_mapParams' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicSys::ParamContainer'
+          with
+          [
+              _Kty=std::string,
+              _Ty=GraphicSys::ParamContainer::vec2f
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\paramcontainer.h(41): warning C4251: 'GraphicSys::ParamContainer::m_mapTexs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicSys::ParamContainer'
+          with
+          [
+              _Kty=std::string,
+              _Ty=GraphicCore::Texture *
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\renderunit.h(73): warning C4251: 'GraphicSys::RenderUnit::m_Max' : class 'cml::vector<E,AT>' needs to have dll-interface to be used by clients of class 'GraphicSys::RenderUnit'
+          with
+          [
+              E=float,
+              AT=cml::fixed<2>
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\renderunit.h(74): warning C4251: 'GraphicSys::RenderUnit::m_Min' : class 'cml::vector<E,AT>' needs to have dll-interface to be used by clients of class 'GraphicSys::RenderUnit'
+          with
+          [
+              E=float,
+              AT=cml::fixed<2>
+          ]
+e:\donotopen\fuckyou\catfish\graphicsystem\simplepipeline.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\renderpipeline.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\donotopen\fuckyou\catfish\graphicsystem\renderpipeline.h(39): warning C4251: 'GraphicSys::RenderPipeline::m_vecRenderUnit' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GraphicSys::RenderPipeline'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=GraphicSys::RenderUnit *
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\primitivegroup.h(33): warning C4251: 'GraphicCore::PrimitiveGroup::m_pVecVBO' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::PrimitiveGroup'
+          with
+          [
+              _Ty=GraphicCore::VertexBufferObj *
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\primitivegroup.h(34): warning C4251: 'GraphicCore::PrimitiveGroup::m_pVecIBO' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::PrimitiveGroup'
+          with
+          [
+              _Ty=GraphicCore::IndexBufferObj *
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\glesdevice.h(113): warning C4251: 'GraphicCore::GlesDevice::m_ExtensionArr' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+          with
+          [
+              _Ty=std::string
+          ]
+e:\donotopen\fuckyou\catfish\glessyetem\glesdevice.h(126): warning C4251: 'GraphicCore::GlesDevice::m_ScreenSize' : class 'cml::vector<E,AT>' needs to have dll-interface to be used by clients of class 'GraphicCore::GlesDevice'
+          with
+          [
+              E=int,
+              AT=cml::fixed<2>
+          ]
+e:\donotopen\fuckyou\catfish\sprite2d\cavans.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Generating Code...
+  LINK : E:\DONOTOPEN\FUCKYOU\CATFISH\Debug\Sprite2D.dll not found or not built by the last incremental link; performing full link
+     Creating library E:\DONOTOPEN\FUCKYOU\CATFISH\Debug\Sprite2D.lib and object E:\DONOTOPEN\FUCKYOU\CATFISH\Debug\Sprite2D.exp
+     Creating library E:\DONOTOPEN\FUCKYOU\CATFISH\Debug\Sprite2D.lib and object E:\DONOTOPEN\FUCKYOU\CATFISH\Debug\Sprite2D.exp
+  Sprite2D.vcxproj -> E:\DONOTOPEN\FUCKYOU\CATFISH\Debug\Sprite2D.dll

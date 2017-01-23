@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\mkspans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_aux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_close.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dirinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dirread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dirwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dumpmode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_fax3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_fax3sm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_flush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_getimage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_jbig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_luv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_lzw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_next.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_ojpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_packbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_pixarlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_predict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_strip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_swab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_thunder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_tile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_warning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_msdos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\t4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffconf.vc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffconf.wince.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffiop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffvers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_config.vc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_config.wince.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_fax3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_predict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\uvcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\FreeImage\Source\LibTIFF\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{661B98B1-EBB7-4FE5-8C3E-B1959B39242C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F91BE4A8-95A1-44B1-8816-A532B6D02284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

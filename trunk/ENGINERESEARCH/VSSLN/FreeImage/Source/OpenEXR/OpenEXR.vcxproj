@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{63F5EE26-A5CD-4229-952D-824864D5442E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>OpenEXR</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenEXR.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenEXR</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenEXR.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenEXR</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/.;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/OpenEXR.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/.;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/.;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/.;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/OpenEXR.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/.;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/.;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmImf;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Imath;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Iex;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./Half;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/./IlmThread;E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/../ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\FreeImage\Source\OpenEXR\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/DONOTOPEN/FUCKYOU/FreeImage/Source/OpenEXR/CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\OpenEXR\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBox.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBoxAlgo.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathEuler.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathExc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFrame.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFrustum.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFun.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathGL.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathGLU.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathHalfLimits.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathInt64.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathInterval.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathLimits.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathLine.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathLineAlgo.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMath.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrix.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathPlane.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathPlatform.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathQuat.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRoots.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathShear.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathSphere.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVecAlgo.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThread.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfArray.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAutoArray.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompression.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInt64.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIO.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrder.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfName.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPixelType.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRational.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgba.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescription.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfWav.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfXdr.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\Iex.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexBaseExc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexErrnoExc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexMacros.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexMathExc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\eLut.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\half.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\halfFunction.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\halfLimits.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\toFloat.h" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexPosix.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPosix.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosix.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphorePosixCompat.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\eLut.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\half.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half\toFloat.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutexWin32.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphoreWin32.cpp"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\IlmThread\IlmThreadWin32.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj">
+      <Project>13510BFE-B940-4F61-B1C2-084A09E65C24</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

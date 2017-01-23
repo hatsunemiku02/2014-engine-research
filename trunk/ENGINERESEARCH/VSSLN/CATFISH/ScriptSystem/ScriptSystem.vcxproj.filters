@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaRootScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaUtitly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptFooWarpper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptObjWarpper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\SDLLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaDomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaRootScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\LuaUtitly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptFooWarpper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptObjWarpper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\ScriptSystem\ScriptSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CATFISH\ScriptSystem\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{661B98B1-EBB7-4FE5-8C3E-B1959B39242C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F91BE4A8-95A1-44B1-8816-A532B6D02284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

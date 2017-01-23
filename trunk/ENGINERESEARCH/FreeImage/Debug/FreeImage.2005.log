@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\DONOTOPEN\FUCKYOU\FreeImage\.\Debug\FreeImage.dll) does not match the Linker's OutputFile property value (D:\DONOTOPEN\FUCKYOU\CATFISH\Debug\FreeImaged.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(FreeImage) does not match the Linker's OutputFile property value (FreeImaged). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  LINK : ../CATFISH/Debug/FreeImaged.dll not found or not built by the last incremental link; performing full link
+     Creating library .\Debug/FreeImaged.lib and object .\Debug/FreeImaged.exp
+  FreeImage.2005.vcxproj -> D:\DONOTOPEN\FUCKYOU\FreeImage\.\Debug\FreeImage.dll

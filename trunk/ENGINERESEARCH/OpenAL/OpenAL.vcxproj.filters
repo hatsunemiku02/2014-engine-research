@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\alAuxEffectSlot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alBuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ALc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alcConfig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alcEcho.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alcModulator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alcReverb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alcRing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alcThread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alDatabuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alEffect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alError.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alExtension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alListener.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alSource.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alState.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\alThunk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ALu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\bs2b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\dsound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\mixer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\null.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\panning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\wave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\winmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\al.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alAuxEffectSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alDatabuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alThunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\alu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\bs2b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\efx-creative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\efx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\xram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\EFX-Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DECA056A-F240-4470-AB82-701EB21FE6C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E333983-930D-4490-87C9-9F14A0BBE29A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

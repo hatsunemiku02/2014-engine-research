@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1DA2F9BE-AAFF-43E5-9B98-316800CA6E50}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>LibTIFF</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LibTIFF.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LibTIFF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LibTIFF.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LibTIFF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/../libtiff/libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;_LIB;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/LibTIFF.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;_LIB;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/../libtiff/libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/../libtiff/libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/../libtiff/libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;_LIB;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/LibTIFF.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;_LIB;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/../libtiff/libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/../libtiff/libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\FreeImage\Source\LibTIFF\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibTIFF\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibTIFF\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake-2.8.8-win32-x86_webjet\cmake-2.8.8-win32-x86\bin\cmake.exe -HE:/DONOTOPEN/FUCKYOU -BE:/DONOTOPEN/FUCKYOU/VSSLN --check-stamp-file E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibTIFF\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/DONOTOPEN/FUCKYOU/FreeImage/Source/LibTIFF/CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\CMakeLists.txt;E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\VSSLN\FreeImage\Source\LibTIFF\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\t4.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiff.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffconf.vc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffconf.wince.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffio.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffiop.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tiffvers.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_config.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_config.vc.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_config.wince.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dir.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_fax3.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_predict.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\uvcode.h" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\mkspans.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_aux.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_close.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_codec.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_color.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_compress.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dir.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dirinfo.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dirread.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dirwrite.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_dumpmode.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_error.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_extension.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_fax3.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_fax3sm.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_flush.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_getimage.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_jbig.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_jpeg.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_luv.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_lzw.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_next.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_ojpeg.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_open.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_packbits.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_pixarlog.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_predict.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_print.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_read.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_strip.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_swab.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_thunder.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_tile.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_version.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_warning.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_write.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_zip.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_msdos.c"  />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF\tif_win32.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj">
+      <Project>13510BFE-B940-4F61-B1C2-084A09E65C24</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

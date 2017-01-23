@@ -1,0 +1,13 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibOpenJPEG 的目录
+
+bio.h            cio.h            dwt.h            event.h
+fix.h            image.h          int.h            j2k.h
+j2k_lib.h        jp2.h            jpt.h            mct.h
+mqc.h            openjpeg.h       opj_includes.h   pi.h
+raw.h            t1.h             t1_luts.h        t2.h
+tcd.h            tgt.h            
+              22 个文件        149,042 字节
+               0 个目录 186,608,451,584 可用字节

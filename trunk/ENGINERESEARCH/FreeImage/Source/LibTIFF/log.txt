@@ -1,0 +1,12 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\LibTIFF 的目录
+
+t4.h                 tiff.h               tiffconf.vc.h
+tiffconf.wince.h     tiffio.h             tiffiop.h
+tiffvers.h           tif_config.h         tif_config.vc.h
+tif_config.wince.h   tif_dir.h            tif_fax3.h
+tif_predict.h        uvcode.h             
+              14 个文件        130,052 字节
+               0 个目录 186,608,443,392 可用字节

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{635304A8-13E1-4289-B711-35BC5374F85A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>GlesSystem</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GlesSystem.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GlesSystem</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\DONOTOPEN\FUCKYOU\Bin\Win\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GlesSystem.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GlesSystem</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;CMAKE_INTDIR="Debug";GlesSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/GlesSystem.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__WIN32__;WIN32;CMAKE_INTDIR=\"Debug\";GlesSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libEGL.lib;libGLESv2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Lib;E:/DONOTOPEN/FUCKYOU/GLESEmulator/Lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/GlesSystem.lib</ImportLibrary>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFile>E:/DONOTOPEN/FUCKYOU/Bin/Win/Debug/GlesSystem.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;CMAKE_INTDIR="Release";GlesSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/GlesSystem.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__WIN32__;WIN32;CMAKE_INTDIR=\"Release\";GlesSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libEGL.lib;libGLESv2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/DONOTOPEN/FUCKYOU/GLESEmulator/Lib;E:/DONOTOPEN/FUCKYOU/GLESEmulator/Lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/GlesSystem.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/DONOTOPEN/FUCKYOU/Bin/Win/Release/GlesSystem.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDllCommon.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.h" />
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.h" />
+    <ClCompile Include="..\..\..\CATFISH\GlesSyetem\PrimitiveGroup.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GDebug.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\DrawEnums.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\FrameBufferObj.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GlesDevice.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\GpuProgram.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\IndexBufferObj.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Shader.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\Texture.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexBufferObj.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexComponent.cpp" />
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\CATFISH\GlesSyetem\VertexLayout.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/DONOTOPEN/FUCKYOU/VSSLN/ZERO_CHECK.vcxproj">
+      <Project>13510BFE-B940-4F61-B1C2-084A09E65C24</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

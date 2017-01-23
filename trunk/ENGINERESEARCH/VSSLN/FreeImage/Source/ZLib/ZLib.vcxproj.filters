@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\gzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\minigzip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\zconf.in.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\DONOTOPEN\FUCKYOU\FreeImage\Source\ZLib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\FreeImage\Source\ZLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{661B98B1-EBB7-4FE5-8C3E-B1959B39242C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F91BE4A8-95A1-44B1-8816-A532B6D02284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

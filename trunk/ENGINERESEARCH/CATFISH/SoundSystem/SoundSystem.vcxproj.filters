@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sles">
+      <UniqueIdentifier>{1a7e9b48-e4eb-460b-98b6-8ea50d812a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sles">
+      <UniqueIdentifier>{a037c4f2-005a-4660-8161-c69ade04154d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\al">
+      <UniqueIdentifier>{89977723-0558-41e8-85bb-de0fb045a11a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoundData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDllCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystemSL.h">
+      <Filter>Header Files\sles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSL.h">
+      <Filter>Header Files\sles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDecoderSL.h">
+      <Filter>Header Files\sles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundAL.h">
+      <Filter>Header Files\sles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDecoderAL.h">
+      <Filter>Header Files\sles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystemAL.h">
+      <Filter>Header Files\sles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDecoderSL.cpp">
+      <Filter>Source Files\sles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSL.cpp">
+      <Filter>Source Files\sles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystemSL.cpp">
+      <Filter>Source Files\sles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundAL.cpp">
+      <Filter>Source Files\al</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDecoderAL.cpp">
+      <Filter>Source Files\al</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystemAL.cpp">
+      <Filter>Source Files\al</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

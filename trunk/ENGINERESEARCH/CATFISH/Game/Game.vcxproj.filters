@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Rhythm">
+      <UniqueIdentifier>{71a80f09-2cb6-405b-8b98-df28e4d928af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Rhythm\BackGround.cpp">
+      <Filter>Rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhythm\PressRhythm.cpp">
+      <Filter>Rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhythm\Rhythm.cpp">
+      <Filter>Rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhythm\ScoreBoard.cpp">
+      <Filter>Rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhythm\SubTitle.cpp">
+      <Filter>Rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickToStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MikuGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MikuRhythmStage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StageLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubTitleLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rhythm\BackGround.h">
+      <Filter>Rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhythm\PressRhythm.h">
+      <Filter>Rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhythm\Rhythm.h">
+      <Filter>Rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhythm\ScoreBoard.h">
+      <Filter>Rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhythm\SubTitle.h">
+      <Filter>Rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickToStart.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MikuGame.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MikuRhythmStage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StageLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubTitleLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+ 驱动器 E 中的卷是 NewDisk
+ 卷的序列号是 0A9C-C983
+
+ E:\DONOTOPEN\FUCKYOU\FreeImage\Source\OpenEXR\Half 的目录
+
+eLut.cpp      half.cpp      toFloat.cpp   
+               3 个文件         15,024 字节
+               0 个目录 186,608,427,008 可用字节

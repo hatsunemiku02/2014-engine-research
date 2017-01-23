@@ -1,0 +1,11 @@
+﻿  ScriptSys.cpp
+e:\donotopen\fuckyou\catfish\scriptsystem\scriptsys.cpp(51): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+  LuaUtitly.cpp
+e:\donotopen\fuckyou\catfish\scriptsystem\luautitly.h(6): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+  LuaScript.cpp
+e:\donotopen\fuckyou\catfish\scriptsystem\luascript.cpp(4): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+  LuaRootScript.cpp
+e:\donotopen\fuckyou\catfish\scriptsystem\luarootscript.cpp(4): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+  LuaDomain.cpp
+e:\donotopen\fuckyou\catfish\scriptsystem\luadomain.h(5): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+  Generating Code...
